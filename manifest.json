@@ -204,11 +204,11 @@
    "updated_ny": "2026-09-29T15:30:59-04:00"
   },
   "corporate_actions.csv": {
-   "bytes": 815,
-   "rows": 5,
-   "sha256": "622b9921d3b8bd0f531974a4a07d3c2fb7c74bb0aee07944b44cc627e865e03e",
-   "updated_ny": "2026-09-29T15:30:59-04:00"
+   "bytes": 1812,
+   "rows": 11,
+   "sha256": "ffa26ade56b85062ef9fbf5adca91e5435fdb1b1a22fabae5d95c85a17072d8b",
+   "updated_ny": "2026-09-29T15:36:25-04:00"
   }
  },
- "updated_ny": "2026-09-29T15:30:59-04:00"
+ "updated_ny": "2026-09-29T15:36:25-04:00"
 }
