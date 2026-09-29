@@ -1,11 +1,11 @@
 {
- "config_version": 1,
+ "config_version": 2,
  "files": {
   "eod/SPY/2026-09.parquet": {
-   "bytes": 71617,
+   "bytes": 39525,
    "complete": true,
-   "contracts_per_day_median": 818.0,
-   "filter_version": 1,
+   "contracts_per_day_median": 260.0,
+   "filter_version": 2,
    "first_session": "2026-09-25",
    "kind": "eod",
    "last_session": "2026-09-25",
@@ -15,23 +15,23 @@
    "provider": "thetadata",
    "raw_rows": 13290,
    "requests": 2,
-   "rows": 818,
-   "seconds": 13.15,
+   "rows": 260,
+   "seconds": 6.72,
    "sessions": 1,
-   "sha256": "5db8b8b270ea2436b32614fed1ba9bc0aa7e5ae3c8f4ba0ff81391fc3013c761",
+   "sha256": "92f5fbac4261e7d0aa22a016049bda31348c1b18331706bf372a63959bd2b6b8",
    "spot_sources": {
     "none": 0,
     "parity": 0,
     "stock_eod_raw": 1
    },
    "symbol": "SPY",
-   "updated_ny": "2026-09-29T15:30:59-04:00"
+   "updated_ny": "2026-09-29T16:22:12-04:00"
   },
   "eod/TSLA/2026-09.parquet": {
-   "bytes": 50431,
+   "bytes": 50395,
    "complete": true,
-   "contracts_per_day_median": 458.0,
-   "filter_version": 1,
+   "contracts_per_day_median": 457.0,
+   "filter_version": 2,
    "first_session": "2026-09-25",
    "kind": "eod",
    "last_session": "2026-09-25",
@@ -41,23 +41,23 @@
    "provider": "thetadata",
    "raw_rows": 5142,
    "requests": 2,
-   "rows": 458,
-   "seconds": 13.1,
+   "rows": 457,
+   "seconds": 3.3,
    "sessions": 1,
-   "sha256": "0d53914541e362b938b060e04028fea86d2ac8ddcd0f459b6ff1c8c9d808bfb5",
+   "sha256": "7cd0eb4c14fd8c5c540750951b08bc42901d786015d005a15af109a9824179bf",
    "spot_sources": {
     "none": 0,
     "parity": 0,
     "stock_eod_raw": 1
    },
    "symbol": "TSLA",
-   "updated_ny": "2026-09-29T15:30:59-04:00"
+   "updated_ny": "2026-09-29T16:22:12-04:00"
   },
   "intraday/SPY/2026-09.parquet": {
-   "bytes": 144639,
+   "bytes": 65758,
    "complete": false,
-   "contracts_per_day_median": 824.0,
-   "filter_version": 1,
+   "contracts_per_day_median": 268.0,
+   "filter_version": 2,
    "first_session": "2026-09-25",
    "kind": "intraday",
    "last_session": "2026-09-25",
@@ -66,25 +66,25 @@
    "month": "2026-09",
    "points": 4,
    "provider": "thetadata",
-   "rows": 3294,
+   "rows": 1072,
    "sessions": 1,
    "sessions_done": [
     "2026-09-25"
    ],
-   "sha256": "3b2266030bb353e2ec2894e129905c127a22255a179c731a1c6ce528d9d5114e",
+   "sha256": "b583cce23bf88ee9b2c380747fb304a762df360f0903ed51c0171a67fd9ea3db",
    "spot_sources": {
-    "candles_30m": 3294,
+    "candles_30m": 1072,
     "none": 0,
     "parity": 0
    },
    "symbol": "SPY",
-   "updated_ny": "2026-09-29T15:30:59-04:00"
+   "updated_ny": "2026-09-29T16:22:12-04:00"
   },
   "intraday/TSLA/2026-09.parquet": {
-   "bytes": 92381,
+   "bytes": 92095,
    "complete": false,
-   "contracts_per_day_median": 471.0,
-   "filter_version": 1,
+   "contracts_per_day_median": 470.5,
+   "filter_version": 2,
    "first_session": "2026-09-25",
    "kind": "intraday",
    "last_session": "2026-09-25",
@@ -93,22 +93,22 @@
    "month": "2026-09",
    "points": 4,
    "provider": "thetadata",
-   "rows": 1893,
+   "rows": 1891,
    "sessions": 1,
    "sessions_done": [
     "2026-09-25"
    ],
-   "sha256": "aa97daf79ff516ccd6c99a8c6fa7d25142855ba71869bf323205f390a1136d61",
+   "sha256": "6926735f38a04f0c4041b02078901304df74ed74acc07c479fe6b4b40d9aad6a",
    "spot_sources": {
-    "candles_30m": 1893,
+    "candles_30m": 1891,
     "none": 0,
     "parity": 0
    },
    "symbol": "TSLA",
-   "updated_ny": "2026-09-29T15:30:59-04:00"
+   "updated_ny": "2026-09-29T16:22:12-04:00"
   }
  },
- "filter_version": 1,
+ "filter_version": 2,
  "lib_version": "1.0.11",
  "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
  "provider": "thetadata",
@@ -116,7 +116,7 @@
  "symbols": {
   "SPY": {
    "eod": {
-    "contracts_per_day_median": 818.0,
+    "contracts_per_day_median": 260.0,
     "first_session": "2026-09-25",
     "known_gaps": {},
     "last_session": "2026-09-25",
@@ -131,7 +131,7 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 824.0,
+    "contracts_per_day_median": 268.0,
     "first_session": "2026-09-25",
     "known_gaps": {},
     "last_session": "2026-09-25",
@@ -140,7 +140,7 @@
     ],
     "sessions": 1,
     "spot_sources": {
-     "candles_30m": 3294,
+     "candles_30m": 1072,
      "none": 0,
      "parity": 0
     }
@@ -148,7 +148,7 @@
   },
   "TSLA": {
    "eod": {
-    "contracts_per_day_median": 458.0,
+    "contracts_per_day_median": 457.0,
     "first_session": "2026-09-25",
     "known_gaps": {},
     "last_session": "2026-09-25",
@@ -163,7 +163,7 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 471.0,
+    "contracts_per_day_median": 470.5,
     "first_session": "2026-09-25",
     "known_gaps": {},
     "last_session": "2026-09-25",
@@ -172,7 +172,7 @@
     ],
     "sessions": 1,
     "spot_sources": {
-     "candles_30m": 1893,
+     "candles_30m": 1891,
      "none": 0,
      "parity": 0
     }
@@ -184,8 +184,8 @@
    "bytes": 274432,
    "duckdb_version": "1.5.6",
    "rows": null,
-   "sha256": "0bb2a0a703d71573ea265548f790b7300425b41fffe1408e2bc2507736d0bfb8",
-   "updated_ny": "2026-09-29T15:30:59-04:00",
+   "sha256": "02fda98fd8b87da710a5e68fa5bce674551a395cccac2e37a4a3c77e5c3f0e20",
+   "updated_ny": "2026-09-29T16:22:12-04:00",
    "views": [
     "options_eod",
     "options_intraday",
@@ -204,11 +204,11 @@
    "updated_ny": "2026-09-29T15:30:59-04:00"
   },
   "corporate_actions.csv": {
-   "bytes": 1812,
+   "bytes": 2199,
    "rows": 11,
-   "sha256": "ffa26ade56b85062ef9fbf5adca91e5435fdb1b1a22fabae5d95c85a17072d8b",
-   "updated_ny": "2026-09-29T15:36:25-04:00"
+   "sha256": "0a2bc86275ad68c5bc151e86b189fa9d2e2801a532b2866e3d589217dcd26d71",
+   "updated_ny": "2026-09-29T16:22:12-04:00"
   }
  },
- "updated_ny": "2026-09-29T15:36:25-04:00"
+ "updated_ny": "2026-09-29T16:22:12-04:00"
 }
