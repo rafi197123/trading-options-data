@@ -1,0 +1,214 @@
+{
+ "config_version": 1,
+ "files": {
+  "eod/SPY/2026-09.parquet": {
+   "bytes": 71617,
+   "complete": true,
+   "contracts_per_day_median": 818.0,
+   "filter_version": 1,
+   "first_session": "2026-09-25",
+   "kind": "eod",
+   "last_session": "2026-09-25",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2026-09",
+   "provider": "thetadata",
+   "raw_rows": 13290,
+   "requests": 2,
+   "rows": 818,
+   "seconds": 13.15,
+   "sessions": 1,
+   "sha256": "5db8b8b270ea2436b32614fed1ba9bc0aa7e5ae3c8f4ba0ff81391fc3013c761",
+   "spot_sources": {
+    "none": 0,
+    "parity": 0,
+    "stock_eod_raw": 1
+   },
+   "symbol": "SPY",
+   "updated_ny": "2026-09-29T15:30:59-04:00"
+  },
+  "eod/TSLA/2026-09.parquet": {
+   "bytes": 50431,
+   "complete": true,
+   "contracts_per_day_median": 458.0,
+   "filter_version": 1,
+   "first_session": "2026-09-25",
+   "kind": "eod",
+   "last_session": "2026-09-25",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2026-09",
+   "provider": "thetadata",
+   "raw_rows": 5142,
+   "requests": 2,
+   "rows": 458,
+   "seconds": 13.1,
+   "sessions": 1,
+   "sha256": "0d53914541e362b938b060e04028fea86d2ac8ddcd0f459b6ff1c8c9d808bfb5",
+   "spot_sources": {
+    "none": 0,
+    "parity": 0,
+    "stock_eod_raw": 1
+   },
+   "symbol": "TSLA",
+   "updated_ny": "2026-09-29T15:30:59-04:00"
+  },
+  "intraday/SPY/2026-09.parquet": {
+   "bytes": 144639,
+   "complete": false,
+   "contracts_per_day_median": 824.0,
+   "filter_version": 1,
+   "first_session": "2026-09-25",
+   "kind": "intraday",
+   "last_session": "2026-09-25",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2026-09",
+   "points": 4,
+   "provider": "thetadata",
+   "rows": 3294,
+   "sessions": 1,
+   "sessions_done": [
+    "2026-09-25"
+   ],
+   "sha256": "3b2266030bb353e2ec2894e129905c127a22255a179c731a1c6ce528d9d5114e",
+   "spot_sources": {
+    "candles_30m": 3294,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "SPY",
+   "updated_ny": "2026-09-29T15:30:59-04:00"
+  },
+  "intraday/TSLA/2026-09.parquet": {
+   "bytes": 92381,
+   "complete": false,
+   "contracts_per_day_median": 471.0,
+   "filter_version": 1,
+   "first_session": "2026-09-25",
+   "kind": "intraday",
+   "last_session": "2026-09-25",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2026-09",
+   "points": 4,
+   "provider": "thetadata",
+   "rows": 1893,
+   "sessions": 1,
+   "sessions_done": [
+    "2026-09-25"
+   ],
+   "sha256": "aa97daf79ff516ccd6c99a8c6fa7d25142855ba71869bf323205f390a1136d61",
+   "spot_sources": {
+    "candles_30m": 1893,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "TSLA",
+   "updated_ny": "2026-09-29T15:30:59-04:00"
+  }
+ },
+ "filter_version": 1,
+ "lib_version": "1.0.11",
+ "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+ "provider": "thetadata",
+ "schema": "options-data/1",
+ "symbols": {
+  "SPY": {
+   "eod": {
+    "contracts_per_day_median": 818.0,
+    "first_session": "2026-09-25",
+    "known_gaps": {},
+    "last_session": "2026-09-25",
+    "months": [
+     "2026-09"
+    ],
+    "sessions": 1,
+    "spot_sources": {
+     "none": 0,
+     "parity": 0,
+     "stock_eod_raw": 1
+    }
+   },
+   "intraday": {
+    "contracts_per_day_median": 824.0,
+    "first_session": "2026-09-25",
+    "known_gaps": {},
+    "last_session": "2026-09-25",
+    "months": [
+     "2026-09"
+    ],
+    "sessions": 1,
+    "spot_sources": {
+     "candles_30m": 3294,
+     "none": 0,
+     "parity": 0
+    }
+   }
+  },
+  "TSLA": {
+   "eod": {
+    "contracts_per_day_median": 458.0,
+    "first_session": "2026-09-25",
+    "known_gaps": {},
+    "last_session": "2026-09-25",
+    "months": [
+     "2026-09"
+    ],
+    "sessions": 1,
+    "spot_sources": {
+     "none": 0,
+     "parity": 0,
+     "stock_eod_raw": 1
+    }
+   },
+   "intraday": {
+    "contracts_per_day_median": 471.0,
+    "first_session": "2026-09-25",
+    "known_gaps": {},
+    "last_session": "2026-09-25",
+    "months": [
+     "2026-09"
+    ],
+    "sessions": 1,
+    "spot_sources": {
+     "candles_30m": 1893,
+     "none": 0,
+     "parity": 0
+    }
+   }
+  }
+ },
+ "tables": {
+  "catalog/lab.duckdb": {
+   "bytes": 274432,
+   "duckdb_version": "1.5.6",
+   "rows": null,
+   "sha256": "0bb2a0a703d71573ea265548f790b7300425b41fffe1408e2bc2507736d0bfb8",
+   "updated_ny": "2026-09-29T15:30:59-04:00",
+   "views": [
+    "options_eod",
+    "options_intraday",
+    "candles_daily",
+    "candles_daily_raw",
+    "candles_30m",
+    "vix_family",
+    "corporate_actions",
+    "contracts_watch"
+   ]
+  },
+  "contracts_watch.csv": {
+   "bytes": 63,
+   "rows": 0,
+   "sha256": "c0cbe8d8beed19f13c39e155a76d96215de45fc4ba94cb0af4b4f87dcc1cc4cd",
+   "updated_ny": "2026-09-29T15:30:59-04:00"
+  },
+  "corporate_actions.csv": {
+   "bytes": 815,
+   "rows": 5,
+   "sha256": "622b9921d3b8bd0f531974a4a07d3c2fb7c74bb0aee07944b44cc627e865e03e",
+   "updated_ny": "2026-09-29T15:30:59-04:00"
+  }
+ },
+ "updated_ny": "2026-09-29T15:30:59-04:00"
+}
