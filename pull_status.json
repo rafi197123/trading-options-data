@@ -1,53 +1,40 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.6 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols SPY --rebuild-ok --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols SPY --rebuild-ok --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T00:06:37-04:00",
- "updated_ny": "2026-10-03T00:06:58-04:00",
- "last_success_ny": "2026-10-03T00:06:53-04:00",
- "state": "stopped",
- "exit_code": 9,
- "exit_reason": "הסתיים עם כשלים: 1 ימים נשארו חסרים ב-SPY — SPY: 1 ימים בסוף הטווח עדיין לא חזרו מהספק (מ-02/10/2026 עד 02/10/2026) — להריץ את אותה פקודה מאוחר יותר; להריץ את אותה פקודה",
+ "started_ny": "2026-10-03T00:08:23-04:00",
+ "updated_ny": "2026-10-03T00:08:23-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [
+  "in_progress": [],
+  "not_started": [
    "SPY"
-  ],
-  "not_started": []
+  ]
  },
- "failed": {
-  "SPY": {
-   "days": [
-    "2026-10-02"
-   ],
-   "months": [],
-   "why": [
-    "1 ימים בסוף הטווח עדיין לא חזרו מהספק (מ-02/10/2026 עד 02/10/2026) — להריץ את אותה פקודה מאוחר יותר"
-   ]
-  }
- },
+ "failed": {},
  "plan": {
-  "new": 1,
+  "new": 0,
   "add": 0,
   "restore": 0,
   "rebuild": 0,
-  "sessions": 2,
-  "symbols": 1,
+  "sessions": 0,
+  "symbols": 0,
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 2,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -55,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.4,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
