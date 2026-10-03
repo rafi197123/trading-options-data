@@ -1,21 +1,21 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.7 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols ETHA --to 2026-10-02 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols HIMS --to 2026-10-02 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T15:26:43-04:00",
- "updated_ny": "2026-10-03T15:26:56-04:00",
- "last_success_ny": "2026-10-03T15:26:49-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-03T15:27:00-04:00",
+ "updated_ny": "2026-10-03T15:27:00-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "ETHA"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "HIMS"
+  ]
  },
  "failed": {},
  "plan": {
@@ -28,16 +28,13 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 2,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -45,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.2,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
