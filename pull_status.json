@@ -1,67 +1,77 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.6 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols NVDA --to 2026-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --group 1 --rebuild-ok --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T00:08:41-04:00",
- "updated_ny": "2026-10-03T00:38:51-04:00",
- "last_success_ny": "2026-10-03T00:38:41-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-03T00:39:00-04:00",
+ "updated_ny": "2026-10-03T00:39:02-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "NVDA"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "NVDA",
+   "AVGO",
+   "INTC",
+   "MRVL",
+   "MSFT",
+   "CRM",
+   "NOW",
+   "ORCL",
+   "PLTR",
+   "CRWD",
+   "CHKP",
+   "GOOG",
+   "META",
+   "AMZN",
+   "TSLA",
+   "COIN",
+   "HOOD",
+   "ETHA",
+   "HIMS",
+   "VEEV",
+   "USO",
+   "TLT",
+   "IEF",
+   "IBIT",
+   "XLE",
+   "IBKR",
+   "SPY",
+   "QQQ",
+   "SMH",
+   "IWM",
+   "CIBR"
+  ]
  },
  "failed": {},
  "plan": {
-  "new": 37,
+  "new": 1072,
   "add": 0,
   "restore": 0,
-  "rebuild": 0,
-  "sessions": 753,
-  "symbols": 1,
-  "rebuild_symbols": 0
+  "rebuild": 1,
+  "sessions": 21837,
+  "symbols": 29,
+  "rebuild_symbols": 1
  },
  "requests": {
-  "total": 38,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 16,
+  "count": 0,
   "threshold": 800,
-  "last": [
-   "NVDA 2024-03-08: 859 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-03-11: 820 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-03-12: 880 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-03-13: 840 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-03-18: 897 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-04-26: 862 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-04-29: 835 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-04-30: 831 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-05-03: 835 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-05-06: 806 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-05-10: 810 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-08-02: 856 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-08-05: 848 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-08-22: 803 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-08-23: 803 חוזים בסינון — מעל האזעקה (800)",
-   "NVDA 2024-08-26: 804 חוזים בסינון — מעל האזעקה (800)"
-  ]
+  "last": []
  },
- "minutes": 30.2,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
