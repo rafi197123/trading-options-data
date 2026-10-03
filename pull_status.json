@@ -5,7 +5,7 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T12:02:01-04:00",
- "updated_ny": "2026-10-03T12:11:27-04:00",
+ "updated_ny": "2026-10-03T12:11:34-04:00",
  "last_success_ny": "2026-10-03T12:11:27-04:00",
  "state": "running",
  "exit_code": null,
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 9.4,
+ "minutes": 9.6,
  "max_minutes": 3000.0
 }
