@@ -65752,42 +65752,45 @@
    "updated_ny": "2026-10-03T08:41:21-04:00"
   },
   "eod/HYG/2026-10.parquet": {
-   "bytes": 35834,
-   "complete": false,
-   "contracts_per_day_median": 123.0,
+   "bytes": 47045,
+   "complete": true,
+   "contracts_per_day_median": 118.0,
    "contracts_per_day_median_total": 404.0,
    "day_counts": [
-    123
+    123,
+    113
    ],
    "day_counts_total": [
+    404,
     404
    ],
    "filter_version": 3,
    "first_session": "2026-10-01",
    "kind": "eod",
-   "last_session": "2026-10-01",
+   "last_session": "2026-10-02",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2026-10",
-   "oi_rows_pct": 96.5,
+   "oi_rows_pct": 98.3,
    "provider": "thetadata",
-   "raw_rows": 1490,
+   "raw_rows": 1516,
    "requests": 2,
    "retention": "sticky",
-   "rows": 404,
-   "seconds": 2.53,
+   "rows": 808,
+   "seconds": 0.88,
    "session_list": [
-    "2026-10-01"
+    "2026-10-01",
+    "2026-10-02"
    ],
-   "sessions": 1,
-   "sha256": "dd457e5c29ed89712e564544719b373e32155aeed6554564ec6e63c5fd40b4d3",
+   "sessions": 2,
+   "sha256": "30ea3c8304a062f721125e0eaa3f865f7d88e138862eee37ecf6966c30069645",
    "spot_sources": {
     "none": 0,
     "parity": 0,
-    "stock_eod_raw": 1
+    "stock_eod_raw": 2
    },
    "symbol": "HYG",
-   "updated_ny": "2026-10-03T08:41:21-04:00"
+   "updated_ny": "2026-10-03T15:32:06-04:00"
   },
   "eod/IBIT/2024-11.parquet": {
    "bytes": 146232,
@@ -197388,7 +197391,7 @@
     "contracts_per_day_median_total": 382.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
-    "last_session": "2026-10-01",
+    "last_session": "2026-10-02",
     "months": [
      "2023-10",
      "2023-11",
@@ -197428,11 +197431,11 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
      "none": 0,
      "parity": 0,
-     "stock_eod_raw": 753
+     "stock_eod_raw": 754
     }
    }
   },
@@ -200017,5 +200020,5 @@
    "updated_ny": "2026-10-02T20:13:06-04:00"
   }
  },
- "updated_ny": "2026-10-03T15:31:51-04:00"
+ "updated_ny": "2026-10-03T15:32:06-04:00"
 }
