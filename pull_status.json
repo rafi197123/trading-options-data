@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T15:36:01-04:00",
- "updated_ny": "2026-10-03T15:41:21-04:00",
+ "updated_ny": "2026-10-03T15:41:24-04:00",
  "last_success_ny": "2026-10-03T15:41:18-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "RDDT"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 5.3,
+ "minutes": 5.4,
  "max_minutes": 3000.0
 }
