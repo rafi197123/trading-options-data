@@ -5,17 +5,17 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T00:08:41-04:00",
- "updated_ny": "2026-10-03T00:08:41-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-03T00:38:41-04:00",
+ "last_success_ny": "2026-10-03T00:38:41-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
-  "done": [],
-  "in_progress": [],
-  "not_started": [
+  "done": [
    "NVDA"
-  ]
+  ],
+  "in_progress": [],
+  "not_started": []
  },
  "failed": {},
  "plan": {
@@ -28,20 +28,40 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 0,
+  "total": 38,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {},
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 0
+ },
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 0,
+  "count": 16,
   "threshold": 800,
-  "last": []
+  "last": [
+   "NVDA 2024-03-08: 859 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-03-11: 820 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-03-12: 880 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-03-13: 840 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-03-18: 897 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-04-26: 862 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-04-29: 835 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-04-30: 831 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-05-03: 835 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-05-06: 806 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-05-10: 810 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-08-02: 856 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-08-05: 848 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-08-22: 803 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-08-23: 803 חוזים בסינון — מעל האזעקה (800)",
+   "NVDA 2024-08-26: 804 חוזים בסינון — מעל האזעקה (800)"
+  ]
  },
- "minutes": 0.0,
+ "minutes": 30.0,
  "max_minutes": 3000.0
 }
