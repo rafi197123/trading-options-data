@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T15:29:41-04:00",
- "updated_ny": "2026-10-03T15:29:52-04:00",
+ "updated_ny": "2026-10-03T15:29:55-04:00",
  "last_success_ny": "2026-10-03T15:29:48-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "SMH"
