@@ -1,43 +1,70 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.7 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols RSP --to 2026-10-02 --max-minutes 3000 --options-data write",
- "kind": "eod",
+ "command": "python3.12 engines/pull_options.py intraday --group 1 --from 2025-10-02 --rebuild-ok --max-minutes 3000 --options-data write",
+ "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-03T15:46:11-04:00",
- "updated_ny": "2026-10-03T15:46:23-04:00",
- "last_success_ny": "2026-10-03T15:46:16-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-03T15:59:23-04:00",
+ "updated_ny": "2026-10-03T15:59:24-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "RSP"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "NVDA",
+   "AVGO",
+   "INTC",
+   "MRVL",
+   "MSFT",
+   "CRM",
+   "NOW",
+   "ORCL",
+   "PLTR",
+   "CRWD",
+   "CHKP",
+   "GOOG",
+   "META",
+   "AMZN",
+   "TSLA",
+   "COIN",
+   "HOOD",
+   "ETHA",
+   "HIMS",
+   "VEEV",
+   "USO",
+   "TLT",
+   "IEF",
+   "IBIT",
+   "XLE",
+   "IBKR",
+   "SPY",
+   "QQQ",
+   "SMH",
+   "IWM",
+   "CIBR"
+  ]
  },
  "failed": {},
  "plan": {
-  "new": 0,
-  "add": 1,
+  "new": 401,
+  "add": 0,
   "restore": 0,
-  "rebuild": 0,
-  "sessions": 1,
-  "symbols": 1,
-  "rebuild_symbols": 0
+  "rebuild": 2,
+  "sessions": 7812,
+  "symbols": 31,
+  "rebuild_symbols": 2
  },
  "requests": {
-  "total": 2,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -45,6 +72,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.2,
+ "minutes": 0.1,
  "max_minutes": 3000.0
 }
