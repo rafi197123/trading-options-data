@@ -180,22 +180,23 @@
   }
  },
  "tables": {
-  "catalog/lab.duckdb": {
-   "bytes": 274432,
-   "duckdb_version": "1.5.6",
+  "catalog/DATA_DICTIONARY.md": {
+   "bytes": 29543,
    "rows": null,
-   "sha256": "02fda98fd8b87da710a5e68fa5bce674551a395cccac2e37a4a3c77e5c3f0e20",
-   "updated_ny": "2026-09-29T16:22:12-04:00",
-   "views": [
-    "options_eod",
-    "options_intraday",
-    "candles_daily",
-    "candles_daily_raw",
-    "candles_30m",
-    "vix_family",
-    "corporate_actions",
-    "contracts_watch"
-   ]
+   "sha256": "c8a90c58ff25d30c9aeb2c27af7bb6e7ba600641291eaaa95760a36b2a76d917",
+   "updated_ny": "2026-10-02T20:13:06-04:00"
+  },
+  "catalog/open_catalog.py": {
+   "bytes": 18186,
+   "rows": null,
+   "sha256": "eededb354561b05ef55db69b9659c97345ae0d8dbd712da6cd9446dc7ae0a53d",
+   "updated_ny": "2026-10-02T20:13:06-04:00"
+  },
+  "catalog/views.sql": {
+   "bytes": 12126,
+   "rows": null,
+   "sha256": "d4bce1d5afdad728dd0a4732e57c42e8e73c3a00fc8310b35d69b6d885f7176b",
+   "updated_ny": "2026-10-02T20:13:06-04:00"
   },
   "contracts_watch.csv": {
    "bytes": 63,
@@ -204,11 +205,11 @@
    "updated_ny": "2026-09-29T15:30:59-04:00"
   },
   "corporate_actions.csv": {
-   "bytes": 2177,
+   "bytes": 1568,
    "rows": 11,
-   "sha256": "9e8aa51b7f8d7708cca63edb973614f986d1e72ed616a2593deedc943150fcc2",
-   "updated_ny": "2026-09-29T16:24:13-04:00"
+   "sha256": "eecbb653af78d9c720720d75a62d8210fd57c3ae7f4d3fb568fa526bd10b6ff6",
+   "updated_ny": "2026-10-02T20:13:06-04:00"
   }
  },
- "updated_ny": "2026-09-29T16:24:13-04:00"
+ "updated_ny": "2026-10-02T20:13:06-04:00"
 }
