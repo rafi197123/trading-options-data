@@ -5,17 +5,17 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T14:46:39-04:00",
- "updated_ny": "2026-10-03T14:46:39-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-03T14:52:05-04:00",
+ "last_success_ny": "2026-10-03T14:52:04-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
-  "done": [],
-  "in_progress": [],
-  "not_started": [
+  "done": [
    "VEEV"
-  ]
+  ],
+  "in_progress": [],
+  "not_started": []
  },
  "failed": {},
  "plan": {
@@ -28,13 +28,16 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 0,
+  "total": 38,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {},
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 0
+ },
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -42,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.0,
+ "minutes": 5.4,
  "max_minutes": 3000.0
 }
