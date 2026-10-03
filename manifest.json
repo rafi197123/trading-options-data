@@ -195986,6 +195986,889 @@
    "symbol": "XOM",
    "updated_ny": "2026-10-03T15:34:30-04:00"
   },
+  "intraday/NVDA/2025-10.parquet": {
+   "bytes": 2202354,
+   "complete": false,
+   "contracts_per_day_median": 295.0,
+   "contracts_per_day_median_total": 938.0,
+   "day_counts": [
+    285,
+    281,
+    282,
+    283,
+    277,
+    277,
+    278,
+    278,
+    292,
+    289,
+    296,
+    298,
+    287,
+    294,
+    286,
+    285,
+    272,
+    273,
+    275,
+    272,
+    299,
+    295,
+    295,
+    292,
+    289,
+    300,
+    307,
+    304,
+    301,
+    303,
+    299,
+    299,
+    307,
+    305,
+    303,
+    306,
+    293,
+    291,
+    302,
+    297,
+    288,
+    289,
+    289,
+    294,
+    289,
+    290,
+    284,
+    282,
+    373,
+    371,
+    367,
+    372,
+    304,
+    302,
+    299,
+    296,
+    288,
+    288,
+    291,
+    291,
+    300,
+    299,
+    299,
+    304,
+    297,
+    295,
+    296,
+    296,
+    295,
+    300,
+    295,
+    309,
+    293,
+    299,
+    294,
+    290,
+    293,
+    287,
+    288,
+    295,
+    304,
+    305,
+    305,
+    307,
+    305,
+    302,
+    299,
+    298
+   ],
+   "day_counts_total": [
+    934,
+    935,
+    933,
+    933,
+    932,
+    933,
+    932,
+    932,
+    912,
+    912,
+    912,
+    912,
+    912,
+    911,
+    911,
+    911,
+    914,
+    914,
+    914,
+    914,
+    960,
+    956,
+    949,
+    949,
+    961,
+    955,
+    955,
+    955,
+    936,
+    934,
+    934,
+    934,
+    937,
+    937,
+    937,
+    937,
+    937,
+    937,
+    939,
+    937,
+    938,
+    938,
+    938,
+    939,
+    938,
+    938,
+    938,
+    938,
+    899,
+    899,
+    899,
+    899,
+    932,
+    931,
+    931,
+    931,
+    931,
+    932,
+    936,
+    932,
+    947,
+    947,
+    947,
+    947,
+    952,
+    952,
+    952,
+    952,
+    938,
+    938,
+    938,
+    938,
+    972,
+    972,
+    972,
+    979,
+    1042,
+    1021,
+    1015,
+    1015,
+    1046,
+    1045,
+    1045,
+    1046,
+    1047,
+    1045,
+    1044,
+    1044
+   ],
+   "eod_sig": {
+    "2025-10-02": "7b701a54f30b",
+    "2025-10-03": "7b701a54f30b",
+    "2025-10-06": "436128db25d1",
+    "2025-10-07": "436128db25d1",
+    "2025-10-08": "58660b03abef",
+    "2025-10-09": "7cba89517bd3",
+    "2025-10-10": "b10d7c420715",
+    "2025-10-13": "8b1602de7f21",
+    "2025-10-14": "f06af2eff484",
+    "2025-10-15": "f06af2eff484",
+    "2025-10-16": "87de63437c74",
+    "2025-10-17": "87de63437c74",
+    "2025-10-20": "555c1af486dd",
+    "2025-10-21": "22497bf134f0",
+    "2025-10-22": "22497bf134f0",
+    "2025-10-23": "567dece2b306",
+    "2025-10-24": "20dddf79b284",
+    "2025-10-27": "971f4846a485",
+    "2025-10-28": "04c7be060fcb",
+    "2025-10-29": "2caf8907af91",
+    "2025-10-30": "2ebce59486d0",
+    "2025-10-31": "2ebce59486d0"
+   },
+   "filter_version": 3,
+   "first_session": "2025-10-02",
+   "kind": "intraday",
+   "last_session": "2025-10-31",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2025-10",
+   "oi_rows_pct": 99.3,
+   "points": 4,
+   "provider": "thetadata",
+   "retention": "sticky",
+   "rows": 83544,
+   "session_list": [
+    "2025-10-02",
+    "2025-10-03",
+    "2025-10-06",
+    "2025-10-07",
+    "2025-10-08",
+    "2025-10-09",
+    "2025-10-10",
+    "2025-10-13",
+    "2025-10-14",
+    "2025-10-15",
+    "2025-10-16",
+    "2025-10-17",
+    "2025-10-20",
+    "2025-10-21",
+    "2025-10-22",
+    "2025-10-23",
+    "2025-10-24",
+    "2025-10-27",
+    "2025-10-28",
+    "2025-10-29",
+    "2025-10-30",
+    "2025-10-31"
+   ],
+   "session_points": {
+    "2025-10-02": 4,
+    "2025-10-03": 4,
+    "2025-10-06": 4,
+    "2025-10-07": 4,
+    "2025-10-08": 4,
+    "2025-10-09": 4,
+    "2025-10-10": 4,
+    "2025-10-13": 4,
+    "2025-10-14": 4,
+    "2025-10-15": 4,
+    "2025-10-16": 4,
+    "2025-10-17": 4,
+    "2025-10-20": 4,
+    "2025-10-21": 4,
+    "2025-10-22": 4,
+    "2025-10-23": 4,
+    "2025-10-24": 4,
+    "2025-10-27": 4,
+    "2025-10-28": 4,
+    "2025-10-29": 4,
+    "2025-10-30": 4,
+    "2025-10-31": 4
+   },
+   "sessions": 22,
+   "sessions_done": [
+    "2025-10-02",
+    "2025-10-03",
+    "2025-10-06",
+    "2025-10-07",
+    "2025-10-08",
+    "2025-10-09",
+    "2025-10-10",
+    "2025-10-13",
+    "2025-10-14",
+    "2025-10-15",
+    "2025-10-16",
+    "2025-10-17",
+    "2025-10-20",
+    "2025-10-21",
+    "2025-10-22",
+    "2025-10-23",
+    "2025-10-24",
+    "2025-10-27",
+    "2025-10-28",
+    "2025-10-29",
+    "2025-10-30",
+    "2025-10-31"
+   ],
+   "sha256": "4320852ca74bcc94c8693d9401f6a95f0e7035d74fc6c729223d9c4e4b510408",
+   "spot_sources": {
+    "candles_30m": 83544,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "NVDA",
+   "updated_ny": "2026-10-03T15:59:17-04:00"
+  },
+  "intraday/NVDA/2025-11.parquet": {
+   "bytes": 1973739,
+   "complete": true,
+   "contracts_per_day_median": 292.0,
+   "contracts_per_day_median_total": 1011.0,
+   "day_counts": [
+    301,
+    299,
+    303,
+    292,
+    289,
+    281,
+    287,
+    285,
+    266,
+    271,
+    266,
+    267,
+    290,
+    298,
+    307,
+    301,
+    312,
+    321,
+    319,
+    314,
+    297,
+    297,
+    292,
+    295,
+    292,
+    292,
+    289,
+    285,
+    281,
+    282,
+    279,
+    276,
+    305,
+    310,
+    316,
+    320,
+    312,
+    307,
+    309,
+    305,
+    335,
+    336,
+    335,
+    337,
+    349,
+    340,
+    341,
+    339,
+    315,
+    319,
+    320,
+    315,
+    268,
+    279,
+    299,
+    290,
+    293,
+    292,
+    282,
+    288,
+    295,
+    288,
+    279,
+    276,
+    280,
+    280,
+    271,
+    280,
+    277,
+    273,
+    271,
+    271,
+    259,
+    255
+   ],
+   "day_counts_total": [
+    1012,
+    1012,
+    1027,
+    1009,
+    1010,
+    1010,
+    1010,
+    1010,
+    1011,
+    1011,
+    1011,
+    1011,
+    1037,
+    1036,
+    1036,
+    1036,
+    1040,
+    1044,
+    1039,
+    1036,
+    1011,
+    1011,
+    1010,
+    1010,
+    1012,
+    1012,
+    1012,
+    1012,
+    1012,
+    1012,
+    1012,
+    1012,
+    1034,
+    1033,
+    1036,
+    1033,
+    1035,
+    1035,
+    1035,
+    1035,
+    1004,
+    1003,
+    1003,
+    1006,
+    1015,
+    1011,
+    1011,
+    1011,
+    1011,
+    1011,
+    1011,
+    1011,
+    1046,
+    1042,
+    1041,
+    1040,
+    1044,
+    1044,
+    1044,
+    1044,
+    994,
+    987,
+    986,
+    986,
+    1009,
+    1001,
+    993,
+    993,
+    1009,
+    1010,
+    1010,
+    1010,
+    1009,
+    1009
+   ],
+   "eod_sig": {
+    "2025-11-03": "52a0d2435a40",
+    "2025-11-04": "d8f80323fc1a",
+    "2025-11-05": "37eed7242852",
+    "2025-11-06": "615205a21a7a",
+    "2025-11-07": "3488123b88e1",
+    "2025-11-10": "5e439005e9c6",
+    "2025-11-11": "274c14769028",
+    "2025-11-12": "274c14769028",
+    "2025-11-13": "bafb44f06a90",
+    "2025-11-14": "6cae13cb123b",
+    "2025-11-17": "1dc5a675cdd8",
+    "2025-11-18": "1f9f480ac84b",
+    "2025-11-19": "1f9f480ac84b",
+    "2025-11-20": "76fab10ff96d",
+    "2025-11-21": "1e8548f12361",
+    "2025-11-24": "19927adbb6a8",
+    "2025-11-25": "f9599465343b",
+    "2025-11-26": "d4242f08842a",
+    "2025-11-28": "d4242f08842a"
+   },
+   "filter_version": 3,
+   "first_session": "2025-11-03",
+   "kind": "intraday",
+   "last_session": "2025-11-28",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2025-11",
+   "oi_rows_pct": 99.4,
+   "partial_days": {
+    "2025-11-28": 2
+   },
+   "point_gaps": {
+    "2025-11-28": {
+     "13:30": "אחרי הסגירה — יום מסחר מקוצר",
+     "15:30": "אחרי הסגירה — יום מסחר מקוצר"
+    }
+   },
+   "points": 4,
+   "provider": "thetadata",
+   "retention": "sticky",
+   "rows": 75321,
+   "session_list": [
+    "2025-11-03",
+    "2025-11-04",
+    "2025-11-05",
+    "2025-11-06",
+    "2025-11-07",
+    "2025-11-10",
+    "2025-11-11",
+    "2025-11-12",
+    "2025-11-13",
+    "2025-11-14",
+    "2025-11-17",
+    "2025-11-18",
+    "2025-11-19",
+    "2025-11-20",
+    "2025-11-21",
+    "2025-11-24",
+    "2025-11-25",
+    "2025-11-26",
+    "2025-11-28"
+   ],
+   "session_points": {
+    "2025-11-03": 4,
+    "2025-11-04": 4,
+    "2025-11-05": 4,
+    "2025-11-06": 4,
+    "2025-11-07": 4,
+    "2025-11-10": 4,
+    "2025-11-11": 4,
+    "2025-11-12": 4,
+    "2025-11-13": 4,
+    "2025-11-14": 4,
+    "2025-11-17": 4,
+    "2025-11-18": 4,
+    "2025-11-19": 4,
+    "2025-11-20": 4,
+    "2025-11-21": 4,
+    "2025-11-24": 4,
+    "2025-11-25": 4,
+    "2025-11-26": 4,
+    "2025-11-28": 2
+   },
+   "sessions": 19,
+   "sessions_done": [
+    "2025-11-03",
+    "2025-11-04",
+    "2025-11-05",
+    "2025-11-06",
+    "2025-11-07",
+    "2025-11-10",
+    "2025-11-11",
+    "2025-11-12",
+    "2025-11-13",
+    "2025-11-14",
+    "2025-11-17",
+    "2025-11-18",
+    "2025-11-19",
+    "2025-11-20",
+    "2025-11-21",
+    "2025-11-24",
+    "2025-11-25",
+    "2025-11-26",
+    "2025-11-28"
+   ],
+   "sha256": "f28cbb0c0deb21c5ddde870586db10e262fa11ec18c811f5114a208ff3254aa4",
+   "spot_sources": {
+    "candles_30m": 75321,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "NVDA",
+   "updated_ny": "2026-10-03T15:59:17-04:00"
+  },
+  "intraday/NVDA/2025-12.parquet": {
+   "bytes": 1917275,
+   "complete": true,
+   "contracts_per_day_median": 204.0,
+   "contracts_per_day_median_total": 942.0,
+   "day_counts": [
+    253,
+    249,
+    244,
+    246,
+    241,
+    244,
+    237,
+    241,
+    225,
+    227,
+    226,
+    224,
+    241,
+    242,
+    238,
+    241,
+    235,
+    233,
+    229,
+    231,
+    233,
+    229,
+    234,
+    237,
+    228,
+    229,
+    227,
+    226,
+    213,
+    215,
+    215,
+    207,
+    225,
+    221,
+    221,
+    224,
+    212,
+    218,
+    212,
+    213,
+    214,
+    208,
+    204,
+    204,
+    200,
+    199,
+    193,
+    194,
+    172,
+    173,
+    173,
+    174,
+    166,
+    168,
+    166,
+    168,
+    167,
+    164,
+    159,
+    158,
+    184,
+    186,
+    186,
+    184,
+    182,
+    177,
+    175,
+    174,
+    189,
+    189,
+    178,
+    177,
+    182,
+    182,
+    189,
+    186,
+    180,
+    175,
+    173,
+    173,
+    170,
+    172,
+    182,
+    182,
+    181,
+    180
+   ],
+   "day_counts_total": [
+    956,
+    956,
+    956,
+    956,
+    959,
+    956,
+    956,
+    956,
+    956,
+    956,
+    956,
+    956,
+    972,
+    972,
+    971,
+    972,
+    972,
+    972,
+    971,
+    972,
+    943,
+    941,
+    942,
+    941,
+    941,
+    941,
+    941,
+    941,
+    941,
+    942,
+    942,
+    941,
+    965,
+    965,
+    961,
+    959,
+    971,
+    971,
+    971,
+    971,
+    938,
+    938,
+    938,
+    938,
+    938,
+    938,
+    938,
+    938,
+    946,
+    946,
+    946,
+    946,
+    946,
+    946,
+    946,
+    946,
+    947,
+    947,
+    947,
+    947,
+    698,
+    699,
+    701,
+    700,
+    704,
+    704,
+    704,
+    704,
+    749,
+    749,
+    755,
+    755,
+    757,
+    757,
+    713,
+    713,
+    713,
+    713,
+    713,
+    713,
+    713,
+    713,
+    727,
+    727,
+    727,
+    727
+   ],
+   "eod_sig": {
+    "2025-12-01": "59e5f8b44be7",
+    "2025-12-02": "59e5f8b44be7",
+    "2025-12-03": "59e5f8b44be7",
+    "2025-12-04": "cfcadcd4273a",
+    "2025-12-05": "cfcadcd4273a",
+    "2025-12-08": "b9234d393e84",
+    "2025-12-09": "b9234d393e84",
+    "2025-12-10": "b9234d393e84",
+    "2025-12-11": "130e02546713",
+    "2025-12-12": "23bdf383fab6",
+    "2025-12-15": "99292dbe0db3",
+    "2025-12-16": "99292dbe0db3",
+    "2025-12-17": "0fab31efc5e5",
+    "2025-12-18": "0fab31efc5e5",
+    "2025-12-19": "b31c469d24bd",
+    "2025-12-22": "7fc9b32751e3",
+    "2025-12-23": "358222c03982",
+    "2025-12-24": "368c464d404e",
+    "2025-12-26": "5f1cf4b1ec60",
+    "2025-12-29": "b08c928432ff",
+    "2025-12-30": "b08c928432ff",
+    "2025-12-31": "fcae2c136f60"
+   },
+   "filter_version": 3,
+   "first_session": "2025-12-01",
+   "kind": "intraday",
+   "last_session": "2025-12-31",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2025-12",
+   "oi_rows_pct": 99.5,
+   "partial_days": {
+    "2025-12-24": 2
+   },
+   "point_gaps": {
+    "2025-12-24": {
+     "13:30": "אחרי הסגירה — יום מסחר מקוצר",
+     "15:30": "אחרי הסגירה — יום מסחר מקוצר"
+    }
+   },
+   "points": 4,
+   "provider": "thetadata",
+   "retention": "sticky",
+   "rows": 75888,
+   "session_list": [
+    "2025-12-01",
+    "2025-12-02",
+    "2025-12-03",
+    "2025-12-04",
+    "2025-12-05",
+    "2025-12-08",
+    "2025-12-09",
+    "2025-12-10",
+    "2025-12-11",
+    "2025-12-12",
+    "2025-12-15",
+    "2025-12-16",
+    "2025-12-17",
+    "2025-12-18",
+    "2025-12-19",
+    "2025-12-22",
+    "2025-12-23",
+    "2025-12-24",
+    "2025-12-26",
+    "2025-12-29",
+    "2025-12-30",
+    "2025-12-31"
+   ],
+   "session_points": {
+    "2025-12-01": 4,
+    "2025-12-02": 4,
+    "2025-12-03": 4,
+    "2025-12-04": 4,
+    "2025-12-05": 4,
+    "2025-12-08": 4,
+    "2025-12-09": 4,
+    "2025-12-10": 4,
+    "2025-12-11": 4,
+    "2025-12-12": 4,
+    "2025-12-15": 4,
+    "2025-12-16": 4,
+    "2025-12-17": 4,
+    "2025-12-18": 4,
+    "2025-12-19": 4,
+    "2025-12-22": 4,
+    "2025-12-23": 4,
+    "2025-12-24": 2,
+    "2025-12-26": 4,
+    "2025-12-29": 4,
+    "2025-12-30": 4,
+    "2025-12-31": 4
+   },
+   "sessions": 22,
+   "sessions_done": [
+    "2025-12-01",
+    "2025-12-02",
+    "2025-12-03",
+    "2025-12-04",
+    "2025-12-05",
+    "2025-12-08",
+    "2025-12-09",
+    "2025-12-10",
+    "2025-12-11",
+    "2025-12-12",
+    "2025-12-15",
+    "2025-12-16",
+    "2025-12-17",
+    "2025-12-18",
+    "2025-12-19",
+    "2025-12-22",
+    "2025-12-23",
+    "2025-12-24",
+    "2025-12-26",
+    "2025-12-29",
+    "2025-12-30",
+    "2025-12-31"
+   ],
+   "sha256": "f05e37c4f78fd5b9ed587f561b437854a4baae7e3bd17ee70a292296d4318a19",
+   "spot_sources": {
+    "candles_30m": 75888,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "NVDA",
+   "updated_ny": "2026-10-03T15:59:17-04:00"
+  },
   "intraday/SPY/2026-09.parquet": {
    "bytes": 65758,
    "complete": false,
@@ -196207,6 +197090,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "APP": {
@@ -196379,6 +197271,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "CHKP": {
@@ -196433,6 +197334,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "CIBR": {
@@ -196487,6 +197397,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "COIN": {
@@ -196541,6 +197460,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "COST": {
@@ -196649,6 +197577,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "CRWD": {
@@ -196713,6 +197650,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "ETHA": {
@@ -197171,6 +198117,15 @@
      "parity": 0,
      "stock_eod_raw": 371
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "FTNT": {
@@ -197333,6 +198288,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "HIMS": {
@@ -197387,6 +198351,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "HOOD": {
@@ -197441,6 +198414,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "HYG": {
@@ -197851,6 +198833,15 @@
      "parity": 0,
      "stock_eod_raw": 468
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "IBKR": {
@@ -197915,6 +198906,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "IEF": {
@@ -197969,6 +198969,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "INTC": {
@@ -198023,6 +199032,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "IWM": {
@@ -198077,6 +199095,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "JPM": {
@@ -198293,6 +199320,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "MRVL": {
@@ -198347,6 +199383,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "MSFT": {
@@ -198401,6 +199446,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "MSTR": {
@@ -198583,6 +199637,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "NVDA": {
@@ -198647,6 +199710,24 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": 285.0,
+    "contracts_per_day_median_total": 953.5,
+    "first_session": "2025-10-02",
+    "known_gaps": {},
+    "last_session": "2025-12-31",
+    "months": [
+     "2025-10",
+     "2025-11",
+     "2025-12"
+    ],
+    "sessions": 63,
+    "spot_sources": {
+     "candles_30m": 234753,
+     "none": 0,
+     "parity": 0
+    }
    }
   },
   "ORCL": {
@@ -198701,6 +199782,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "PANW": {
@@ -198819,6 +199909,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "QQQ": {
@@ -198873,6 +199972,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "RDDT": {
@@ -199217,6 +200325,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "SOXX": {
@@ -199404,6 +200521,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "TSLA": {
@@ -199581,6 +200707,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "VEEV": {
@@ -199635,6 +200770,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "XLC": {
@@ -199753,6 +200897,15 @@
      "parity": 0,
      "stock_eod_raw": 754
     }
+   },
+   "intraday": {
+    "contracts_per_day_median": null,
+    "first_session": null,
+    "known_gaps": {},
+    "last_session": null,
+    "months": [],
+    "sessions": 0,
+    "spot_sources": {}
    }
   },
   "XLF": {
@@ -200078,5 +201231,5 @@
    "updated_ny": "2026-10-03T15:44:14-04:00"
   }
  },
- "updated_ny": "2026-10-03T15:46:11-04:00"
+ "updated_ny": "2026-10-03T15:59:17-04:00"
 }
