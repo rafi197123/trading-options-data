@@ -4,18 +4,18 @@
  "command": "python3.12 engines/pull_options.py eod --symbols RSP --to 2026-10-02 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T15:43:53-04:00",
- "updated_ny": "2026-10-03T15:44:01-04:00",
+ "started_ny": "2026-10-03T15:46:11-04:00",
+ "updated_ny": "2026-10-03T15:46:11-04:00",
  "last_success_ny": null,
- "state": "stopped",
- "exit_code": 1,
- "exit_reason": "תקלה לא צפויה — ConnectTimeout: _ssl.c:983: The handshake operation timed out",
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [
+  "in_progress": [],
+  "not_started": [
    "RSP"
-  ],
-  "not_started": []
+  ]
  },
  "failed": {},
  "plan": {
@@ -42,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.1,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
