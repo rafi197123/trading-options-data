@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T09:51:18-04:00",
- "updated_ny": "2026-10-03T10:03:02-04:00",
+ "updated_ny": "2026-10-03T10:03:05-04:00",
  "last_success_ny": "2026-10-03T10:02:57-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "JPM"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 11.7,
+ "minutes": 11.8,
  "max_minutes": 3000.0
 }
