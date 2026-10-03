@@ -1,21 +1,21 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.7 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols USO --to 2026-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols VEEV --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T14:33:30-04:00",
- "updated_ny": "2026-10-03T14:46:35-04:00",
- "last_success_ny": "2026-10-03T14:46:26-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-03T14:46:39-04:00",
+ "updated_ny": "2026-10-03T14:46:39-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "USO"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "VEEV"
+  ]
  },
  "failed": {},
  "plan": {
@@ -28,34 +28,20 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 38,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 10,
+  "count": 0,
   "threshold": 800,
-  "last": [
-   "USO 2026-03-16: 806 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-06: 878 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-07: 904 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-08: 828 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-09: 845 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-10: 835 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-13: 815 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-20: 821 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-04-21: 873 חוזים בסינון — מעל האזעקה (800)",
-   "USO 2026-05-22: 842 חוזים בסינון — מעל האזעקה (800)"
-  ]
+  "last": []
  },
- "minutes": 13.1,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
