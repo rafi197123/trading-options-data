@@ -1,30 +1,30 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.6 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols SPY --rebuild-ok --to 2026-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols NVDA --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T00:08:23-04:00",
- "updated_ny": "2026-10-03T00:08:27-04:00",
+ "started_ny": "2026-10-03T00:08:41-04:00",
+ "updated_ny": "2026-10-03T00:08:41-04:00",
  "last_success_ny": null,
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "SPY"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "NVDA"
+  ]
  },
  "failed": {},
  "plan": {
-  "new": 0,
+  "new": 37,
   "add": 0,
   "restore": 0,
   "rebuild": 0,
-  "sessions": 0,
-  "symbols": 0,
+  "sessions": 753,
+  "symbols": 1,
   "rebuild_symbols": 0
  },
  "requests": {
@@ -42,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.1,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
