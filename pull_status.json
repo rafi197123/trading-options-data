@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T05:11:25-04:00",
- "updated_ny": "2026-10-03T05:28:08-04:00",
+ "updated_ny": "2026-10-03T05:28:10-04:00",
  "last_success_ny": "2026-10-03T05:28:03-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "TLT"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 16.7,
+ "minutes": 16.8,
  "max_minutes": 3000.0
 }
