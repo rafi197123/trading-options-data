@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T15:59:23-04:00",
- "updated_ny": "2026-10-03T16:49:08-04:00",
- "last_success_ny": "2026-10-03T16:49:06-04:00",
+ "updated_ny": "2026-10-03T16:58:32-04:00",
+ "last_success_ny": "2026-10-03T16:58:30-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -14,9 +14,10 @@
   "done": [
    "NVDA"
   ],
-  "in_progress": [],
+  "in_progress": [
+   "AVGO"
+  ],
   "not_started": [
-   "AVGO",
    "INTC",
    "MRVL",
    "MSFT",
@@ -59,7 +60,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 1256,
+  "total": 1567,
   "failed": 0
  },
  "consecutive_failures": 0,
@@ -76,6 +77,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 49.8,
+ "minutes": 59.2,
  "max_minutes": 3000.0
 }
