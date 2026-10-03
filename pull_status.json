@@ -5,17 +5,17 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T14:33:30-04:00",
- "updated_ny": "2026-10-03T14:33:30-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-03T14:46:26-04:00",
+ "last_success_ny": "2026-10-03T14:46:26-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
-  "done": [],
-  "in_progress": [],
-  "not_started": [
+  "done": [
    "USO"
-  ]
+  ],
+  "in_progress": [],
+  "not_started": []
  },
  "failed": {},
  "plan": {
@@ -28,20 +28,34 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 0,
+  "total": 38,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {},
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 0
+ },
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 0,
+  "count": 10,
   "threshold": 800,
-  "last": []
+  "last": [
+   "USO 2026-03-16: 806 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-06: 878 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-07: 904 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-08: 828 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-09: 845 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-10: 835 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-13: 815 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-20: 821 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-04-21: 873 חוזים בסינון — מעל האזעקה (800)",
+   "USO 2026-05-22: 842 חוזים בסינון — מעל האזעקה (800)"
+  ]
  },
- "minutes": 0.0,
+ "minutes": 12.9,
  "max_minutes": 3000.0
 }
