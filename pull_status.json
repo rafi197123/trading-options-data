@@ -5,8 +5,8 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T00:39:00-04:00",
- "updated_ny": "2026-10-03T02:19:24-04:00",
- "last_success_ny": "2026-10-03T02:19:24-04:00",
+ "updated_ny": "2026-10-03T02:31:02-04:00",
+ "last_success_ny": "2026-10-03T02:31:02-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -18,11 +18,11 @@
    "MRVL",
    "MSFT",
    "CRM",
-   "NOW"
+   "NOW",
+   "ORCL"
   ],
   "in_progress": [],
   "not_started": [
-   "ORCL",
    "PLTR",
    "CRWD",
    "CHKP",
@@ -59,7 +59,7 @@
   "rebuild_symbols": 1
  },
  "requests": {
-  "total": 228,
+  "total": 266,
   "failed": 0
  },
  "consecutive_failures": 0,
@@ -76,6 +76,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 100.4,
+ "minutes": 112.0,
  "max_minutes": 3000.0
 }
