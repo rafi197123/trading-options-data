@@ -5,8 +5,8 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T00:39:00-04:00",
- "updated_ny": "2026-10-03T01:29:03-04:00",
- "last_success_ny": "2026-10-03T01:29:03-04:00",
+ "updated_ny": "2026-10-03T01:49:20-04:00",
+ "last_success_ny": "2026-10-03T01:49:20-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -15,11 +15,11 @@
    "NVDA",
    "AVGO",
    "INTC",
-   "MRVL"
+   "MRVL",
+   "MSFT"
   ],
   "in_progress": [],
   "not_started": [
-   "MSFT",
    "CRM",
    "NOW",
    "ORCL",
@@ -59,7 +59,7 @@
   "rebuild_symbols": 1
  },
  "requests": {
-  "total": 114,
+  "total": 152,
   "failed": 0
  },
  "consecutive_failures": 0,
@@ -76,6 +76,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 50.1,
+ "minutes": 70.3,
  "max_minutes": 3000.0
 }
