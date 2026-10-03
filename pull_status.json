@@ -5,19 +5,26 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-02T20:21:38-04:00",
- "updated_ny": "2026-10-02T20:21:38-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-02T20:33:55-04:00",
+ "last_success_ny": "2026-10-02T20:28:33-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [],
-  "not_started": [
+  "in_progress": [
    "SPY"
-  ]
+  ],
+  "not_started": []
  },
- "failed": {},
+ "failed": {
+  "SPY": {
+   "days": [],
+   "months": [
+    "2024-02"
+   ]
+  }
+ },
  "plan": {
   "new": 36,
   "add": 0,
@@ -28,13 +35,16 @@
   "rebuild_symbols": 1
  },
  "requests": {
-  "total": 0,
-  "failed": 0
+  "total": 7,
+  "failed": 1
  },
- "consecutive_failures": 0,
+ "consecutive_failures": 1,
  "max_consecutive_failures": 5,
- "last_error": "",
- "consecutive_failures_by_kind": {},
+ "last_error": "SPY 2024-02 (chain_eod): OK העניין הפתוח נכשל בתקלה (StatusCode.UNAVAILABLE: Stream removed (recvmsg:Connection reset by peer (104))) — הבקשה כולה נחשבת כושלת",
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 1
+ },
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -42,6 +52,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.0,
+ "minutes": 12.3,
  "max_minutes": 3000.0
 }
