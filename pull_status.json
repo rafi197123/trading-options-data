@@ -5,8 +5,8 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T00:39:00-04:00",
- "updated_ny": "2026-10-03T03:02:39-04:00",
- "last_success_ny": "2026-10-03T03:02:39-04:00",
+ "updated_ny": "2026-10-03T03:14:47-04:00",
+ "last_success_ny": "2026-10-03T03:14:47-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -22,11 +22,11 @@
    "ORCL",
    "PLTR",
    "CRWD",
-   "CHKP"
+   "CHKP",
+   "GOOG"
   ],
   "in_progress": [],
   "not_started": [
-   "GOOG",
    "META",
    "AMZN",
    "TSLA",
@@ -59,7 +59,7 @@
   "rebuild_symbols": 1
  },
  "requests": {
-  "total": 380,
+  "total": 418,
   "failed": 0
  },
  "consecutive_failures": 0,
@@ -76,6 +76,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 143.6,
+ "minutes": 155.8,
  "max_minutes": 3000.0
 }
