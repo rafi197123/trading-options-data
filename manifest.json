@@ -44405,42 +44405,45 @@
    "updated_ny": "2026-10-03T04:56:53-04:00"
   },
   "eod/ETHA/2026-10.parquet": {
-   "bytes": 41234,
-   "complete": false,
-   "contracts_per_day_median": 179.0,
-   "contracts_per_day_median_total": 434.0,
+   "bytes": 58921,
+   "complete": true,
+   "contracts_per_day_median": 176.0,
+   "contracts_per_day_median_total": 434.5,
    "day_counts": [
-    179
+    179,
+    173
    ],
    "day_counts_total": [
-    434
+    434,
+    435
    ],
    "filter_version": 3,
    "first_session": "2026-10-01",
    "kind": "eod",
-   "last_session": "2026-10-01",
+   "last_session": "2026-10-02",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2026-10",
-   "oi_rows_pct": 95.4,
+   "oi_rows_pct": 97.6,
    "provider": "thetadata",
-   "raw_rows": 1320,
+   "raw_rows": 1352,
    "requests": 2,
    "retention": "sticky",
-   "rows": 434,
-   "seconds": 1.2,
+   "rows": 869,
+   "seconds": 2.24,
    "session_list": [
-    "2026-10-01"
+    "2026-10-01",
+    "2026-10-02"
    ],
-   "sessions": 1,
-   "sha256": "2ed8f24c6e2ef7b93a96e2766ae98e073a376b58b855b840f3b0a92a4926dcbe",
+   "sessions": 2,
+   "sha256": "0850071b67c1d691654530b06d24fd4ca21a7d285cbbc3a3e6e0aa3285d884a8",
    "spot_sources": {
     "none": 0,
     "parity": 0,
-    "stock_eod_raw": 1
+    "stock_eod_raw": 2
    },
    "symbol": "ETHA",
-   "updated_ny": "2026-10-03T04:56:53-04:00"
+   "updated_ny": "2026-10-03T15:26:43-04:00"
   },
   "eod/FTNT/2023-10.parquet": {
    "bytes": 193620,
@@ -196602,8 +196605,8 @@
   },
   "ETHA": {
    "eod": {
-    "contracts_per_day_median": 184.5,
-    "contracts_per_day_median_total": 483.5,
+    "contracts_per_day_median": 184.0,
+    "contracts_per_day_median_total": 483.0,
     "first_session": "2025-04-11",
     "known_gaps": {
      "2023-10": {
@@ -197028,7 +197031,7 @@
       "2025-04-10": "הספק: אין נתון — לפני תחילת המסחר באופציות של הנכס"
      }
     },
-    "last_session": "2026-10-01",
+    "last_session": "2026-10-02",
     "months": [
      "2025-04",
      "2025-05",
@@ -197050,11 +197053,11 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 370,
+    "sessions": 371,
     "spot_sources": {
      "none": 0,
      "parity": 0,
-     "stock_eod_raw": 370
+     "stock_eod_raw": 371
     }
    }
   },
@@ -199963,5 +199966,5 @@
    "updated_ny": "2026-10-02T20:13:06-04:00"
   }
  },
- "updated_ny": "2026-10-03T15:26:25-04:00"
+ "updated_ny": "2026-10-03T15:26:43-04:00"
 }
