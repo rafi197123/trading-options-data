@@ -1,71 +1,47 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.7 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols MSTR --to 2026-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols TSLA --rebuild-ok --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T13:29:57-04:00",
- "updated_ny": "2026-10-03T14:05:30-04:00",
- "last_success_ny": "2026-10-03T14:05:16-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-03T14:05:52-04:00",
+ "updated_ny": "2026-10-03T14:05:53-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "MSTR"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "TSLA"
+  ]
  },
  "failed": {},
  "plan": {
-  "new": 37,
+  "new": 36,
   "add": 0,
   "restore": 0,
-  "rebuild": 0,
+  "rebuild": 1,
   "sessions": 753,
   "symbols": 1,
-  "rebuild_symbols": 0
+  "rebuild_symbols": 1
  },
  "requests": {
-  "total": 38,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 143,
+  "count": 0,
   "threshold": 800,
-  "last": [
-   "MSTR 2024-11-20: 822 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-11-21: 1124 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-11-22: 1258 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-11-25: 1102 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-11-26: 1029 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-11-27: 998 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-11-29: 1039 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-02: 937 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-03: 843 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-04: 845 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-05: 884 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-06: 956 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-09: 941 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-10: 872 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-11: 817 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-12: 847 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-13: 862 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-16: 833 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2024-12-23: 862 חוזים בסינון — מעל האזעקה (800)",
-   "MSTR 2025-01-21: 834 חוזים בסינון — מעל האזעקה (800)"
-  ]
+  "last": []
  },
- "minutes": 35.6,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
