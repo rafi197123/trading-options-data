@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-02T22:26:16-04:00",
- "updated_ny": "2026-10-02T22:26:25-04:00",
+ "updated_ny": "2026-10-02T22:26:27-04:00",
  "last_success_ny": "2026-10-02T22:26:20-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "stopped",
+ "exit_code": 9,
+ "exit_reason": "הסתיים עם כשלים: 1 חודשים נשארו חסרים ב-SPY (במצב \"שמירה עד הפקיעה\" הנכס נעצר בחודש שנכשל); להריץ את אותה פקודה",
  "symbols": {
   "done": [],
   "in_progress": [
