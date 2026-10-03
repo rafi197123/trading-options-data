@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T00:08:23-04:00",
- "updated_ny": "2026-10-03T00:08:25-04:00",
+ "updated_ny": "2026-10-03T00:08:27-04:00",
  "last_success_ny": null,
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "SPY"
@@ -42,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.0,
+ "minutes": 0.1,
  "max_minutes": 3000.0
 }
