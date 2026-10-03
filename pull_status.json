@@ -5,7 +5,7 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-02T20:21:38-04:00",
- "updated_ny": "2026-10-02T20:33:55-04:00",
+ "updated_ny": "2026-10-02T20:33:58-04:00",
  "last_success_ny": "2026-10-02T20:28:33-04:00",
  "state": "running",
  "exit_code": null,
@@ -40,12 +40,12 @@
  },
  "consecutive_failures": 1,
  "max_consecutive_failures": 5,
- "last_error": "SPY 2024-02 (chain_eod): OK העניין הפתוח נכשל בתקלה (StatusCode.UNAVAILABLE: Stream removed (recvmsg:Connection reset by peer (104))) — הבקשה כולה נחשבת כושלת",
+ "last_error": "SPY: נכשלו: 2024-02",
  "consecutive_failures_by_kind": {
   "stock_eod_raw": 0,
   "chain_eod": 1
  },
- "consecutive_halted_symbols": 0,
+ "consecutive_halted_symbols": 1,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
   "count": 0,
