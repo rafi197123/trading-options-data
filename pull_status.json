@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T08:16:08-04:00",
- "updated_ny": "2026-10-03T08:30:13-04:00",
+ "updated_ny": "2026-10-03T08:30:15-04:00",
  "last_success_ny": "2026-10-03T08:30:08-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "XLK"
