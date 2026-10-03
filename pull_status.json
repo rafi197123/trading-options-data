@@ -1,75 +1,40 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.6 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --group 1 --rebuild-ok --to 2026-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols COIN --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T00:39:00-04:00",
- "updated_ny": "2026-10-03T04:24:07-04:00",
- "last_success_ny": "2026-10-03T04:24:02-04:00",
- "state": "stopped",
- "exit_code": 1,
- "exit_reason": "תקלה לא צפויה — ValueError: Length of values (93957) does not match length of index (90850)",
+ "started_ny": "2026-10-03T04:29:58-04:00",
+ "updated_ny": "2026-10-03T04:29:58-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "NVDA",
-   "AVGO",
-   "INTC",
-   "MRVL",
-   "MSFT",
-   "CRM",
-   "NOW",
-   "ORCL",
-   "PLTR",
-   "CRWD",
-   "CHKP",
-   "GOOG",
-   "META",
-   "AMZN"
-  ],
-  "in_progress": [
-   "TSLA"
-  ],
+  "done": [],
+  "in_progress": [],
   "not_started": [
-   "COIN",
-   "HOOD",
-   "ETHA",
-   "HIMS",
-   "VEEV",
-   "USO",
-   "TLT",
-   "IEF",
-   "IBIT",
-   "XLE",
-   "IBKR",
-   "SPY",
-   "QQQ",
-   "SMH",
-   "IWM",
-   "CIBR"
+   "COIN"
   ]
  },
  "failed": {},
  "plan": {
-  "new": 1072,
+  "new": 37,
   "add": 0,
   "restore": 0,
-  "rebuild": 1,
-  "sessions": 21837,
-  "symbols": 29,
-  "rebuild_symbols": 1
+  "rebuild": 0,
+  "sessions": 753,
+  "symbols": 1,
+  "rebuild_symbols": 0
  },
  "requests": {
-  "total": 496,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -77,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 225.1,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
