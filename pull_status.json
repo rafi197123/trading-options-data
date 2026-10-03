@@ -5,19 +5,26 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T13:11:33-04:00",
- "updated_ny": "2026-10-03T13:11:33-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-03T13:18:42-04:00",
+ "last_success_ny": "2026-10-03T13:12:55-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [],
-  "not_started": [
+  "in_progress": [
    "KO"
-  ]
+  ],
+  "not_started": []
  },
- "failed": {},
+ "failed": {
+  "KO": {
+   "days": [],
+   "months": [
+    "2024-06"
+   ]
+  }
+ },
  "plan": {
   "new": 37,
   "add": 0,
@@ -28,13 +35,16 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 0,
-  "failed": 0
+  "total": 11,
+  "failed": 2
  },
- "consecutive_failures": 0,
+ "consecutive_failures": 2,
  "max_consecutive_failures": 5,
- "last_error": "",
- "consecutive_failures_by_kind": {},
+ "last_error": "KO 2024-07 (chain_eod): StatusCode.UNAVAILABLE StatusCode.UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:43595: Handshake read failed (recvmsg:Connection reset by peer (104))",
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 2
+ },
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -42,6 +52,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.0,
+ "minutes": 7.1,
  "max_minutes": 3000.0
 }
