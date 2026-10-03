@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-03T18:32:05-04:00",
- "last_success_ny": "2026-10-03T18:32:03-04:00",
+ "updated_ny": "2026-10-03T18:32:28-04:00",
+ "last_success_ny": "2026-10-03T18:32:27-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -49,7 +49,14 @@
    "CIBR"
   ]
  },
- "failed": {},
+ "failed": {
+  "INTC": {
+   "days": [
+    "2026-02-18"
+   ],
+   "months": []
+  }
+ },
  "plan": {
   "new": 379,
   "add": 0,
@@ -60,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 1576,
+  "total": 1586,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -77,6 +84,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 62.8,
+ "minutes": 63.2,
  "max_minutes": 3000.0
 }
