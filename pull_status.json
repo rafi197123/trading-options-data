@@ -1,21 +1,21 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.7 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols MU --to 2026-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols APP --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T11:10:42-04:00",
- "updated_ny": "2026-10-03T11:32:12-04:00",
- "last_success_ny": "2026-10-03T11:32:01-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-03T11:32:17-04:00",
+ "updated_ny": "2026-10-03T11:32:17-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "MU"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "APP"
+  ]
  },
  "failed": {},
  "plan": {
@@ -28,44 +28,20 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 38,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 101,
+  "count": 0,
   "threshold": 800,
-  "last": [
-   "MU 2026-09-03: 885 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-04: 1011 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-08: 990 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-09: 912 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-10: 935 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-11: 945 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-14: 892 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-15: 860 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-16: 831 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-17: 863 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-18: 865 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-21: 1002 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-22: 1023 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-23: 966 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-24: 1001 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-25: 1029 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-28: 991 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-29: 1000 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-09-30: 902 חוזים בסינון — מעל האזעקה (800)",
-   "MU 2026-10-01: 855 חוזים בסינון — מעל האזעקה (800)"
-  ]
+  "last": []
  },
- "minutes": 21.5,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
