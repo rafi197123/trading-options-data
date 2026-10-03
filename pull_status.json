@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T15:32:51-04:00",
- "updated_ny": "2026-10-03T15:33:04-04:00",
+ "updated_ny": "2026-10-03T15:33:06-04:00",
  "last_success_ny": "2026-10-03T15:33:00-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "AMD"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.2,
+ "minutes": 0.3,
  "max_minutes": 3000.0
 }
