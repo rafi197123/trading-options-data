@@ -10626,42 +10626,45 @@
    "updated_ny": "2026-10-03T00:39:00-04:00"
   },
   "eod/AMZN/2026-10.parquet": {
-   "bytes": 50211,
-   "complete": false,
-   "contracts_per_day_median": 211.0,
+   "bytes": 75410,
+   "complete": true,
+   "contracts_per_day_median": 207.5,
    "contracts_per_day_median_total": 564.0,
    "day_counts": [
-    211
+    211,
+    204
    ],
    "day_counts_total": [
+    564,
     564
    ],
    "filter_version": 3,
    "first_session": "2026-10-01",
    "kind": "eod",
-   "last_session": "2026-10-01",
+   "last_session": "2026-10-02",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2026-10",
-   "oi_rows_pct": 96.6,
+   "oi_rows_pct": 98.3,
    "provider": "thetadata",
-   "raw_rows": 2482,
+   "raw_rows": 2508,
    "requests": 2,
    "retention": "sticky",
-   "rows": 564,
-   "seconds": 3.43,
+   "rows": 1128,
+   "seconds": 2.77,
    "session_list": [
-    "2026-10-01"
+    "2026-10-01",
+    "2026-10-02"
    ],
-   "sessions": 1,
-   "sha256": "8df3e9d1432a11cf30d6eab3c1ddd35a07fde9fa203b976686115820a1db80e6",
+   "sessions": 2,
+   "sha256": "2d80a04b6fe2bd3024976ba78dd48e969e31d2b9baf1a9fc41e0e0b7a1429902",
    "spot_sources": {
     "none": 0,
     "parity": 0,
-    "stock_eod_raw": 1
+    "stock_eod_raw": 2
    },
    "symbol": "AMZN",
-   "updated_ny": "2026-10-03T00:39:00-04:00"
+   "updated_ny": "2026-10-03T15:25:31-04:00"
   },
   "eod/APP/2023-10.parquet": {
    "bytes": 80323,
@@ -196034,7 +196037,7 @@
     "contracts_per_day_median_total": 530.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
-    "last_session": "2026-10-01",
+    "last_session": "2026-10-02",
     "months": [
      "2023-10",
      "2023-11",
@@ -196074,11 +196077,11 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
      "none": 0,
      "parity": 0,
-     "stock_eod_raw": 753
+     "stock_eod_raw": 754
     }
    }
   },
@@ -199951,5 +199954,5 @@
    "updated_ny": "2026-10-02T20:13:06-04:00"
   }
  },
- "updated_ny": "2026-10-03T15:25:12-04:00"
+ "updated_ny": "2026-10-03T15:25:31-04:00"
 }
