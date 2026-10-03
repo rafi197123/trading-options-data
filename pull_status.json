@@ -5,11 +5,11 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T00:06:37-04:00",
- "updated_ny": "2026-10-03T00:06:56-04:00",
+ "updated_ny": "2026-10-03T00:06:58-04:00",
  "last_success_ny": "2026-10-03T00:06:53-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "stopped",
+ "exit_code": 9,
+ "exit_reason": "הסתיים עם כשלים: 1 ימים נשארו חסרים ב-SPY — SPY: 1 ימים בסוף הטווח עדיין לא חזרו מהספק (מ-02/10/2026 עד 02/10/2026) — להריץ את אותה פקודה מאוחר יותר; להריץ את אותה פקודה",
  "symbols": {
   "done": [],
   "in_progress": [
@@ -55,6 +55,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.3,
+ "minutes": 0.4,
  "max_minutes": 3000.0
 }
