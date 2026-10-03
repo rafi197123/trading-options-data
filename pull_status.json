@@ -4,56 +4,44 @@
  "command": "python3.12 engines/pull_options.py eod --symbols GLD --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T12:27:14-04:00",
- "updated_ny": "2026-10-03T12:53:34-04:00",
- "last_success_ny": "2026-10-03T12:47:27-04:00",
- "state": "stopped",
- "exit_code": 9,
- "exit_reason": "הסתיים עם כשלים: 1 חודשים נשארו חסרים ב-GLD (במצב \"שמירה עד הפקיעה\" הנכס נעצר בחודש שנכשל); להריץ את אותה פקודה",
+ "started_ny": "2026-10-03T12:58:39-04:00",
+ "updated_ny": "2026-10-03T12:58:39-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [
+  "in_progress": [],
+  "not_started": [
    "GLD"
-  ],
-  "not_started": []
+  ]
  },
- "failed": {
-  "GLD": {
-   "days": [],
-   "months": [
-    "2025-12"
-   ]
-  }
- },
+ "failed": {},
  "plan": {
-  "new": 37,
+  "new": 11,
   "add": 0,
   "restore": 0,
   "rebuild": 0,
-  "sessions": 753,
+  "sessions": 210,
   "symbols": 1,
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 29,
-  "failed": 1
+  "total": 0,
+  "failed": 0
  },
- "consecutive_failures": 1,
+ "consecutive_failures": 0,
  "max_consecutive_failures": 5,
- "last_error": "GLD: נכשלו: 2025-12",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 1
- },
- "consecutive_halted_symbols": 1,
+ "last_error": "",
+ "consecutive_failures_by_kind": {},
+ "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 1,
+  "count": 0,
   "threshold": 800,
-  "last": [
-   "GLD 2025-10-21: 890 חוזים בסינון — מעל האזעקה (800)"
-  ]
+  "last": []
  },
- "minutes": 26.3,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
