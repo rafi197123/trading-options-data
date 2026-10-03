@@ -5,7 +5,7 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T15:30:17-04:00",
- "updated_ny": "2026-10-03T15:30:21-04:00",
+ "updated_ny": "2026-10-03T15:30:25-04:00",
  "last_success_ny": "2026-10-03T15:30:21-04:00",
  "state": "running",
  "exit_code": null,
