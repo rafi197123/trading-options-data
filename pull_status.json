@@ -1,23 +1,21 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.7 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py intraday --group 1 --from 2025-10-02 --rebuild-ok --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py intraday --group 1 --from 2025-10-02 --to 2026-10-02 --rebuild-ok --max-minutes 3000 --options-data write",
  "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-03T15:59:23-04:00",
- "updated_ny": "2026-10-03T17:25:50-04:00",
- "last_success_ny": "2026-10-03T17:23:23-04:00",
- "state": "stopped",
- "exit_code": 4,
- "exit_reason": "הדחיפה נכשלה (ב-AVGO) — הקומיט בעותק העבודה ויידחף בריצה הבאה",
+ "started_ny": "2026-10-03T17:29:37-04:00",
+ "updated_ny": "2026-10-03T17:29:39-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "NVDA"
-  ],
-  "in_progress": [
-   "AVGO"
-  ],
+  "done": [],
+  "in_progress": [],
   "not_started": [
+   "NVDA",
+   "AVGO",
    "INTC",
    "MRVL",
    "MSFT",
@@ -51,25 +49,22 @@
  },
  "failed": {},
  "plan": {
-  "new": 401,
+  "new": 379,
   "add": 0,
   "restore": 0,
   "rebuild": 2,
-  "sessions": 7812,
-  "symbols": 31,
+  "sessions": 7374,
+  "symbols": 30,
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 2182,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "chain_snapshot": 0,
-  "open_interest": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -77,6 +72,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 86.5,
+ "minutes": 0.4,
  "max_minutes": 3000.0
 }
