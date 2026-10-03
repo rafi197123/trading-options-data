@@ -1,21 +1,21 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.6 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py eod --symbols VEEV --to 2026-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py eod --symbols USO --to 2026-10-01 --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-03T05:09:59-04:00",
- "updated_ny": "2026-10-03T05:10:35-04:00",
- "last_success_ny": "2026-10-03T05:10:26-04:00",
- "state": "stopped",
- "exit_code": 1,
- "exit_reason": "תקלה לא צפויה — ValueError: Length of values (13012) does not match length of index (12428)",
+ "started_ny": "2026-10-03T05:10:40-04:00",
+ "updated_ny": "2026-10-03T05:10:40-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [
-   "VEEV"
-  ],
-  "not_started": []
+  "in_progress": [],
+  "not_started": [
+   "USO"
+  ]
  },
  "failed": {},
  "plan": {
@@ -28,16 +28,13 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 2,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -45,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.6,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
