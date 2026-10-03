@@ -85787,42 +85787,45 @@
    "updated_ny": "2026-10-03T09:51:18-04:00"
   },
   "eod/JPM/2026-10.parquet": {
-   "bytes": 44739,
-   "complete": false,
-   "contracts_per_day_median": 195.0,
+   "bytes": 64121,
+   "complete": true,
+   "contracts_per_day_median": 190.0,
    "contracts_per_day_median_total": 485.0,
    "day_counts": [
-    195
+    195,
+    185
    ],
    "day_counts_total": [
+    485,
     485
    ],
    "filter_version": 3,
    "first_session": "2026-10-01",
    "kind": "eod",
-   "last_session": "2026-10-01",
+   "last_session": "2026-10-02",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2026-10",
-   "oi_rows_pct": 96.3,
+   "oi_rows_pct": 98.1,
    "provider": "thetadata",
-   "raw_rows": 1900,
+   "raw_rows": 1944,
    "requests": 2,
    "retention": "sticky",
-   "rows": 485,
-   "seconds": 1.09,
+   "rows": 970,
+   "seconds": 4.63,
    "session_list": [
-    "2026-10-01"
+    "2026-10-01",
+    "2026-10-02"
    ],
-   "sessions": 1,
-   "sha256": "bbb47781706e0db521ffa602361780a76b172dd3d87a4ba66b24d72cd8d11668",
+   "sessions": 2,
+   "sha256": "0e564951c92cd0ed06fa2bd99d6d3b33a71d1f835acddc656462e43a9de67de8",
    "spot_sources": {
     "none": 0,
     "parity": 0,
-    "stock_eod_raw": 1
+    "stock_eod_raw": 2
    },
    "symbol": "JPM",
-   "updated_ny": "2026-10-03T09:51:18-04:00"
+   "updated_ny": "2026-10-03T15:33:31-04:00"
   },
   "eod/KO/2023-10.parquet": {
    "bytes": 160367,
@@ -198033,10 +198036,10 @@
   "JPM": {
    "eod": {
     "contracts_per_day_median": 148.0,
-    "contracts_per_day_median_total": 455.0,
+    "contracts_per_day_median_total": 455.5,
     "first_session": "2023-10-02",
     "known_gaps": {},
-    "last_session": "2026-10-01",
+    "last_session": "2026-10-02",
     "months": [
      "2023-10",
      "2023-11",
@@ -198076,11 +198079,11 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
      "none": 0,
      "parity": 0,
-     "stock_eod_raw": 753
+     "stock_eod_raw": 754
     }
    }
   },
@@ -200029,5 +200032,5 @@
    "updated_ny": "2026-10-02T20:13:06-04:00"
   }
  },
- "updated_ny": "2026-10-03T15:33:11-04:00"
+ "updated_ny": "2026-10-03T15:33:31-04:00"
 }
