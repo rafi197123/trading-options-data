@@ -5,19 +5,26 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-02T22:20:57-04:00",
- "updated_ny": "2026-10-02T22:20:57-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-02T22:21:10-04:00",
+ "last_success_ny": "2026-10-02T22:21:00-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [],
-  "not_started": [
+  "in_progress": [
    "SPY"
-  ]
+  ],
+  "not_started": []
  },
- "failed": {},
+ "failed": {
+  "SPY": {
+   "days": [],
+   "months": [
+    "2026-10"
+   ]
+  }
+ },
  "plan": {
   "new": 1,
   "add": 0,
@@ -28,20 +35,23 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 0,
-  "failed": 0
+  "total": 2,
+  "failed": 1
  },
- "consecutive_failures": 0,
+ "consecutive_failures": 1,
  "max_consecutive_failures": 5,
- "last_error": "",
- "consecutive_failures_by_kind": {},
- "consecutive_halted_symbols": 0,
+ "last_error": "SPY: נכשלו: 2026-10",
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 1
+ },
+ "consecutive_halted_symbols": 1,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
   "count": 0,
   "threshold": 800,
   "last": []
  },
- "minutes": 0.0,
+ "minutes": 0.2,
  "max_minutes": 3000.0
 }
