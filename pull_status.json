@@ -5,19 +5,26 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-02T21:26:35-04:00",
- "updated_ny": "2026-10-02T21:26:35-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-02T22:15:44-04:00",
+ "last_success_ny": "2026-10-02T22:15:25-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [],
-  "not_started": [
+  "in_progress": [
    "SPY"
-  ]
+  ],
+  "not_started": []
  },
- "failed": {},
+ "failed": {
+  "SPY": {
+   "days": [],
+   "months": [
+    "2026-10"
+   ]
+  }
+ },
  "plan": {
   "new": 32,
   "add": 0,
@@ -28,13 +35,16 @@
   "rebuild_symbols": 1
  },
  "requests": {
-  "total": 0,
-  "failed": 0
+  "total": 34,
+  "failed": 1
  },
- "consecutive_failures": 0,
+ "consecutive_failures": 1,
  "max_consecutive_failures": 5,
- "last_error": "",
- "consecutive_failures_by_kind": {},
+ "last_error": "SPY 2026-10 (chain_eod): StatusCode.INVALID_ARGUMENT StatusCode.INVALID_ARGUMENT: Cannot fetch current-day data without specifying an expiration",
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 1
+ },
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -42,6 +52,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.0,
+ "minutes": 49.2,
  "max_minutes": 3000.0
 }
