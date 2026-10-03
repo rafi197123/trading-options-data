@@ -5,7 +5,7 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-02T21:26:35-04:00",
- "updated_ny": "2026-10-02T22:15:44-04:00",
+ "updated_ny": "2026-10-02T22:15:50-04:00",
  "last_success_ny": "2026-10-02T22:15:25-04:00",
  "state": "running",
  "exit_code": null,
@@ -40,18 +40,18 @@
  },
  "consecutive_failures": 1,
  "max_consecutive_failures": 5,
- "last_error": "SPY 2026-10 (chain_eod): StatusCode.INVALID_ARGUMENT StatusCode.INVALID_ARGUMENT: Cannot fetch current-day data without specifying an expiration",
+ "last_error": "SPY: נכשלו: 2026-10",
  "consecutive_failures_by_kind": {
   "stock_eod_raw": 0,
   "chain_eod": 1
  },
- "consecutive_halted_symbols": 0,
+ "consecutive_halted_symbols": 1,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
   "count": 0,
   "threshold": 800,
   "last": []
  },
- "minutes": 49.2,
+ "minutes": 49.3,
  "max_minutes": 3000.0
 }
