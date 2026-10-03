@@ -4,54 +4,44 @@
  "command": "python3.12 engines/pull_options.py eod --symbols SPY --rebuild-ok --max-minutes 3000 --options-data write",
  "kind": "eod",
  "provider": "thetadata",
- "started_ny": "2026-10-02T21:26:35-04:00",
- "updated_ny": "2026-10-02T22:15:52-04:00",
- "last_success_ny": "2026-10-02T22:15:25-04:00",
- "state": "stopped",
- "exit_code": 9,
- "exit_reason": "הסתיים עם כשלים: 1 חודשים נשארו חסרים ב-SPY (במצב \"שמירה עד הפקיעה\" הנכס נעצר בחודש שנכשל); להריץ את אותה פקודה",
+ "started_ny": "2026-10-02T22:20:57-04:00",
+ "updated_ny": "2026-10-02T22:20:57-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [
+  "in_progress": [],
+  "not_started": [
    "SPY"
-  ],
-  "not_started": []
+  ]
  },
- "failed": {
-  "SPY": {
-   "days": [],
-   "months": [
-    "2026-10"
-   ]
-  }
- },
+ "failed": {},
  "plan": {
-  "new": 32,
+  "new": 1,
   "add": 0,
   "restore": 0,
-  "rebuild": 1,
-  "sessions": 670,
+  "rebuild": 0,
+  "sessions": 2,
   "symbols": 1,
-  "rebuild_symbols": 1
+  "rebuild_symbols": 0
  },
  "requests": {
-  "total": 34,
-  "failed": 1
+  "total": 0,
+  "failed": 0
  },
- "consecutive_failures": 1,
+ "consecutive_failures": 0,
  "max_consecutive_failures": 5,
- "last_error": "SPY: נכשלו: 2026-10",
- "consecutive_failures_by_kind": {
-  "stock_eod_raw": 0,
-  "chain_eod": 1
- },
- "consecutive_halted_symbols": 1,
+ "last_error": "",
+ "consecutive_failures_by_kind": {},
+ "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
   "count": 0,
   "threshold": 800,
   "last": []
  },
- "minutes": 49.3,
+ "minutes": 0.0,
  "max_minutes": 3000.0
 }
