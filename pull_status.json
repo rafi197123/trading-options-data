@@ -5,7 +5,7 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T12:27:14-04:00",
- "updated_ny": "2026-10-03T12:53:25-04:00",
+ "updated_ny": "2026-10-03T12:53:31-04:00",
  "last_success_ny": "2026-10-03T12:47:27-04:00",
  "state": "running",
  "exit_code": null,
@@ -40,12 +40,12 @@
  },
  "consecutive_failures": 1,
  "max_consecutive_failures": 5,
- "last_error": "GLD 2025-12 (chain_eod): OK העניין הפתוח נכשל בתקלה (StatusCode.UNAVAILABLE: Stream removed (Socket closed)) — הבקשה כולה נחשבת כושלת",
+ "last_error": "GLD: נכשלו: 2025-12",
  "consecutive_failures_by_kind": {
   "stock_eod_raw": 0,
   "chain_eod": 1
  },
- "consecutive_halted_symbols": 0,
+ "consecutive_halted_symbols": 1,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
   "count": 1,
@@ -54,6 +54,6 @@
    "GLD 2025-10-21: 890 חוזים בסינון — מעל האזעקה (800)"
   ]
  },
- "minutes": 26.2,
+ "minutes": 26.3,
  "max_minutes": 3000.0
 }
