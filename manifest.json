@@ -84507,14 +84507,14 @@
   "catalog/DATA_DICTIONARY.md": {
    "bytes": 29543,
    "rows": null,
-   "sha256": "c8a90c58ff25d30c9aeb2c27af7bb6e7ba600641291eaaa95760a36b2a76d917",
-   "updated_ny": "2026-10-02T20:13:06-04:00"
+   "sha256": "3d6dd03f14b670506b821a50a4686d219c2a2aec0cf0cbd1b79138ee9f73eddd",
+   "updated_ny": "2026-10-03T06:39:18-04:00"
   },
   "catalog/open_catalog.py": {
    "bytes": 18186,
    "rows": null,
-   "sha256": "eededb354561b05ef55db69b9659c97345ae0d8dbd712da6cd9446dc7ae0a53d",
-   "updated_ny": "2026-10-02T20:13:06-04:00"
+   "sha256": "414a699466123ad228993e554532de395902b82ca03230f05f82981d01be034b",
+   "updated_ny": "2026-10-03T06:39:18-04:00"
   },
   "catalog/views.sql": {
    "bytes": 12126,
@@ -84535,5 +84535,5 @@
    "updated_ny": "2026-10-02T20:13:06-04:00"
   }
  },
- "updated_ny": "2026-10-03T05:52:57-04:00"
+ "updated_ny": "2026-10-03T06:39:18-04:00"
 }
