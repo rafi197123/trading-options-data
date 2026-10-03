@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T15:59:23-04:00",
- "updated_ny": "2026-10-03T17:23:25-04:00",
+ "updated_ny": "2026-10-03T17:24:26-04:00",
  "last_success_ny": "2026-10-03T17:23:23-04:00",
  "state": "running",
  "exit_code": null,
@@ -77,6 +77,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 84.1,
+ "minutes": 85.2,
  "max_minutes": 3000.0
 }
