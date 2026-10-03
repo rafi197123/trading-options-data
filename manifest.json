@@ -3517,6 +3517,44 @@
    "symbol": "SPY",
    "updated_ny": "2026-10-02T21:26:35-04:00"
   },
+  "eod/SPY/2026-10.parquet": {
+   "bytes": 75696,
+   "complete": false,
+   "contracts_per_day_median": 454.0,
+   "contracts_per_day_median_total": 1035.0,
+   "day_counts": [
+    454
+   ],
+   "day_counts_total": [
+    1035
+   ],
+   "filter_version": 3,
+   "first_session": "2026-10-01",
+   "kind": "eod",
+   "last_session": "2026-10-01",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2026-10",
+   "oi_rows_pct": 97.5,
+   "provider": "thetadata",
+   "raw_rows": 13098,
+   "requests": 2,
+   "retention": "sticky",
+   "rows": 1035,
+   "seconds": 10.37,
+   "session_list": [
+    "2026-10-01"
+   ],
+   "sessions": 1,
+   "sha256": "16c966f250fc1c47d769601b0ccec6596ce9f7aee7f87cbcd1d4c9bcb7c1b842",
+   "spot_sources": {
+    "none": 0,
+    "parity": 0,
+    "stock_eod_raw": 1
+   },
+   "symbol": "SPY",
+   "updated_ny": "2026-10-03T00:06:37-04:00"
+  },
   "eod/TSLA/2026-09.parquet": {
    "bytes": 50395,
    "complete": true,
@@ -3606,11 +3644,11 @@
  "symbols": {
   "SPY": {
    "eod": {
-    "contracts_per_day_median": 334.5,
+    "contracts_per_day_median": 335.0,
     "contracts_per_day_median_total": 912.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
-    "last_session": "2026-09-30",
+    "last_session": "2026-10-01",
     "months": [
      "2023-10",
      "2023-11",
@@ -3647,13 +3685,14 @@
      "2026-06",
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ],
-    "sessions": 752,
+    "sessions": 753,
     "spot_sources": {
      "none": 0,
      "parity": 0,
-     "stock_eod_raw": 752
+     "stock_eod_raw": 753
     }
    },
    "intraday": {
@@ -3737,5 +3776,5 @@
    "updated_ny": "2026-10-02T20:13:06-04:00"
   }
  },
- "updated_ny": "2026-10-02T22:26:16-04:00"
+ "updated_ny": "2026-10-03T00:06:37-04:00"
 }

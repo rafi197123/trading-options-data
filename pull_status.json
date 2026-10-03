@@ -5,19 +5,29 @@
  "kind": "eod",
  "provider": "thetadata",
  "started_ny": "2026-10-03T00:06:37-04:00",
- "updated_ny": "2026-10-03T00:06:39-04:00",
- "last_success_ny": null,
+ "updated_ny": "2026-10-03T00:06:54-04:00",
+ "last_success_ny": "2026-10-03T00:06:53-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [],
-  "not_started": [
+  "in_progress": [
    "SPY"
-  ]
+  ],
+  "not_started": []
  },
- "failed": {},
+ "failed": {
+  "SPY": {
+   "days": [
+    "2026-10-02"
+   ],
+   "months": [],
+   "why": [
+    "1 ימים בסוף הטווח עדיין לא חזרו מהספק (מ-02/10/2026 עד 02/10/2026) — להריץ את אותה פקודה מאוחר יותר"
+   ]
+  }
+ },
  "plan": {
   "new": 1,
   "add": 0,
@@ -28,13 +38,16 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 0,
+  "total": 2,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {},
+ "consecutive_failures_by_kind": {
+  "stock_eod_raw": 0,
+  "chain_eod": 0
+ },
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -42,6 +55,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.0,
+ "minutes": 0.3,
  "max_minutes": 3000.0
 }
