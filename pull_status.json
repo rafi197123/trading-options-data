@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-03T17:50:33-04:00",
- "last_success_ny": "2026-10-03T17:50:32-04:00",
+ "updated_ny": "2026-10-03T18:06:11-04:00",
+ "last_success_ny": "2026-10-03T18:06:09-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -60,12 +60,12 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 641,
-  "failed": 0
+  "total": 946,
+  "failed": 4
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
- "last_error": "",
+ "last_error": "INTC 2026-02-18 OI (open_interest): StatusCode.UNAVAILABLE StatusCode.UNAVAILABLE: failed to connect to all addresses; last error: UNAVAILABLE: ipv4:127.0.0.1:43595: Handshake read failed (recvmsg:Connection reset by peer (104))",
  "consecutive_failures_by_kind": {
   "chain_snapshot": 0,
   "open_interest": 0
@@ -77,6 +77,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 21.3,
+ "minutes": 36.9,
  "max_minutes": 3000.0
 }
