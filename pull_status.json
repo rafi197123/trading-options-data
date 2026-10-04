@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T06:14:07-04:00",
- "last_success_ny": "2026-10-04T06:14:06-04:00",
+ "updated_ny": "2026-10-04T06:19:16-04:00",
+ "last_success_ny": "2026-10-04T06:19:14-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 23249,
+  "total": 23554,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -80,10 +80,15 @@
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 0,
+  "count": 4,
   "threshold": 800,
-  "last": []
+  "last": [
+   "USO 2026-03-09 15:30: 810 חוזים בסינון — מעל האזעקה",
+   "USO 2026-03-16 10:00: 816 חוזים בסינון — מעל האזעקה",
+   "USO 2026-03-16 11:30: 802 חוזים בסינון — מעל האזעקה",
+   "USO 2026-03-16 15:30: 802 חוזים בסינון — מעל האזעקה"
+  ]
  },
- "minutes": 764.8,
+ "minutes": 770.0,
  "max_minutes": 3000.0
 }
