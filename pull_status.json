@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:54-04:00",
+ "updated_ny": "2026-10-04T14:31:56-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -39,11 +39,11 @@
    "XLE",
    "IBKR",
    "SPY",
-   "QQQ"
+   "QQQ",
+   "SMH"
   ],
   "in_progress": [],
   "not_started": [
-   "SMH",
    "IWM",
    "CIBR"
   ]
@@ -76,6 +76,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 1.5,
+ "minutes": 1.6,
  "max_minutes": 3000.0
 }
