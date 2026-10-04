@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T08:42:47-04:00",
- "last_success_ny": "2026-10-04T08:42:46-04:00",
+ "updated_ny": "2026-10-04T08:47:23-04:00",
+ "last_success_ny": "2026-10-04T08:47:21-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 30144,
+  "total": 30464,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -105,6 +105,6 @@
    "USO 2026-05-22 15:30: 847 חוזים בסינון — מעל האזעקה"
   ]
  },
- "minutes": 913.5,
+ "minutes": 918.1,
  "max_minutes": 3000.0
 }
