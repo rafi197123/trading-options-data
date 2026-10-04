@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:32-04:00",
+ "updated_ny": "2026-10-04T14:31:34-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -29,11 +29,11 @@
    "TSLA",
    "COIN",
    "HOOD",
-   "ETHA"
+   "ETHA",
+   "HIMS"
   ],
   "in_progress": [],
   "not_started": [
-   "HIMS",
    "VEEV",
    "USO",
    "TLT",
