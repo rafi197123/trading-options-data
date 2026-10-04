@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:03-04:00",
+ "updated_ny": "2026-10-04T14:31:06-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -16,11 +16,11 @@
    "AVGO",
    "INTC",
    "MRVL",
-   "MSFT"
+   "MSFT",
+   "CRM"
   ],
   "in_progress": [],
   "not_started": [
-   "CRM",
    "NOW",
    "ORCL",
    "PLTR",
