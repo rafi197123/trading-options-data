@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:42-04:00",
+ "updated_ny": "2026-10-04T14:31:45-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -34,11 +34,11 @@
    "VEEV",
    "USO",
    "TLT",
-   "IEF"
+   "IEF",
+   "IBIT"
   ],
   "in_progress": [],
   "not_started": [
-   "IBIT",
    "XLE",
    "IBKR",
    "SPY",
@@ -76,6 +76,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 1.3,
+ "minutes": 1.4,
  "max_minutes": 3000.0
 }
