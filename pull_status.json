@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T04:43:25-04:00",
- "last_success_ny": "2026-10-04T04:43:23-04:00",
+ "updated_ny": "2026-10-04T04:43:53-04:00",
+ "last_success_ny": "2026-10-04T04:43:52-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -25,11 +25,11 @@
    "GOOG",
    "META",
    "AMZN",
-   "TSLA"
+   "TSLA",
+   "COIN"
   ],
   "in_progress": [
-   "INTC",
-   "COIN"
+   "INTC"
   ],
   "not_started": [
    "HOOD",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 17904,
+  "total": 17914,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -84,6 +84,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 674.1,
+ "minutes": 674.6,
  "max_minutes": 3000.0
 }
