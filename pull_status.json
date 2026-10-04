@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T04:43:53-04:00",
- "last_success_ny": "2026-10-04T04:43:52-04:00",
+ "updated_ny": "2026-10-04T04:51:01-04:00",
+ "last_success_ny": "2026-10-04T04:51:00-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -29,10 +29,10 @@
    "COIN"
   ],
   "in_progress": [
-   "INTC"
+   "INTC",
+   "HOOD"
   ],
   "not_started": [
-   "HOOD",
    "ETHA",
    "HIMS",
    "VEEV",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 17914,
+  "total": 18225,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -84,6 +84,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 674.6,
+ "minutes": 681.7,
  "max_minutes": 3000.0
 }
