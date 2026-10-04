@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T13:17:14-04:00",
- "last_success_ny": "2026-10-04T13:17:12-04:00",
+ "updated_ny": "2026-10-04T13:27:56-04:00",
+ "last_success_ny": "2026-10-04T13:27:54-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -42,10 +42,10 @@
    "SMH"
   ],
   "in_progress": [
-   "INTC"
+   "INTC",
+   "IWM"
   ],
   "not_started": [
-   "IWM",
    "CIBR"
   ]
  },
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 34242,
+  "total": 34553,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -105,6 +105,6 @@
    "SMH 2026-07-24 15:30: 815 חוזים בסינון — מעל האזעקה"
   ]
  },
- "minutes": 1188.0,
+ "minutes": 1198.6,
  "max_minutes": 3000.0
 }
