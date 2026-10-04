@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T06:10:22-04:00",
- "last_success_ny": "2026-10-04T06:10:21-04:00",
+ "updated_ny": "2026-10-04T06:14:07-04:00",
+ "last_success_ny": "2026-10-04T06:14:06-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -33,10 +33,10 @@
    "VEEV"
   ],
   "in_progress": [
-   "INTC"
+   "INTC",
+   "USO"
   ],
   "not_started": [
-   "USO",
    "TLT",
    "IEF",
    "IBIT",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 22938,
+  "total": 23249,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -84,6 +84,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 761.1,
+ "minutes": 764.8,
  "max_minutes": 3000.0
 }
