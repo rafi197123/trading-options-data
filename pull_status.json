@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:28-04:00",
+ "updated_ny": "2026-10-04T14:31:30-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -27,11 +27,11 @@
    "META",
    "AMZN",
    "TSLA",
-   "COIN"
+   "COIN",
+   "HOOD"
   ],
   "in_progress": [],
   "not_started": [
-   "HOOD",
    "ETHA",
    "HIMS",
    "VEEV",
