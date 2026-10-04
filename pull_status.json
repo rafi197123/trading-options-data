@@ -5,18 +5,18 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:30:46-04:00",
+ "updated_ny": "2026-10-04T14:30:49-04:00",
  "last_success_ny": null,
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
   "done": [
-   "NVDA"
+   "NVDA",
+   "AVGO"
   ],
   "in_progress": [],
   "not_started": [
-   "AVGO",
    "INTC",
    "MRVL",
    "MSFT",
