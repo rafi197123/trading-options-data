@@ -213628,6 +213628,69 @@
    "symbol": "GOOG",
    "updated_ny": "2026-10-03T17:29:17-04:00"
   },
+  "intraday/GOOG/2026-10.parquet": {
+   "bytes": 173727,
+   "complete": true,
+   "contracts_per_day_median": 267.0,
+   "contracts_per_day_median_total": 659.0,
+   "day_counts": [
+    282,
+    274,
+    272,
+    270,
+    264,
+    262,
+    261,
+    252
+   ],
+   "day_counts_total": [
+    662,
+    660,
+    659,
+    659,
+    660,
+    659,
+    659,
+    659
+   ],
+   "eod_sig": {
+    "2026-10-01": "fb8583ded453",
+    "2026-10-02": "f27d78294279"
+   },
+   "filter_version": 3,
+   "first_session": "2026-10-01",
+   "kind": "intraday",
+   "last_session": "2026-10-02",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2026-10",
+   "oi_rows_pct": 98.0,
+   "points": 4,
+   "provider": "thetadata",
+   "retention": "sticky",
+   "rows": 5277,
+   "session_list": [
+    "2026-10-01",
+    "2026-10-02"
+   ],
+   "session_points": {
+    "2026-10-01": 4,
+    "2026-10-02": 4
+   },
+   "sessions": 2,
+   "sessions_done": [
+    "2026-10-01",
+    "2026-10-02"
+   ],
+   "sha256": "481ea447035ca9e41af5249491a2fb385ca1b8cd94732a13ae4985d172355962",
+   "spot_sources": {
+    "candles_30m": 5277,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "GOOG",
+   "updated_ny": "2026-10-03T17:29:17-04:00"
+  },
   "intraday/INTC/2025-10.parquet": {
    "bytes": 1732450,
    "complete": false,
@@ -239904,7 +239967,7 @@
     "contracts_per_day_median_total": 737.0,
     "first_session": "2025-10-02",
     "known_gaps": {},
-    "last_session": "2026-09-30",
+    "last_session": "2026-10-02",
     "months": [
      "2025-10",
      "2025-11",
@@ -239917,11 +239980,12 @@
      "2026-06",
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ],
-    "sessions": 250,
+    "sessions": 252,
     "spot_sources": {
-     "candles_30m": 741532,
+     "candles_30m": 746809,
      "none": 0,
      "parity": 0
     }
