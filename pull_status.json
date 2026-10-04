@@ -4,16 +4,19 @@
  "command": "python3.12 engines/pull_options.py intraday --group 1 --from 2025-10-02 --to 2026-10-02 --rebuild-ok --max-minutes 3000 --options-data write",
  "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T14:26:06-04:00",
- "last_success_ny": "2026-10-04T14:26:01-04:00",
- "state": "stopped",
- "exit_code": 9,
- "exit_reason": "הסתיים עם כשלים: 1 ימים נשארו חסרים ב-INTC; להריץ את אותה פקודה",
+ "started_ny": "2026-10-04T14:30:28-04:00",
+ "updated_ny": "2026-10-04T14:30:44-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
+  "done": [],
+  "in_progress": [],
+  "not_started": [
    "NVDA",
    "AVGO",
+   "INTC",
    "MRVL",
    "MSFT",
    "CRM",
@@ -42,68 +45,33 @@
    "SMH",
    "IWM",
    "CIBR"
-  ],
-  "in_progress": [
-   "INTC"
-  ],
-  "not_started": []
+  ]
  },
- "failed": {
-  "INTC": {
-   "days": [
-    "2026-02-18"
-   ],
-   "months": []
-  }
- },
+ "failed": {},
  "plan": {
-  "new": 379,
-  "add": 0,
+  "new": 0,
+  "add": 1,
   "restore": 0,
-  "rebuild": 2,
-  "sessions": 7374,
-  "symbols": 30,
-  "rebuild_symbols": 2
+  "rebuild": 0,
+  "sessions": 1,
+  "symbols": 1,
+  "rebuild_symbols": 0
  },
  "requests": {
-  "total": 36754,
-  "failed": 4
+  "total": 0,
+  "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
- "last_error": "INTC: נכשלו: 2026-02-18",
- "consecutive_failures_by_kind": {
-  "chain_snapshot": 0,
-  "open_interest": 0
- },
+ "last_error": "",
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
-  "count": 117,
+  "count": 0,
   "threshold": 800,
-  "last": [
-   "SMH 2026-07-13 15:30: 833 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-14 10:00: 822 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-14 11:30: 818 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-14 13:30: 814 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-14 15:30: 805 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-20 10:00: 835 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-20 11:30: 834 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-20 13:30: 821 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-20 15:30: 818 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-21 10:00: 811 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-21 11:30: 807 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-21 13:30: 802 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-21 15:30: 808 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-23 10:00: 805 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-23 11:30: 806 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-23 15:30: 802 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-24 10:00: 829 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-24 11:30: 818 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-24 13:30: 805 חוזים בסינון — מעל האזעקה",
-   "SMH 2026-07-24 15:30: 815 חוזים בסינון — מעל האזעקה"
-  ]
+  "last": []
  },
- "minutes": 1256.8,
+ "minutes": 0.4,
  "max_minutes": 3000.0
 }
