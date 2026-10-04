@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T05:35:27-04:00",
- "last_success_ny": "2026-10-04T05:35:26-04:00",
+ "updated_ny": "2026-10-04T05:39:47-04:00",
+ "last_success_ny": "2026-10-04T05:39:46-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -31,10 +31,10 @@
    "ETHA"
   ],
   "in_progress": [
-   "INTC"
+   "INTC",
+   "HIMS"
   ],
   "not_started": [
-   "HIMS",
    "VEEV",
    "USO",
    "TLT",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 20426,
+  "total": 20737,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -84,6 +84,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 726.2,
+ "minutes": 730.5,
  "max_minutes": 3000.0
 }
