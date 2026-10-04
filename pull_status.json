@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:12-04:00",
+ "updated_ny": "2026-10-04T14:31:15-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -20,11 +20,11 @@
    "CRM",
    "NOW",
    "ORCL",
-   "PLTR"
+   "PLTR",
+   "CRWD"
   ],
   "in_progress": [],
   "not_started": [
-   "CRWD",
    "CHKP",
    "GOOG",
    "META",
@@ -76,6 +76,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.8,
+ "minutes": 0.9,
  "max_minutes": 3000.0
 }
