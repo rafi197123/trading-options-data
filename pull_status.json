@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:19-04:00",
+ "updated_ny": "2026-10-04T14:31:21-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -23,11 +23,11 @@
    "PLTR",
    "CRWD",
    "CHKP",
-   "GOOG"
+   "GOOG",
+   "META"
   ],
   "in_progress": [],
   "not_started": [
-   "META",
    "AMZN",
    "TSLA",
    "COIN",
