@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-04T07:17:49-04:00",
- "last_success_ny": "2026-10-04T07:17:47-04:00",
+ "updated_ny": "2026-10-04T07:18:13-04:00",
+ "last_success_ny": "2026-10-04T07:18:12-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -31,11 +31,11 @@
    "ETHA",
    "HIMS",
    "VEEV",
-   "USO"
+   "USO",
+   "TLT"
   ],
   "in_progress": [
-   "INTC",
-   "TLT"
+   "INTC"
   ],
   "not_started": [
    "IEF",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 25440,
+  "total": 25450,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -105,6 +105,6 @@
    "USO 2026-05-22 15:30: 847 חוזים בסינון — מעל האזעקה"
   ]
  },
- "minutes": 828.5,
+ "minutes": 828.9,
  "max_minutes": 3000.0
 }

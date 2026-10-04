@@ -263217,6 +263217,69 @@
    "symbol": "TLT",
    "updated_ny": "2026-10-03T17:29:17-04:00"
   },
+  "intraday/TLT/2026-10.parquet": {
+   "bytes": 151633,
+   "complete": true,
+   "contracts_per_day_median": 163.5,
+   "contracts_per_day_median_total": 568.5,
+   "day_counts": [
+    173,
+    170,
+    168,
+    164,
+    158,
+    163,
+    161,
+    160
+   ],
+   "day_counts_total": [
+    584,
+    572,
+    563,
+    562,
+    569,
+    568,
+    570,
+    568
+   ],
+   "eod_sig": {
+    "2026-10-01": "dcf2f6baa30f",
+    "2026-10-02": "65d90efd9b23"
+   },
+   "filter_version": 3,
+   "first_session": "2026-10-01",
+   "kind": "intraday",
+   "last_session": "2026-10-02",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2026-10",
+   "oi_rows_pct": 97.0,
+   "points": 4,
+   "provider": "thetadata",
+   "retention": "sticky",
+   "rows": 4556,
+   "session_list": [
+    "2026-10-01",
+    "2026-10-02"
+   ],
+   "session_points": {
+    "2026-10-01": 4,
+    "2026-10-02": 4
+   },
+   "sessions": 2,
+   "sessions_done": [
+    "2026-10-01",
+    "2026-10-02"
+   ],
+   "sha256": "274b442db8e3c6dfb5a430050f959299d0952453114d949f42549cc859c91620",
+   "spot_sources": {
+    "candles_30m": 4556,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "TLT",
+   "updated_ny": "2026-10-03T17:29:17-04:00"
+  },
   "intraday/TSLA/2025-10.parquet": {
    "bytes": 3333367,
    "complete": false,
@@ -277806,11 +277869,11 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 156.0,
+    "contracts_per_day_median": 156.5,
     "contracts_per_day_median_total": 524.0,
     "first_session": "2025-10-02",
     "known_gaps": {},
-    "last_session": "2026-09-30",
+    "last_session": "2026-10-02",
     "months": [
      "2025-10",
      "2025-11",
@@ -277823,11 +277886,12 @@
      "2026-06",
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ],
-    "sessions": 250,
+    "sessions": 252,
     "spot_sources": {
-     "candles_30m": 522906,
+     "candles_30m": 527462,
      "none": 0,
      "parity": 0
     }
