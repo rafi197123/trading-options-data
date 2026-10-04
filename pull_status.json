@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:45-04:00",
+ "updated_ny": "2026-10-04T14:31:47-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -35,11 +35,11 @@
    "USO",
    "TLT",
    "IEF",
-   "IBIT"
+   "IBIT",
+   "XLE"
   ],
   "in_progress": [],
   "not_started": [
-   "XLE",
    "IBKR",
    "SPY",
    "QQQ",
