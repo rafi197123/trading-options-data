@@ -5,8 +5,8 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-03T17:29:37-04:00",
- "updated_ny": "2026-10-03T21:36:17-04:00",
- "last_success_ny": "2026-10-03T21:36:16-04:00",
+ "updated_ny": "2026-10-03T21:36:43-04:00",
+ "last_success_ny": "2026-10-03T21:36:42-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
@@ -17,11 +17,11 @@
    "MRVL",
    "MSFT",
    "CRM",
-   "NOW"
+   "NOW",
+   "ORCL"
   ],
   "in_progress": [
-   "INTC",
-   "ORCL"
+   "INTC"
   ],
   "not_started": [
    "PLTR",
@@ -67,7 +67,7 @@
   "rebuild_symbols": 2
  },
  "requests": {
-  "total": 7856,
+  "total": 7866,
   "failed": 4
  },
  "consecutive_failures": 0,
@@ -84,6 +84,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 247.0,
+ "minutes": 247.4,
  "max_minutes": 3000.0
 }
