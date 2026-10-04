@@ -5,7 +5,7 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:31:06-04:00",
+ "updated_ny": "2026-10-04T14:31:08-04:00",
  "last_success_ny": "2026-10-04T14:30:56-04:00",
  "state": "running",
  "exit_code": null,
@@ -17,11 +17,11 @@
    "INTC",
    "MRVL",
    "MSFT",
-   "CRM"
+   "CRM",
+   "NOW"
   ],
   "in_progress": [],
   "not_started": [
-   "NOW",
    "ORCL",
    "PLTR",
    "CRWD",
@@ -76,6 +76,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.7,
+ "minutes": 0.8,
  "max_minutes": 3000.0
 }
