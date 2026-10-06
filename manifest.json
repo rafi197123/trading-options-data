@@ -220093,15 +220093,15 @@
    "updated_ny": "2026-10-06T17:03:24-04:00"
   },
   "intraday/CRWD/2026-07.parquet": {
-   "bytes": 3208946,
+   "bytes": 3240723,
    "complete": true,
-   "contracts_per_day_median": 479.0,
+   "contracts_per_day_median": 482.5,
    "contracts_per_day_median_total": 1393.0,
    "day_counts": [
-    255,
-    260,
-    257,
-    253,
+    549,
+    543,
+    539,
+    539,
     554,
     559,
     540,
@@ -220188,10 +220188,10 @@
     440
    ],
    "day_counts_total": [
-    1693,
-    1696,
-    1694,
-    1686,
+    1604,
+    1602,
+    1594,
+    1592,
     1618,
     1611,
     1600,
@@ -220312,7 +220312,7 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 123004,
+   "rows": 122627,
    "session_list": [
     "2026-07-01",
     "2026-07-02",
@@ -220386,14 +220386,24 @@
     "2026-07-30",
     "2026-07-31"
    ],
-   "sha256": "93808a445be4a164b1d616217f0d753a7b46412b8891ea641b8e0b1a42b886e9",
+   "sha256": "3d1259838d0f7d5dfec43380931e5846194f303453f4f0448191fc3e7a6fad5b",
+   "spot_basis": {
+    "days": {
+     "2026-07-01": 4.0
+    },
+    "factors": {
+     "4": 1
+    },
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 123004,
+    "candles_30m": 122627,
     "none": 0,
     "parity": 0
    },
    "symbol": "CRWD",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-06T17:03:24-04:00"
   },
   "intraday/CRWD/2026-08.parquet": {
    "bytes": 2831095,
@@ -307086,7 +307096,7 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 376.0,
+    "contracts_per_day_median": 377.0,
     "contracts_per_day_median_total": 1061.0,
     "first_session": "2025-10-02",
     "known_gaps": {},
@@ -307108,7 +307118,7 @@
     ],
     "sessions": 252,
     "spot_sources": {
-     "candles_30m": 1138413,
+     "candles_30m": 1138036,
      "none": 0,
      "parity": 0
     }
