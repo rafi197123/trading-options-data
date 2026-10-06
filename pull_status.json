@@ -1,73 +1,40 @@
 {
  "schema": "pull-status/1",
- "tool_version": "1.7 (03/10/2026)",
- "command": "python3.12 engines/pull_options.py intraday --group 1 --from 2025-10-02 --to 2026-10-02 --rebuild-ok --max-minutes 3000 --options-data write",
+ "tool_version": "1.8 (06/10/2026)",
+ "command": "python3.12 engines/pull_options.py intraday --symbols XLE --from 2025-10-02 --to 2026-07-31 --rebuild-ok --max-minutes 3000 --options-data write",
  "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-04T14:30:28-04:00",
- "updated_ny": "2026-10-04T14:32:03-04:00",
- "last_success_ny": "2026-10-04T14:30:56-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-06T16:43:15-04:00",
+ "updated_ny": "2026-10-06T16:43:16-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "NVDA",
-   "AVGO",
-   "INTC",
-   "MRVL",
-   "MSFT",
-   "CRM",
-   "NOW",
-   "ORCL",
-   "PLTR",
-   "CRWD",
-   "CHKP",
-   "GOOG",
-   "META",
-   "AMZN",
-   "TSLA",
-   "COIN",
-   "HOOD",
-   "ETHA",
-   "HIMS",
-   "VEEV",
-   "USO",
-   "TLT",
-   "IEF",
-   "IBIT",
-   "XLE",
-   "IBKR",
-   "SPY",
-   "QQQ",
-   "SMH",
-   "IWM",
-   "CIBR"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "XLE"
+  ]
  },
  "failed": {},
  "plan": {
   "new": 0,
-  "add": 1,
+  "add": 0,
   "restore": 0,
-  "rebuild": 0,
-  "sessions": 1,
+  "rebuild": 3,
+  "sessions": 63,
   "symbols": 1,
-  "rebuild_symbols": 0
+  "rebuild_symbols": 1
  },
  "requests": {
-  "total": 5,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "chain_snapshot": 0,
-  "open_interest": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -75,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 1.7,
+ "minutes": 0.1,
  "max_minutes": 3000.0
 }

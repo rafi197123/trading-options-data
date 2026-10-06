@@ -310669,22 +310669,22 @@
  },
  "tables": {
   "catalog/DATA_DICTIONARY.md": {
-   "bytes": 29543,
+   "bytes": 31029,
    "rows": null,
-   "sha256": "3d6dd03f14b670506b821a50a4686d219c2a2aec0cf0cbd1b79138ee9f73eddd",
-   "updated_ny": "2026-10-03T06:39:18-04:00"
+   "sha256": "a64375a0b95ddc626931f887b7915de35bde00711c6a3da1c8ba4f07e36f3cd5",
+   "updated_ny": "2026-10-06T16:43:09-04:00"
   },
   "catalog/open_catalog.py": {
    "bytes": 18186,
    "rows": null,
-   "sha256": "414a699466123ad228993e554532de395902b82ca03230f05f82981d01be034b",
-   "updated_ny": "2026-10-03T06:39:18-04:00"
+   "sha256": "7f39aa8027c8a6846aa2c0788d35d5fc54086f5c2fef73a94e79a4d121ae6485",
+   "updated_ny": "2026-10-06T16:43:09-04:00"
   },
   "catalog/views.sql": {
-   "bytes": 12126,
+   "bytes": 12286,
    "rows": null,
-   "sha256": "d4bce1d5afdad728dd0a4732e57c42e8e73c3a00fc8310b35d69b6d885f7176b",
-   "updated_ny": "2026-10-02T20:13:06-04:00"
+   "sha256": "e40a91cd2ff6ef61a953b01e78800449a190224a1bb9ecdf7faa1af33a481b1d",
+   "updated_ny": "2026-10-06T16:43:09-04:00"
   },
   "contracts_watch.csv": {
    "bytes": 63,
@@ -310699,5 +310699,5 @@
    "updated_ny": "2026-10-04T14:33:22-04:00"
   }
  },
- "updated_ny": "2026-10-04T14:33:22-04:00"
+ "updated_ny": "2026-10-06T16:43:09-04:00"
 }

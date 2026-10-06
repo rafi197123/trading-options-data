@@ -20,7 +20,7 @@ CREATE OR REPLACE VIEW candles_daily AS SELECT regexp_extract(filename, '([A-Za-
 CREATE OR REPLACE VIEW candles_daily_raw AS SELECT regexp_extract(filename, '([A-Za-z0-9._-]+)\.(csv|parquet)$', 1) AS symbol, time_ny::DATE AS session, open, high, low, close, volume, adj_factor FROM read_csv('<MARKET_DIR>/daily_raw/*.csv', header=true, filename=true, types={'time_ny': 'VARCHAR', 'open': 'DOUBLE', 'high': 'DOUBLE', 'low': 'DOUBLE', 'close': 'DOUBLE', 'volume': 'DOUBLE', 'adj_factor': 'DOUBLE'});
 -- אין קבצים: CREATE OR REPLACE VIEW candles_daily_raw AS SELECT NULL::VARCHAR AS "symbol", NULL::DATE AS "session", NULL::DOUBLE AS "open", NULL::DOUBLE AS "high", NULL::DOUBLE AS "low", NULL::DOUBLE AS "close", NULL::DOUBLE AS "volume", NULL::DOUBLE AS "adj_factor" WHERE 1=0;
 
--- candles_30m: נרות 30 דקות (גולמיים לדיבידנד, מותאמים לפיצול) — מאגר נתוני השוק, `intraday30/<סמל>.csv`
+-- candles_30m: נרות 30 דקות (גולמיים לדיבידנד, מותאמים לפיצול) — מאגר נתוני השוק, `intraday30/<סמל>.csv`; ב-`spot_raw` של התוך-יומי סגירת הנר **מוחזרת לבסיס הגולמי** מול הסגירה הגולמית של אותו יום (נ-1)
 CREATE OR REPLACE VIEW candles_30m AS SELECT regexp_extract(filename, '([A-Za-z0-9._-]+)\.(csv|parquet)$', 1) AS symbol, time_ny::TIMESTAMPTZ AS time_ny, open, high, low, close, volume FROM read_csv('<MARKET_DIR>/intraday30/*.csv', header=true, filename=true, types={'time_ny': 'VARCHAR', 'open': 'DOUBLE', 'high': 'DOUBLE', 'low': 'DOUBLE', 'close': 'DOUBLE', 'volume': 'DOUBLE'});
 -- אין קבצים: CREATE OR REPLACE VIEW candles_30m AS SELECT NULL::VARCHAR AS "symbol", NULL::TIMESTAMP WITH TIME ZONE AS "time_ny", NULL::DOUBLE AS "open", NULL::DOUBLE AS "high", NULL::DOUBLE AS "low", NULL::DOUBLE AS "close", NULL::DOUBLE AS "volume" WHERE 1=0;
 

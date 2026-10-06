@@ -1,7 +1,7 @@
 """
 open_catalog.py — הקטלוג של מאגר האופציות: בסיס נתונים אחד (DuckDB) מעל שני המאגרים — trading-options-data ו-trading-market-data.
 
-נוצר אוטומטית על ידי engines/pull_options.py (מאגר הקוד trading-engines; כלי המשיכה v1.7 (03/10/2026)) — **לא לערוך ידנית**. אותן הגדרות של
+נוצר אוטומטית על ידי engines/pull_options.py (מאגר הקוד trading-engines; כלי המשיכה v1.8 (06/10/2026)) — **לא לערוך ידנית**. אותן הגדרות של
 views.sql ושל DATA_DICTIONARY.md (מקור אחד). עצמאי: תלוי רק ב-duckdb (ו-pytz — כדי להחזיר לפייתון עמודות זמן עם אזור זמן), בלי שום
 ייבוא ממאגר הקוד.
 
