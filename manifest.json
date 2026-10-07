@@ -299456,11 +299456,15 @@
    "updated_ny": "2026-10-07T15:40:45-04:00"
   },
   "intraday/ORCL/2025-10.parquet": {
-   "bytes": 1982956,
-   "complete": false,
-   "contracts_per_day_median": 262.0,
-   "contracts_per_day_median_total": 808.0,
+   "bytes": 2067819,
+   "complete": true,
+   "contracts_per_day_median": 260.5,
+   "contracts_per_day_median_total": 809.5,
    "day_counts": [
+    234,
+    248,
+    245,
+    246,
     268,
     268,
     268,
@@ -299551,6 +299555,10 @@
     250
    ],
    "day_counts_total": [
+    858,
+    854,
+    854,
+    854,
     883,
     883,
     883,
@@ -299641,6 +299649,7 @@
     824
    ],
    "eod_sig": {
+    "2025-10-01": "0c25cf76d2d9",
     "2025-10-02": "a4abd8b6f74e",
     "2025-10-03": "a4abd8b6f74e",
     "2025-10-06": "64aa35bf895e",
@@ -299665,7 +299674,7 @@
     "2025-10-31": "92570864ce50"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -299675,8 +299684,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 71400,
+   "rows": 74820,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -299701,6 +299711,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -299724,8 +299735,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -299749,14 +299761,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "0cc5103ed273821bbcfa4263bf825fe822c7aaa5ccf85b5ce08e2bc41fa52b67",
+   "sha256": "a2099694535d62bc61153f4705fdaa1e101b473b6a99ea8984c9accbbd5ac286",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 71400,
+    "candles_30m": 74820,
     "none": 0,
     "parity": 0
    },
    "symbol": "ORCL",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T15:40:45-04:00"
   },
   "intraday/ORCL/2025-11.parquet": {
    "bytes": 1723107,
@@ -338370,9 +338388,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 1398358,
+     "candles_30m": 1401778,
      "none": 0,
      "parity": 0
     }
