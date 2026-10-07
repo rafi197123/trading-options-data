@@ -263542,6 +263542,93 @@
    "symbol": "MSFT",
    "updated_ny": "2026-10-03T17:29:17-04:00"
   },
+  "intraday/NOW/2024-10.parquet": {
+   "bytes": 358733,
+   "complete": false,
+   "contracts_per_day_median": 437.5,
+   "contracts_per_day_median_total": 1013.5,
+   "day_counts": [
+    407,
+    406,
+    405,
+    400,
+    438,
+    436,
+    437,
+    443,
+    454,
+    447,
+    443,
+    443
+   ],
+   "day_counts_total": [
+    974,
+    974,
+    974,
+    974,
+    1014,
+    1013,
+    1013,
+    1014,
+    1048,
+    1047,
+    1046,
+    1048
+   ],
+   "eod_sig": {
+    "2024-10-02": "9dd010934509",
+    "2024-10-03": "b3128b76abc8",
+    "2024-10-04": "ec05295900eb"
+   },
+   "filter_version": 3,
+   "first_session": "2024-10-02",
+   "kind": "intraday",
+   "last_session": "2024-10-04",
+   "lib_version": "1.0.11",
+   "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
+   "month": "2024-10",
+   "oi_rows_pct": 97.9,
+   "points": 4,
+   "provider": "thetadata",
+   "retention": "sticky",
+   "rows": 12139,
+   "session_list": [
+    "2024-10-02",
+    "2024-10-03",
+    "2024-10-04"
+   ],
+   "session_points": {
+    "2024-10-02": 4,
+    "2024-10-03": 4,
+    "2024-10-04": 4
+   },
+   "sessions": 3,
+   "sessions_done": [
+    "2024-10-02",
+    "2024-10-03",
+    "2024-10-04"
+   ],
+   "sha256": "c7cf1341c8eaea2ae096067ccfc96d5a7b655d4a38ad468c727f76e2ff10d4c8",
+   "spot_basis": {
+    "days": {
+     "2024-10-02": 5.0,
+     "2024-10-03": 5.0,
+     "2024-10-04": 5.0
+    },
+    "factors": {
+     "5": 3
+    },
+    "unverified": {},
+    "version": 1
+   },
+   "spot_sources": {
+    "candles_30m": 12139,
+    "none": 0,
+    "parity": 0
+   },
+   "symbol": "NOW",
+   "updated_ny": "2026-10-07T11:42:17-04:00"
+  },
   "intraday/NOW/2025-10.parquet": {
    "bytes": 2574930,
    "complete": false,
@@ -309330,12 +309417,13 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 365.0,
-    "contracts_per_day_median_total": 1123.0,
-    "first_session": "2025-10-02",
+    "contracts_per_day_median": 367.0,
+    "contracts_per_day_median_total": 1122.0,
+    "first_session": "2024-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
     "months": [
+     "2024-10",
      "2025-10",
      "2025-11",
      "2025-12",
@@ -309350,9 +309438,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 252,
+    "sessions": 255,
     "spot_sources": {
-     "candles_30m": 1130095,
+     "candles_30m": 1142234,
      "none": 0,
      "parity": 0
     }
@@ -311129,5 +311217,5 @@
    "updated_ny": "2026-10-04T14:33:22-04:00"
   }
  },
- "updated_ny": "2026-10-06T17:03:24-04:00"
+ "updated_ny": "2026-10-07T11:42:17-04:00"
 }
