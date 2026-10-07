@@ -203071,11 +203071,15 @@
    "updated_ny": "2026-10-07T13:02:08-04:00"
   },
   "intraday/AVGO/2025-10.parquet": {
-   "bytes": 2272493,
-   "complete": false,
-   "contracts_per_day_median": 286.5,
+   "bytes": 2374328,
+   "complete": true,
+   "contracts_per_day_median": 285.0,
    "contracts_per_day_median_total": 926.0,
    "day_counts": [
+    231,
+    235,
+    234,
+    234,
     264,
     271,
     266,
@@ -203166,6 +203170,10 @@
     336
    ],
    "day_counts_total": [
+    912,
+    912,
+    913,
+    912,
     942,
     945,
     946,
@@ -203256,6 +203264,7 @@
     1100
    ],
    "eod_sig": {
+    "2025-10-01": "41267c9e7ea5",
     "2025-10-02": "c7b332c16940",
     "2025-10-03": "c0dcc4677952",
     "2025-10-06": "672ceddcb003",
@@ -203280,18 +203289,19 @@
     "2025-10-31": "44ffb510c529"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2025-10",
-   "oi_rows_pct": 98.6,
+   "oi_rows_pct": 98.7,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 83115,
+   "rows": 86764,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -203316,6 +203326,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -203339,8 +203350,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -203364,14 +203376,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "b7c369583d2691751b6c58be8afa6a95587d16976082a0b2ebea9e66fa5372eb",
+   "sha256": "86e8036b16af569f7f52683353ad51efb81aafa95257602be8737b3f18e07a60",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 83115,
+    "candles_30m": 86764,
     "none": 0,
     "parity": 0
    },
    "symbol": "AVGO",
-   "updated_ny": "2026-10-03T15:59:17-04:00"
+   "updated_ny": "2026-10-07T13:02:08-04:00"
   },
   "intraday/AVGO/2025-11.parquet": {
    "bytes": 2053215,
@@ -313813,7 +313831,7 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 271.0,
+    "contracts_per_day_median": 270.0,
     "contracts_per_day_median_total": 878.0,
     "first_session": "2024-10-02",
     "known_gaps": {},
@@ -313845,9 +313863,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 1750785,
+     "candles_30m": 1754434,
      "none": 0,
      "parity": 0
     }
