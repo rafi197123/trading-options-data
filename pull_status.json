@@ -4,40 +4,37 @@
  "command": "python3.12 engines/pull_options.py intraday --symbols CRWD --from 2024-10-02 --to 2025-10-01 --max-minutes 3000 --options-data write",
  "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-07T16:35:29-04:00",
- "updated_ny": "2026-10-07T16:53:13-04:00",
- "last_success_ny": "2026-10-07T16:53:12-04:00",
+ "started_ny": "2026-10-07T17:30:35-04:00",
+ "updated_ny": "2026-10-07T17:30:38-04:00",
+ "last_success_ny": null,
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [
+  "in_progress": [],
+  "not_started": [
    "CRWD"
-  ],
-  "not_started": []
+  ]
  },
  "failed": {},
  "plan": {
-  "new": 12,
+  "new": 4,
   "add": 1,
   "restore": 0,
   "rebuild": 0,
-  "sessions": 250,
+  "sessions": 85,
   "symbols": 1,
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 611,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "chain_snapshot": 0,
-  "open_interest": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -45,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 17.8,
+ "minutes": 0.2,
  "max_minutes": 3000.0
 }
