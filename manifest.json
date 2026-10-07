@@ -278109,11 +278109,15 @@
    "updated_ny": "2026-10-07T18:19:09-04:00"
   },
   "intraday/META/2025-10.parquet": {
-   "bytes": 3298033,
-   "complete": false,
-   "contracts_per_day_median": 556.0,
-   "contracts_per_day_median_total": 1377.0,
+   "bytes": 3444184,
+   "complete": true,
+   "contracts_per_day_median": 555.5,
+   "contracts_per_day_median_total": 1375.5,
    "day_counts": [
+    498,
+    490,
+    493,
+    485,
     514,
     514,
     520,
@@ -278204,6 +278208,10 @@
     548
    ],
    "day_counts_total": [
+    1349,
+    1339,
+    1332,
+    1332,
     1368,
     1369,
     1368,
@@ -278294,6 +278302,7 @@
     1600
    ],
    "eod_sig": {
+    "2025-10-01": "b0f13487672f",
     "2025-10-02": "0ac68dd55b38",
     "2025-10-03": "2f374338e677",
     "2025-10-06": "280f767b6787",
@@ -278318,7 +278327,7 @@
     "2025-10-31": "04438b9cd911"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -278328,8 +278337,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 122878,
+   "rows": 128230,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -278354,6 +278364,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -278377,8 +278388,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -278402,14 +278414,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "ceb334ae367344d8490d653a33824014e213751ac13d9d6c0002628c3b80b657",
+   "sha256": "04c8f272790b99d155a72099724919909189838d94279212dcf89085f25e527f",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 122878,
+    "candles_30m": 128230,
     "none": 0,
     "parity": 0
    },
    "symbol": "META",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T18:19:09-04:00"
   },
   "intraday/META/2025-11.parquet": {
    "bytes": 3139814,
@@ -355895,9 +355913,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 2820975,
+     "candles_30m": 2826327,
      "none": 0,
      "parity": 0
     }
