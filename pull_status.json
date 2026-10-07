@@ -1,43 +1,40 @@
 {
  "schema": "pull-status/1",
  "tool_version": "1.8 (06/10/2026)",
- "command": "python3.12 engines/pull_options.py intraday --symbols CRWD --from 2024-10-02 --to 2025-10-01 --max-minutes 3000 --options-data write",
+ "command": "python3.12 engines/pull_options.py intraday --symbols CHKP --from 2024-10-02 --to 2025-10-01 --max-minutes 3000 --options-data write",
  "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-07T17:30:35-04:00",
- "updated_ny": "2026-10-07T17:44:42-04:00",
- "last_success_ny": "2026-10-07T17:44:34-04:00",
- "state": "done",
- "exit_code": 0,
- "exit_reason": "הושלם",
+ "started_ny": "2026-10-07T17:45:17-04:00",
+ "updated_ny": "2026-10-07T17:45:17-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
-  "done": [
-   "CRWD"
-  ],
+  "done": [],
   "in_progress": [],
-  "not_started": []
+  "not_started": [
+   "CHKP"
+  ]
  },
  "failed": {},
  "plan": {
-  "new": 4,
+  "new": 12,
   "add": 1,
   "restore": 0,
   "rebuild": 0,
-  "sessions": 85,
+  "sessions": 250,
   "symbols": 1,
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 423,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "chain_snapshot": 0,
-  "open_interest": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -45,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 14.2,
+ "minutes": 0.1,
  "max_minutes": 3000.0
 }
