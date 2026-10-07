@@ -4,40 +4,37 @@
  "command": "python3.12 engines/pull_options.py intraday --symbols AVGO --from 2024-10-02 --to 2025-10-01 --max-minutes 3000 --options-data write",
  "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-07T12:33:36-04:00",
- "updated_ny": "2026-10-07T12:58:00-04:00",
- "last_success_ny": "2026-10-07T12:57:47-04:00",
- "state": "stopped",
- "exit_code": 4,
- "exit_reason": "הדחיפה נכשלה (ב-AVGO) — הקומיט בעותק העבודה ויידחף בריצה הבאה",
+ "started_ny": "2026-10-07T13:02:14-04:00",
+ "updated_ny": "2026-10-07T13:02:14-04:00",
+ "last_success_ny": null,
+ "state": "running",
+ "exit_code": null,
+ "exit_reason": "",
  "symbols": {
   "done": [],
-  "in_progress": [
+  "in_progress": [],
+  "not_started": [
    "AVGO"
-  ],
-  "not_started": []
+  ]
  },
  "failed": {},
  "plan": {
-  "new": 12,
+  "new": 3,
   "add": 1,
   "restore": 0,
   "rebuild": 0,
-  "sessions": 250,
+  "sessions": 65,
   "symbols": 1,
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 921,
+  "total": 0,
   "failed": 0
  },
  "consecutive_failures": 0,
  "max_consecutive_failures": 5,
  "last_error": "",
- "consecutive_failures_by_kind": {
-  "chain_snapshot": 0,
-  "open_interest": 0
- },
+ "consecutive_failures_by_kind": {},
  "consecutive_halted_symbols": 0,
  "max_consecutive_halted_symbols": 3,
  "alarms": {
@@ -45,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 24.5,
+ "minutes": 0.1,
  "max_minutes": 3000.0
 }
