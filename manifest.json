@@ -210173,11 +210173,15 @@
    "updated_ny": "2026-10-07T17:45:11-04:00"
   },
   "intraday/CHKP/2025-10.parquet": {
-   "bytes": 321665,
-   "complete": false,
+   "bytes": 334802,
+   "complete": true,
    "contracts_per_day_median": 54.0,
    "contracts_per_day_median_total": 136.0,
    "day_counts": [
+    46,
+    48,
+    47,
+    50,
     53,
     48,
     50,
@@ -210292,6 +210296,10 @@
     136,
     136,
     136,
+    136,
+    136,
+    136,
+    136,
     138,
     138,
     138,
@@ -210358,6 +210366,7 @@
     133
    ],
    "eod_sig": {
+    "2025-10-01": "db4bc3226459",
     "2025-10-02": "db4bc3226459",
     "2025-10-03": "db4bc3226459",
     "2025-10-06": "db4bc3226459",
@@ -210382,7 +210391,7 @@
     "2025-10-31": "95e396154e7a"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -210392,8 +210401,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 11393,
+   "rows": 11937,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -210418,6 +210428,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -210441,8 +210452,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -210466,14 +210478,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "ae41c8781b97e74ca546afb887aa6be23c4327da2a56644476cdb524b25d12a6",
+   "sha256": "4fee16108e09a4601700f0d2c18e3fe4ae3190a36957a940503ac32f956908dd",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 11393,
+    "candles_30m": 11937,
     "none": 0,
     "parity": 0
    },
    "symbol": "CHKP",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T17:45:11-04:00"
   },
   "intraday/CHKP/2025-11.parquet": {
    "bytes": 289201,
@@ -346461,9 +346479,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 302202,
+     "candles_30m": 302746,
      "none": 0,
      "parity": 0
     }
