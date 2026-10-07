@@ -270795,11 +270795,15 @@
    "updated_ny": "2026-10-07T11:43:57-04:00"
   },
   "intraday/NVDA/2025-10.parquet": {
-   "bytes": 2202354,
-   "complete": false,
+   "bytes": 2300813,
+   "complete": true,
    "contracts_per_day_median": 295.0,
-   "contracts_per_day_median_total": 938.0,
+   "contracts_per_day_median_total": 937.0,
    "day_counts": [
+    274,
+    271,
+    272,
+    272,
     285,
     281,
     282,
@@ -270890,6 +270894,10 @@
     298
    ],
    "day_counts_total": [
+    915,
+    915,
+    915,
+    915,
     934,
     935,
     933,
@@ -270980,6 +270988,7 @@
     1044
    ],
    "eod_sig": {
+    "2025-10-01": "631605bc6d2a",
     "2025-10-02": "7b701a54f30b",
     "2025-10-03": "7b701a54f30b",
     "2025-10-06": "436128db25d1",
@@ -271004,7 +271013,7 @@
     "2025-10-31": "2ebce59486d0"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -271014,8 +271023,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 83544,
+   "rows": 87204,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -271040,6 +271050,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -271063,8 +271074,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -271088,14 +271100,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "4320852ca74bcc94c8693d9401f6a95f0e7035d74fc6c729223d9c4e4b510408",
+   "sha256": "6c56238801480742e2036246d0309c35d59ede1df9a0ad5af999bdae2c2ea520",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 83544,
+    "candles_30m": 87204,
     "none": 0,
     "parity": 0
    },
    "symbol": "NVDA",
-   "updated_ny": "2026-10-03T15:59:17-04:00"
+   "updated_ny": "2026-10-07T11:43:57-04:00"
   },
   "intraday/NVDA/2025-11.parquet": {
    "bytes": 1973739,
@@ -313054,7 +313072,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 270.0,
-    "contracts_per_day_median_total": 939.0,
+    "contracts_per_day_median_total": 938.0,
     "first_session": "2024-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -313085,9 +313103,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 2077118,
+     "candles_30m": 2080778,
      "none": 0,
      "parity": 0
     }
