@@ -252942,11 +252942,15 @@
    "updated_ny": "2026-10-07T13:10:41-04:00"
   },
   "intraday/INTC/2025-10.parquet": {
-   "bytes": 1732450,
-   "complete": false,
+   "bytes": 1816400,
+   "complete": true,
    "contracts_per_day_median": 280.0,
-   "contracts_per_day_median_total": 706.0,
+   "contracts_per_day_median_total": 716.0,
    "day_counts": [
+    291,
+    287,
+    289,
+    297,
     301,
     301,
     300,
@@ -253037,6 +253041,10 @@
     235
    ],
    "day_counts_total": [
+    734,
+    733,
+    733,
+    733,
     769,
     768,
     767,
@@ -253127,6 +253135,7 @@
     720
    ],
    "eod_sig": {
+    "2025-10-01": "f0e96a057f86",
     "2025-10-02": "1c0346c60b81",
     "2025-10-03": "7ae9fe25b48e",
     "2025-10-06": "36161638ae30",
@@ -253151,7 +253160,7 @@
     "2025-10-31": "4a2a9d019b4b"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -253161,8 +253170,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 61954,
+   "rows": 64887,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -253187,6 +253197,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -253210,8 +253221,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -253235,14 +253247,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "8985f9e58afb90092b09d8e3a048bbc13bf4640a346bac132b1da69ac49e62e7",
+   "sha256": "7a090d4793fbdcab726b2334b4826a17f35d0a99f8819cc94ffd72a650d967d2",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 61954,
+    "candles_30m": 64887,
     "none": 0,
     "parity": 0
    },
    "symbol": "INTC",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T13:10:41-04:00"
   },
   "intraday/INTC/2025-11.parquet": {
    "bytes": 1305358,
@@ -319394,7 +319412,7 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 204.5,
+    "contracts_per_day_median": 205.0,
     "contracts_per_day_median_total": 577.0,
     "first_session": "2024-10-02",
     "known_gaps": {},
@@ -319426,9 +319444,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 1348471,
+     "candles_30m": 1351404,
      "none": 0,
      "parity": 0
     }
