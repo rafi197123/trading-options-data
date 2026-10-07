@@ -242659,11 +242659,15 @@
    "updated_ny": "2026-10-07T17:55:23-04:00"
   },
   "intraday/GOOG/2025-10.parquet": {
-   "bytes": 1412412,
-   "complete": false,
-   "contracts_per_day_median": 222.5,
-   "contracts_per_day_median_total": 563.5,
+   "bytes": 1465104,
+   "complete": true,
+   "contracts_per_day_median": 220.5,
+   "contracts_per_day_median_total": 562.0,
    "day_counts": [
+    194,
+    188,
+    198,
+    193,
     210,
     216,
     215,
@@ -242754,6 +242758,10 @@
     252
    ],
    "day_counts_total": [
+    549,
+    547,
+    545,
+    545,
     563,
     564,
     564,
@@ -242844,6 +242852,7 @@
     734
    ],
    "eod_sig": {
+    "2025-10-01": "def4a6671606",
     "2025-10-02": "d802c21a8eda",
     "2025-10-03": "d802c21a8eda",
     "2025-10-06": "f37f6b74f2af",
@@ -242868,18 +242877,19 @@
     "2025-10-31": "4b0aad584425"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2025-10",
-   "oi_rows_pct": 98.5,
+   "oi_rows_pct": 98.6,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 51706,
+   "rows": 53892,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -242904,6 +242914,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -242927,8 +242938,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -242952,14 +242964,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "8a39a434a0f431faf010cb8b3b6538970716339571aa9df1af833e4f75161363",
+   "sha256": "ef0ca105be92f0705273fcc8c354a7c028799319808692323a3ed5ca093da6f5",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 51706,
+    "candles_30m": 53892,
     "none": 0,
     "parity": 0
    },
    "symbol": "GOOG",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T17:55:23-04:00"
   },
   "intraday/GOOG/2025-11.parquet": {
    "bytes": 1445802,
@@ -351126,9 +351144,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 1150794,
+     "candles_30m": 1152980,
      "none": 0,
      "parity": 0
     }
