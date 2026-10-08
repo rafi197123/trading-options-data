@@ -354793,11 +354793,15 @@
    "updated_ny": "2026-10-07T23:17:24-04:00"
   },
   "intraday/TLT/2025-10.parquet": {
-   "bytes": 1284735,
-   "complete": false,
-   "contracts_per_day_median": 170.0,
-   "contracts_per_day_median_total": 544.0,
+   "bytes": 1335845,
+   "complete": true,
+   "contracts_per_day_median": 168.5,
+   "contracts_per_day_median_total": 545.0,
    "day_counts": [
+    163,
+    160,
+    160,
+    160,
     178,
     177,
     175,
@@ -354888,6 +354892,10 @@
     175
    ],
    "day_counts_total": [
+    550,
+    550,
+    550,
+    550,
     575,
     573,
     573,
@@ -354978,6 +354986,7 @@
     569
    ],
    "eod_sig": {
+    "2025-10-01": "a84c80db68c7",
     "2025-10-02": "a6aa10106c4c",
     "2025-10-03": "7c5c81e1ae3a",
     "2025-10-06": "4956bd833ad6",
@@ -355002,7 +355011,7 @@
     "2025-10-31": "4bab7ca3f61d"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -355012,8 +355021,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 48540,
+   "rows": 50740,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -355038,6 +355048,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -355061,8 +355072,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -355086,14 +355098,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "edffaca305158123337be1813146a4828c679b704c0095c2daefe8d37bdeb3c7",
+   "sha256": "d431526dc40c827d4cb733358b6e6203f536511a66ec9063f1a36a0c049cd793",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 48540,
+    "candles_30m": 50740,
     "none": 0,
     "parity": 0
    },
    "symbol": "TLT",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T23:17:24-04:00"
   },
   "intraday/TLT/2025-11.parquet": {
    "bytes": 1086449,
@@ -387752,9 +387770,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 1178528,
+     "candles_30m": 1180728,
      "none": 0,
      "parity": 0
     }
