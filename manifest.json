@@ -272343,11 +272343,15 @@
    "updated_ny": "2026-10-08T00:06:36-04:00"
   },
   "intraday/IBIT/2025-10.parquet": {
-   "bytes": 1824222,
-   "complete": false,
-   "contracts_per_day_median": 321.5,
-   "contracts_per_day_median_total": 767.5,
+   "bytes": 1898530,
+   "complete": true,
+   "contracts_per_day_median": 321.0,
+   "contracts_per_day_median_total": 767.0,
    "day_counts": [
+    309,
+    310,
+    315,
+    317,
     337,
     338,
     334,
@@ -272438,6 +272442,10 @@
     312
    ],
    "day_counts_total": [
+    720,
+    719,
+    719,
+    719,
     770,
     769,
     769,
@@ -272528,6 +272536,7 @@
     789
    ],
    "eod_sig": {
+    "2025-10-01": "9b24b70fba0c",
     "2025-10-02": "20126c460314",
     "2025-10-03": "89a4b3bb049d",
     "2025-10-06": "b543354d3252",
@@ -272552,7 +272561,7 @@
     "2025-10-31": "1b012affb4d8"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -272562,8 +272571,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 67434,
+   "rows": 70311,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -272588,6 +272598,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -272611,8 +272622,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -272636,14 +272648,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "bcbd1fb4347688ff46b80a5a9eec6bf69f741c4e5e0deed6e383e96ecc47cbed",
+   "sha256": "27866eb1eb8082058156357ba92ec8736576c6d29a876f9b6afa172a7c1aee63",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 67434,
+    "candles_30m": 70311,
     "none": 0,
     "parity": 0
    },
    "symbol": "IBIT",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-08T00:06:36-04:00"
   },
   "intraday/IBIT/2025-11.parquet": {
    "bytes": 1711112,
@@ -392405,9 +392423,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 467,
+    "sessions": 468,
     "spot_sources": {
-     "candles_30m": 1441110,
+     "candles_30m": 1443987,
      "none": 0,
      "parity": 0
     }
