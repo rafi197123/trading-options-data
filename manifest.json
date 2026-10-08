@@ -369010,11 +369010,15 @@
    "updated_ny": "2026-10-07T22:43:21-04:00"
   },
   "intraday/VEEV/2025-10.parquet": {
-   "bytes": 455227,
-   "complete": false,
+   "bytes": 472722,
+   "complete": true,
    "contracts_per_day_median": 77.0,
    "contracts_per_day_median_total": 188.0,
    "day_counts": [
+    72,
+    73,
+    75,
+    74,
     72,
     73,
     72,
@@ -369108,6 +369112,10 @@
     181,
     181,
     181,
+    182,
+    181,
+    181,
+    181,
     181,
     181,
     181,
@@ -369195,6 +369203,7 @@
     197
    ],
    "eod_sig": {
+    "2025-10-01": "6cd015366b9a",
     "2025-10-02": "6cd015366b9a",
     "2025-10-03": "6cd015366b9a",
     "2025-10-06": "adcf7ae28d1b",
@@ -369219,7 +369228,7 @@
     "2025-10-31": "824484585645"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -369229,8 +369238,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 16664,
+   "rows": 17389,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -369255,6 +369265,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -369278,8 +369289,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -369303,14 +369315,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "acdab14d2bb7c87f8de68ea832b232d1a8fe88d0ac356756280cfa9447c7fa12",
+   "sha256": "10c0e2cf2e777a75bf150a056226ba34cb716f8fd7fa4f07afbb47bd1c9f80a2",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 16664,
+    "candles_30m": 17389,
     "none": 0,
     "parity": 0
    },
    "symbol": "VEEV",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T22:43:21-04:00"
   },
   "intraday/VEEV/2025-11.parquet": {
    "bytes": 408570,
@@ -380942,9 +380960,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 401300,
+     "candles_30m": 402025,
      "none": 0,
      "parity": 0
     }
