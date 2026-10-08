@@ -5,11 +5,11 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-08T01:58:17-04:00",
- "updated_ny": "2026-10-08T03:57:08-04:00",
+ "updated_ny": "2026-10-08T03:57:15-04:00",
  "last_success_ny": "2026-10-08T03:57:04-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "SPY"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 119.0,
+ "minutes": 119.1,
  "max_minutes": 3000.0
 }
