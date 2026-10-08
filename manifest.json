@@ -279649,11 +279649,15 @@
    "updated_ny": "2026-10-08T01:39:26-04:00"
   },
   "intraday/IBKR/2025-10.parquet": {
-   "bytes": 1072864,
-   "complete": false,
-   "contracts_per_day_median": 192.0,
+   "bytes": 1121626,
+   "complete": true,
+   "contracts_per_day_median": 191.5,
    "contracts_per_day_median_total": 473.0,
    "day_counts": [
+    152,
+    173,
+    176,
+    179,
     201,
     202,
     194,
@@ -279744,6 +279748,10 @@
     186
    ],
    "day_counts_total": [
+    443,
+    443,
+    454,
+    446,
     486,
     486,
     489,
@@ -279834,6 +279842,7 @@
     495
    ],
    "eod_sig": {
+    "2025-10-01": "08539f50db39",
     "2025-10-02": "61478912f545",
     "2025-10-03": "86a84f9a8054",
     "2025-10-06": "21b92ea811fb",
@@ -279858,7 +279867,7 @@
     "2025-10-31": "adb2369d0325"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -279868,8 +279877,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 42203,
+   "rows": 43989,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -279894,6 +279904,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -279917,8 +279928,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -279942,14 +279954,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "81a87204c3d231d28ee573c8adad8f91bfdb43c1ab5630bd4dadc69fa32aa381",
+   "sha256": "10a274b71d42d5bf338b0ae0c0a0d7c31d84df2d605d1a8e9dd83d9e3656eb20",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 42203,
+    "candles_30m": 43989,
     "none": 0,
     "parity": 0
    },
    "symbol": "IBKR",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-08T01:39:26-04:00"
   },
   "intraday/IBKR/2025-11.parquet": {
    "bytes": 888699,
@@ -400084,7 +400102,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 159.0,
-    "contracts_per_day_median_total": 379.5,
+    "contracts_per_day_median_total": 380.0,
     "first_session": "2024-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -400115,9 +400133,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 661806,
+     "candles_30m": 663592,
      "none": 0,
      "parity": 0
     }
