@@ -258592,11 +258592,15 @@
    "updated_ny": "2026-10-07T22:19:44-04:00"
   },
   "intraday/HIMS/2025-10.parquet": {
-   "bytes": 1674662,
-   "complete": false,
-   "contracts_per_day_median": 291.5,
-   "contracts_per_day_median_total": 652.5,
+   "bytes": 1751792,
+   "complete": true,
+   "contracts_per_day_median": 290.5,
+   "contracts_per_day_median_total": 654.5,
    "day_counts": [
+    265,
+    254,
+    255,
+    265,
     284,
     285,
     282,
@@ -258687,6 +258691,10 @@
     326
    ],
    "day_counts_total": [
+    658,
+    657,
+    657,
+    658,
     693,
     694,
     692,
@@ -258777,6 +258785,7 @@
     718
    ],
    "eod_sig": {
+    "2025-10-01": "b520cfada67b",
     "2025-10-02": "49403eb8d971",
     "2025-10-03": "3d9a3b33d568",
     "2025-10-06": "1533b7c476c1",
@@ -258801,18 +258810,19 @@
     "2025-10-31": "7e6a25021a84"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2025-10",
-   "oi_rows_pct": 98.4,
+   "oi_rows_pct": 98.5,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 58541,
+   "rows": 61171,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -258837,6 +258847,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -258860,8 +258871,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -258885,14 +258897,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "4898dbd6e1a4b13017e937d94dde5e7ff0c96597a5e12d12b83b767c0f3a5862",
+   "sha256": "8ad850595def9541e08885aaf28b741b33c9bc7937b748df5461f5f9d593bd8c",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 58541,
+    "candles_30m": 61171,
     "none": 0,
     "parity": 0
    },
    "symbol": "HIMS",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T22:19:44-04:00"
   },
   "intraday/HIMS/2025-11.parquet": {
    "bytes": 1534501,
@@ -374440,7 +374458,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 267.0,
-    "contracts_per_day_median_total": 736.5,
+    "contracts_per_day_median_total": 736.0,
     "first_session": "2024-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -374471,9 +374489,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 1453228,
+     "candles_30m": 1455858,
      "none": 0,
      "parity": 0
     }
