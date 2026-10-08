@@ -5,11 +5,11 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-07T22:07:54-04:00",
- "updated_ny": "2026-10-07T22:19:32-04:00",
+ "updated_ny": "2026-10-07T22:19:38-04:00",
  "last_success_ny": "2026-10-07T22:19:30-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "ETHA"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 11.7,
+ "minutes": 11.8,
  "max_minutes": 3000.0
 }
