@@ -354571,11 +354571,15 @@
    "updated_ny": "2026-10-08T03:57:24-04:00"
   },
   "intraday/QQQ/2025-10.parquet": {
-   "bytes": 2768693,
-   "complete": false,
+   "bytes": 2909574,
+   "complete": true,
    "contracts_per_day_median": 414.0,
-   "contracts_per_day_median_total": 1127.5,
+   "contracts_per_day_median_total": 1125.0,
    "day_counts": [
+    441,
+    431,
+    427,
+    425,
     445,
     445,
     444,
@@ -354666,6 +354670,10 @@
     440
    ],
    "day_counts_total": [
+    1126,
+    1125,
+    1125,
+    1125,
     1153,
     1154,
     1153,
@@ -354756,6 +354764,7 @@
     1294
    ],
    "eod_sig": {
+    "2025-10-01": "59ca8e1d89f6",
     "2025-10-02": "0cb056977c17",
     "2025-10-03": "2b0465aa67b7",
     "2025-10-06": "edf2f9ba607c",
@@ -354780,7 +354789,7 @@
     "2025-10-31": "257af44867a0"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -354790,8 +354799,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 100030,
+   "rows": 104531,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -354816,6 +354826,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -354839,8 +354850,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -354864,14 +354876,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "6a70d4705a3aff8f35f75c1fd395827a125b25d9feacfb07e1a2fceab820114e",
+   "sha256": "73e25959b3e7050616bb520824b3c2adad7359eafeb8ce0b9bd70b3f62a3e5f0",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 100030,
+    "candles_30m": 104531,
     "none": 0,
     "parity": 0
    },
    "symbol": "QQQ",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-08T03:57:24-04:00"
   },
   "intraday/QQQ/2025-11.parquet": {
    "bytes": 2519624,
@@ -408592,7 +408610,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 380.0,
-    "contracts_per_day_median_total": 1098.0,
+    "contracts_per_day_median_total": 1099.0,
     "first_session": "2024-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -408623,9 +408641,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 2224822,
+     "candles_30m": 2229323,
      "none": 0,
      "parity": 0
     }
