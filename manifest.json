@@ -361686,11 +361686,15 @@
    "updated_ny": "2026-10-08T01:58:11-04:00"
   },
   "intraday/SPY/2025-10.parquet": {
-   "bytes": 2367665,
-   "complete": false,
-   "contracts_per_day_median": 384.5,
+   "bytes": 2469929,
+   "complete": true,
+   "contracts_per_day_median": 385.0,
    "contracts_per_day_median_total": 961.0,
    "day_counts": [
+    393,
+    386,
+    386,
+    384,
     403,
     409,
     408,
@@ -361781,6 +361785,10 @@
     408
    ],
    "day_counts_total": [
+    964,
+    964,
+    964,
+    966,
     986,
     987,
     986,
@@ -361871,6 +361879,7 @@
     1066
    ],
    "eod_sig": {
+    "2025-10-01": "c57464fe66d7",
     "2025-10-02": "d2e8893419e8",
     "2025-10-03": "807a545de854",
     "2025-10-06": "098aea9ceac8",
@@ -361895,7 +361904,7 @@
     "2025-10-31": "d677c7cbb106"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -361905,8 +361914,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 85488,
+   "rows": 89346,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -361931,6 +361941,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -361954,8 +361965,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -361979,14 +361991,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "96ea8fcf48001fb858fc43869aaead256446f623f5263358b80a51f3b664fbc6",
+   "sha256": "957186afdf3ac3da4b4887adffd4e6f185c4d8e98521d0065665b092f6d294a0",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 85488,
+    "candles_30m": 89346,
     "none": 0,
     "parity": 0
    },
    "symbol": "SPY",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-08T01:58:11-04:00"
   },
   "intraday/SPY/2025-11.parquet": {
    "bytes": 2003762,
@@ -405549,7 +405567,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 379.0,
-    "contracts_per_day_median_total": 980.0,
+    "contracts_per_day_median_total": 979.5,
     "first_session": "2024-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -405580,9 +405598,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 2041344,
+     "candles_30m": 2045202,
      "none": 0,
      "parity": 0
     }
