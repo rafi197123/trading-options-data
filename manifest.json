@@ -279878,11 +279878,15 @@
    "updated_ny": "2026-10-07T23:49:04-04:00"
   },
   "intraday/IEF/2025-10.parquet": {
-   "bytes": 674227,
-   "complete": false,
+   "bytes": 705733,
+   "complete": true,
    "contracts_per_day_median": 109.0,
    "contracts_per_day_median_total": 283.0,
    "day_counts": [
+    108,
+    114,
+    109,
+    106,
     119,
     112,
     115,
@@ -279973,6 +279977,10 @@
     105
    ],
    "day_counts_total": [
+    287,
+    287,
+    287,
+    287,
     301,
     300,
     301,
@@ -280063,6 +280071,7 @@
     286
    ],
    "eod_sig": {
+    "2025-10-01": "75378f950aa0",
     "2025-10-02": "2a737043928a",
     "2025-10-03": "2a737043928a",
     "2025-10-06": "e6fbcc91f8c4",
@@ -280087,7 +280096,7 @@
     "2025-10-31": "d5556b3ddfc1"
    },
    "filter_version": 3,
-   "first_session": "2025-10-02",
+   "first_session": "2025-10-01",
    "kind": "intraday",
    "last_session": "2025-10-31",
    "lib_version": "1.0.11",
@@ -280097,8 +280106,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 24788,
+   "rows": 25936,
    "session_list": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -280123,6 +280133,7 @@
     "2025-10-31"
    ],
    "session_points": {
+    "2025-10-01": 4,
     "2025-10-02": 4,
     "2025-10-03": 4,
     "2025-10-06": 4,
@@ -280146,8 +280157,9 @@
     "2025-10-30": 4,
     "2025-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2025-10-01",
     "2025-10-02",
     "2025-10-03",
     "2025-10-06",
@@ -280171,14 +280183,20 @@
     "2025-10-30",
     "2025-10-31"
    ],
-   "sha256": "cd1ba5f0be94435858d198d9c25ebaf5a93f587d36a8565d81a4245ea1ff34d2",
+   "sha256": "7cbdf15582e9c3c50674d92555390bea13f77e9c2825d1d93d4d1ad65e3ffe17",
+   "spot_basis": {
+    "days": {},
+    "factors": {},
+    "unverified": {},
+    "version": 1
+   },
    "spot_sources": {
-    "candles_30m": 24788,
+    "candles_30m": 25936,
     "none": 0,
     "parity": 0
    },
    "symbol": "IEF",
-   "updated_ny": "2026-10-03T17:29:17-04:00"
+   "updated_ny": "2026-10-07T23:49:04-04:00"
   },
   "intraday/IEF/2025-11.parquet": {
    "bytes": 531618,
@@ -389433,9 +389451,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 501,
+    "sessions": 502,
     "spot_sources": {
-     "candles_30m": 617262,
+     "candles_30m": 618410,
      "none": 0,
      "parity": 0
     }
