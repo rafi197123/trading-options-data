@@ -5,11 +5,11 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-07T22:57:03-04:00",
- "updated_ny": "2026-10-07T23:17:11-04:00",
+ "updated_ny": "2026-10-07T23:17:17-04:00",
  "last_success_ny": "2026-10-07T23:17:09-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "USO"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 20.2,
+ "minutes": 20.3,
  "max_minutes": 3000.0
 }
