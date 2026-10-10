@@ -326113,11 +326113,15 @@
    "updated_ny": "2026-10-10T17:13:40-04:00"
   },
   "intraday/MRVL/2024-10.parquet": {
-   "bytes": 1188028,
-   "complete": false,
+   "bytes": 1237621,
+   "complete": true,
    "contracts_per_day_median": 211.0,
-   "contracts_per_day_median_total": 487.0,
+   "contracts_per_day_median_total": 484.0,
    "day_counts": [
+    207,
+    209,
+    213,
+    205,
     194,
     193,
     195,
@@ -326209,6 +326213,10 @@
    ],
    "day_counts_total": [
     460,
+    461,
+    463,
+    460,
+    460,
     460,
     460,
     460,
@@ -326298,6 +326306,7 @@
     550
    ],
    "eod_sig": {
+    "2024-10-01": "afae4485fa94",
     "2024-10-02": "afae4485fa94",
     "2024-10-03": "ce2ba3f70e6a",
     "2024-10-04": "315019cee12e",
@@ -326322,18 +326331,19 @@
     "2024-10-31": "cdc7547a437f"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.4,
+   "oi_rows_pct": 98.5,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 43184,
+   "rows": 45028,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -326358,6 +326368,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -326381,8 +326392,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -326406,7 +326418,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "1cec3a8788eb39672a59d14f54292d38dc6771614dac19dc141ab4affc07a98e",
+   "sha256": "cc54e46a9afeedfacf32af755f325207c3a15d06cd2ffb269bcb34a7589ac258",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -326414,12 +326426,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 43184,
+    "candles_30m": 45028,
     "none": 0,
     "parity": 0
    },
    "symbol": "MRVL",
-   "updated_ny": "2026-10-07T13:28:14-04:00"
+   "updated_ny": "2026-10-10T17:13:40-04:00"
   },
   "intraday/MRVL/2024-11.parquet": {
    "bytes": 1239783,
@@ -433381,9 +433393,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 2028535,
+     "candles_30m": 2030379,
      "none": 0,
      "parity": 0
     }
