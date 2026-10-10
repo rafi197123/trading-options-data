@@ -340659,11 +340659,15 @@
    "updated_ny": "2026-10-10T14:43:14-04:00"
   },
   "intraday/NVDA/2024-10.parquet": {
-   "bytes": 4324528,
-   "complete": false,
-   "contracts_per_day_median": 614.5,
-   "contracts_per_day_median_total": 1924.5,
+   "bytes": 4510511,
+   "complete": true,
+   "contracts_per_day_median": 615.5,
+   "contracts_per_day_median_total": 1922.0,
    "day_counts": [
+    650,
+    650,
+    657,
+    636,
     622,
     616,
     615,
@@ -340756,6 +340760,10 @@
    "day_counts_total": [
     1922,
     1922,
+    1925,
+    1922,
+    1922,
+    1922,
     1922,
     1922,
     1955,
@@ -340844,6 +340852,7 @@
     1858
    ],
    "eod_sig": {
+    "2024-10-01": "0edb3d78b4aa",
     "2024-10-02": "0edb3d78b4aa",
     "2024-10-03": "7ea3e0d10138",
     "2024-10-04": "583dd938de4d",
@@ -340868,18 +340877,19 @@
     "2024-10-31": "248b7bd178be"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 99.4,
+   "oi_rows_pct": 99.5,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 167838,
+   "rows": 175529,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -340904,6 +340914,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -340927,8 +340938,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -340952,7 +340964,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "c8c7855077135d470fa8a877d7032d7ef57a3ebab3bb248617b35d69a7ccfeba",
+   "sha256": "786b15d91fe3a1c7a6ccb4fb0cf2f12b0a76888ec506df1d50e2373950741e91",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -340960,12 +340972,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 167838,
+    "candles_30m": 175529,
     "none": 0,
     "parity": 0
    },
    "symbol": "NVDA",
-   "updated_ny": "2026-10-07T11:43:57-04:00"
+   "updated_ny": "2026-10-10T14:43:14-04:00"
   },
   "intraday/NVDA/2024-11.parquet": {
    "bytes": 3445157,
@@ -422785,8 +422797,8 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 372.0,
-    "contracts_per_day_median_total": 1073.0,
+    "contracts_per_day_median": 372.5,
+    "contracts_per_day_median_total": 1074.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -422829,9 +422841,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 3906109,
+     "candles_30m": 3913800,
      "none": 0,
      "parity": 0
     }
