@@ -238859,11 +238859,15 @@
    "updated_ny": "2026-10-10T18:29:32-04:00"
   },
   "intraday/CRM/2024-10.parquet": {
-   "bytes": 1035875,
-   "complete": false,
-   "contracts_per_day_median": 145.5,
+   "bytes": 1072501,
+   "complete": true,
+   "contracts_per_day_median": 144.5,
    "contracts_per_day_median_total": 420.0,
    "day_counts": [
+    140,
+    137,
+    138,
+    133,
     130,
     125,
     123,
@@ -238954,6 +238958,10 @@
     182
    ],
    "day_counts_total": [
+    405,
+    404,
+    405,
+    404,
     411,
     411,
     414,
@@ -239044,6 +239052,7 @@
     442
    ],
    "eod_sig": {
+    "2024-10-01": "af715111d540",
     "2024-10-02": "e33eee98ac2d",
     "2024-10-03": "316fd423f8b4",
     "2024-10-04": "866cc4dc3b00",
@@ -239068,18 +239077,19 @@
     "2024-10-31": "c5289f641191"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.5,
+   "oi_rows_pct": 98.6,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 37418,
+   "rows": 39036,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -239104,6 +239114,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -239127,8 +239138,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -239152,7 +239164,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "4a259526df0b9a5fceb344fe81636ee470e38edb6c8bbb3013737b70d77ce55b",
+   "sha256": "1f6525c89374acfea857ac7d61285d39c79748fb99f77bfaa405e985f49e329f",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -239160,12 +239172,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 37418,
+    "candles_30m": 39036,
     "none": 0,
     "parity": 0
    },
    "symbol": "CRM",
-   "updated_ny": "2026-10-07T14:36:51-04:00"
+   "updated_ny": "2026-10-10T18:29:32-04:00"
   },
   "intraday/CRM/2024-11.parquet": {
    "bytes": 1106863,
@@ -438161,9 +438173,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 1502981,
+     "candles_30m": 1504599,
      "none": 0,
      "parity": 0
     }
