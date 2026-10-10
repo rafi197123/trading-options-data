@@ -1,6 +1,6 @@
 # מילון הנתונים — מאגר האופציות ומאגר נתוני השוק (DuckDB)
 
-נוצר אוטומטית על ידי `engines/pull_options.py` (כלי המשיכה v1.8 (06/10/2026); כיול `options_store.json` גרסה 6) — **לא לערוך ידנית**. אותן הגדרות של `catalog/open_catalog.py` ושל `catalog/views.sql` (מקור אחד).
+נוצר אוטומטית על ידי `engines/pull_options.py` (כלי המשיכה v1.9 (10/10/2026); כיול `options_store.json` גרסה 7) — **לא לערוך ידנית**. אותן הגדרות של `catalog/open_catalog.py` ושל `catalog/views.sql` (מקור אחד).
 
 ## איך משתמשים משיחה אחרת
 

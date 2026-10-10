@@ -420781,14 +420781,14 @@
   "catalog/DATA_DICTIONARY.md": {
    "bytes": 31029,
    "rows": null,
-   "sha256": "a64375a0b95ddc626931f887b7915de35bde00711c6a3da1c8ba4f07e36f3cd5",
-   "updated_ny": "2026-10-06T16:43:09-04:00"
+   "sha256": "708e1b598ac835bd4674f5103e1811b5ff99961ea57b1931bbd628d4fc75fa2a",
+   "updated_ny": "2026-10-10T14:43:14-04:00"
   },
   "catalog/open_catalog.py": {
    "bytes": 18186,
    "rows": null,
-   "sha256": "7f39aa8027c8a6846aa2c0788d35d5fc54086f5c2fef73a94e79a4d121ae6485",
-   "updated_ny": "2026-10-06T16:43:09-04:00"
+   "sha256": "c52a62ca71e09ff0250d81b14b360cd635779578ca9a291723f49619959ab4f7",
+   "updated_ny": "2026-10-10T14:43:14-04:00"
   },
   "catalog/views.sql": {
    "bytes": 12286,
@@ -420809,5 +420809,5 @@
    "updated_ny": "2026-10-04T14:33:22-04:00"
   }
  },
- "updated_ny": "2026-10-08T07:04:57-04:00"
+ "updated_ny": "2026-10-10T14:43:14-04:00"
 }
