@@ -206877,11 +206877,15 @@
    "updated_ny": "2026-10-10T15:55:12-04:00"
   },
   "intraday/AVGO/2024-10.parquet": {
-   "bytes": 2281660,
-   "complete": false,
+   "bytes": 2385809,
+   "complete": true,
    "contracts_per_day_median": 307.0,
-   "contracts_per_day_median_total": 1015.5,
+   "contracts_per_day_median_total": 1017.0,
    "day_counts": [
+    336,
+    333,
+    338,
+    328,
     324,
     321,
     318,
@@ -206976,6 +206980,10 @@
     1019,
     1019,
     1019,
+    1019,
+    1019,
+    1019,
+    1019,
     1035,
     1034,
     1035,
@@ -207062,6 +207070,7 @@
     944
    ],
    "eod_sig": {
+    "2024-10-01": "4fcadd4b3e10",
     "2024-10-02": "4fcadd4b3e10",
     "2024-10-03": "e718a13b8990",
     "2024-10-04": "6c2bb3d36731",
@@ -207086,7 +207095,7 @@
     "2024-10-31": "d476032d0981"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -207096,8 +207105,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 86765,
+   "rows": 90841,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -207122,6 +207132,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -207145,8 +207156,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -207170,7 +207182,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "bd32505cdb5c09abae195c369924e742e7bbcbf665f367bc9604a4ae9a0363b2",
+   "sha256": "bd6b9635be6c9821c76bd969b4ada3da01280ea2c4cbcc7cfd81e47d7046ece8",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -207178,12 +207190,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 86765,
+    "candles_30m": 90841,
     "none": 0,
     "parity": 0
    },
    "symbol": "AVGO",
-   "updated_ny": "2026-10-07T12:33:30-04:00"
+   "updated_ny": "2026-10-10T15:55:12-04:00"
   },
   "intraday/AVGO/2024-11.parquet": {
    "bytes": 1900715,
@@ -423423,9 +423435,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 3168136,
+     "candles_30m": 3172212,
      "none": 0,
      "parity": 0
     }
