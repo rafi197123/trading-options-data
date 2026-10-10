@@ -336789,11 +336789,15 @@
    "updated_ny": "2026-10-10T17:37:41-04:00"
   },
   "intraday/MSFT/2024-10.parquet": {
-   "bytes": 1634060,
-   "complete": false,
-   "contracts_per_day_median": 259.5,
-   "contracts_per_day_median_total": 692.0,
+   "bytes": 1711904,
+   "complete": true,
+   "contracts_per_day_median": 258.0,
+   "contracts_per_day_median_total": 691.0,
    "day_counts": [
+    256,
+    250,
+    251,
+    244,
     230,
     226,
     229,
@@ -336884,6 +336888,10 @@
     251
    ],
    "day_counts_total": [
+    664,
+    665,
+    665,
+    664,
     669,
     669,
     669,
@@ -336974,6 +336982,7 @@
     747
    ],
    "eod_sig": {
+    "2024-10-01": "e3889d7952d5",
     "2024-10-02": "2fdccc29bfaf",
     "2024-10-03": "e4551aea0dd6",
     "2024-10-04": "8e753e37dd60",
@@ -336998,18 +337007,19 @@
     "2024-10-31": "11b8e2b2467b"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.9,
+   "oi_rows_pct": 99.0,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 61260,
+   "rows": 63918,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -337034,6 +337044,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -337057,8 +337068,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -337082,7 +337094,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "534469b981d85ab22fcf7e0440946b1ccefad993088a4ed42137e55efd1d5852",
+   "sha256": "def8a279ffb06a6de0ada1f5d8228ea382619f9724a6974767204c2fed90976f",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -337090,12 +337102,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 61260,
+    "candles_30m": 63918,
     "none": 0,
     "parity": 0
    },
    "symbol": "MSFT",
-   "updated_ny": "2026-10-07T13:50:19-04:00"
+   "updated_ny": "2026-10-10T17:37:41-04:00"
   },
   "intraday/MSFT/2024-11.parquet": {
    "bytes": 1453634,
@@ -437061,9 +437073,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 2336718,
+     "candles_30m": 2339376,
      "none": 0,
      "parity": 0
     }
