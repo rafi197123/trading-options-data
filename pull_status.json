@@ -5,11 +5,11 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-11T11:56:29-04:00",
- "updated_ny": "2026-10-11T12:54:03-04:00",
+ "updated_ny": "2026-10-11T12:54:08-04:00",
  "last_success_ny": "2026-10-11T12:54:01-04:00",
- "state": "running",
- "exit_code": null,
- "exit_reason": "",
+ "state": "done",
+ "exit_code": 0,
+ "exit_reason": "הושלם",
  "symbols": {
   "done": [
    "TLT"
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 57.7,
+ "minutes": 57.8,
  "max_minutes": 3000.0
 }
