@@ -315992,11 +315992,15 @@
    "updated_ny": "2026-10-11T14:19:37-04:00"
   },
   "intraday/IBKR/2024-10.parquet": {
-   "bytes": 369982,
-   "complete": false,
+   "bytes": 381694,
+   "complete": true,
    "contracts_per_day_median": 45.0,
-   "contracts_per_day_median_total": 140.5,
+   "contracts_per_day_median_total": 139.5,
    "day_counts": [
+    45,
+    46,
+    46,
+    43,
     45,
     44,
     46,
@@ -316087,6 +316091,10 @@
     45
    ],
    "day_counts_total": [
+    121,
+    120,
+    120,
+    120,
     123,
     123,
     123,
@@ -316177,6 +316185,7 @@
     144
    ],
    "eod_sig": {
+    "2024-10-01": "cca6dd8d1261",
     "2024-10-02": "fa1ab6ee9dde",
     "2024-10-03": "b655a0cc4223",
     "2024-10-04": "6ded8f4e1c95",
@@ -316201,18 +316210,19 @@
     "2024-10-31": "2bd2167bfb2c"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 99.3,
+   "oi_rows_pct": 99.4,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 12271,
+   "rows": 12752,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -316237,6 +316247,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -316260,8 +316271,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -316285,9 +316297,10 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "70c576f02b98077d7ce50f5c8160429d091f84cf489ba6b19c14a52bd8deff30",
+   "sha256": "3102177a76c083862ccedeec7c4e90ab042ecfc2ff3ecf312e6b9ab922f0dc13",
    "spot_basis": {
     "days": {
+     "2024-10-01": 4.0,
      "2024-10-02": 4.0,
      "2024-10-03": 4.0,
      "2024-10-04": 4.0,
@@ -316312,18 +316325,18 @@
      "2024-10-31": 4.0
     },
     "factors": {
-     "4": 22
+     "4": 23
     },
     "unverified": {},
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 12271,
+    "candles_30m": 12752,
     "none": 0,
     "parity": 0
    },
    "symbol": "IBKR",
-   "updated_ny": "2026-10-08T01:39:26-04:00"
+   "updated_ny": "2026-10-11T14:19:37-04:00"
   },
   "intraday/IBKR/2024-11.parquet": {
    "bytes": 360570,
@@ -505464,9 +505477,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 780296,
+     "candles_30m": 780777,
      "none": 0,
      "parity": 0
     }
