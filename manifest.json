@@ -287704,11 +287704,15 @@
    "updated_ny": "2026-10-11T10:48:18-04:00"
   },
   "intraday/HIMS/2024-10.parquet": {
-   "bytes": 1009482,
-   "complete": false,
-   "contracts_per_day_median": 185.0,
-   "contracts_per_day_median_total": 450.5,
+   "bytes": 1050047,
+   "complete": true,
+   "contracts_per_day_median": 184.5,
+   "contracts_per_day_median_total": 448.0,
    "day_counts": [
+    169,
+    171,
+    165,
+    158,
     166,
     166,
     161,
@@ -287799,6 +287803,10 @@
     268
    ],
    "day_counts_total": [
+    368,
+    366,
+    366,
+    366,
     366,
     366,
     366,
@@ -287889,6 +287897,7 @@
     516
    ],
    "eod_sig": {
+    "2024-10-01": "59a85be7633f",
     "2024-10-02": "59a85be7633f",
     "2024-10-03": "101f1d428139",
     "2024-10-04": "088dfb719169",
@@ -287913,18 +287922,19 @@
     "2024-10-31": "efc1da388298"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.4,
+   "oi_rows_pct": 98.5,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 38847,
+   "rows": 40313,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -287949,6 +287959,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -287972,8 +287983,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -287997,7 +288009,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "23d57a4c436813de4d5ab59448597c1d8abe81d965b67c599b1075534638bf2d",
+   "sha256": "86dd193c8cc7e53399bb959a76948c440a117bf39c35c881d6fc57f7cc9389e5",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -288005,12 +288017,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 38847,
+    "candles_30m": 40313,
     "none": 0,
     "parity": 0
    },
    "symbol": "HIMS",
-   "updated_ny": "2026-10-07T22:19:44-04:00"
+   "updated_ny": "2026-10-11T10:48:18-04:00"
   },
   "intraday/HIMS/2024-11.parquet": {
    "bytes": 1151181,
@@ -482735,9 +482747,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 1715081,
+     "candles_30m": 1716547,
      "none": 0,
      "parity": 0
     }
