@@ -373293,11 +373293,15 @@
    "updated_ny": "2026-10-10T19:44:42-04:00"
   },
   "intraday/ORCL/2024-10.parquet": {
-   "bytes": 930570,
-   "complete": false,
+   "bytes": 970089,
+   "complete": true,
    "contracts_per_day_median": 122.0,
    "contracts_per_day_median_total": 382.0,
    "day_counts": [
+    137,
+    132,
+    133,
+    126,
     121,
     120,
     121,
@@ -373392,6 +373396,10 @@
     459,
     459,
     459,
+    459,
+    459,
+    459,
+    459,
     470,
     471,
     471,
@@ -373478,6 +373486,7 @@
     339
    ],
    "eod_sig": {
+    "2024-10-01": "9b0a281024ea",
     "2024-10-02": "9b0a281024ea",
     "2024-10-03": "2ae4b5b3a755",
     "2024-10-04": "508bc93711a3",
@@ -373502,7 +373511,7 @@
     "2024-10-31": "bb0de1e090c4"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -373512,8 +373521,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 34418,
+   "rows": 36254,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -373538,6 +373548,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -373561,8 +373572,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -373586,7 +373598,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "73b5fb1b48fe06a8c47ebbaed260d371ba9eaf9e8a9c0ead605aaaa5af92cc49",
+   "sha256": "bfdf58250b22ff1b909fab4e8c98b328da97a718a14487ee01e8885250c409d3",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -373594,12 +373606,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 34418,
+    "candles_30m": 36254,
     "none": 0,
     "parity": 0
    },
    "symbol": "ORCL",
-   "updated_ny": "2026-10-07T15:40:45-04:00"
+   "updated_ny": "2026-10-10T19:44:42-04:00"
   },
   "intraday/ORCL/2024-11.parquet": {
    "bytes": 812360,
@@ -448496,7 +448508,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 194.0,
-    "contracts_per_day_median_total": 565.0,
+    "contracts_per_day_median_total": 564.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -448539,9 +448551,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 1834784,
+     "candles_30m": 1836620,
      "none": 0,
      "parity": 0
     }
