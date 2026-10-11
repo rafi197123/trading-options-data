@@ -269880,11 +269880,15 @@
    "updated_ny": "2026-10-10T21:30:52-04:00"
   },
   "intraday/GOOG/2024-10.parquet": {
-   "bytes": 820111,
-   "complete": false,
+   "bytes": 853893,
+   "complete": true,
    "contracts_per_day_median": 124.0,
    "contracts_per_day_median_total": 337.0,
    "day_counts": [
+    128,
+    122,
+    128,
+    120,
     116,
     115,
     116,
@@ -269975,6 +269979,10 @@
     127
    ],
    "day_counts_total": [
+    339,
+    338,
+    337,
+    338,
     337,
     337,
     337,
@@ -270065,6 +270073,7 @@
     358
    ],
    "eod_sig": {
+    "2024-10-01": "9098d78a615c",
     "2024-10-02": "9098d78a615c",
     "2024-10-03": "4f038e49a6b2",
     "2024-10-04": "199639fa1759",
@@ -270089,7 +270098,7 @@
     "2024-10-31": "3d7f995fea5d"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -270099,8 +270108,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 29776,
+   "rows": 31128,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -270125,6 +270135,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -270148,8 +270159,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -270173,7 +270185,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "3ccbfe90c01e5edeabe444a900e1eebb09d2a2fb430ecff080ba5bce1c0e748b",
+   "sha256": "994ece8858ad359a61ab402914990e3ee9891597bdede19853b51ca646d22973",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -270181,12 +270193,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 29776,
+    "candles_30m": 31128,
     "none": 0,
     "parity": 0
    },
    "symbol": "GOOG",
-   "updated_ny": "2026-10-07T17:55:23-04:00"
+   "updated_ny": "2026-10-10T21:30:52-04:00"
   },
   "intraday/GOOG/2024-11.parquet": {
    "bytes": 735578,
@@ -461161,9 +461173,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 1586468,
+     "candles_30m": 1587820,
      "none": 0,
      "parity": 0
     }
