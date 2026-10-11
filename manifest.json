@@ -333595,11 +333595,15 @@
    "updated_ny": "2026-10-10T22:06:29-04:00"
   },
   "intraday/META/2024-10.parquet": {
-   "bytes": 2571396,
-   "complete": false,
-   "contracts_per_day_median": 441.5,
-   "contracts_per_day_median_total": 1079.0,
+   "bytes": 2668182,
+   "complete": true,
+   "contracts_per_day_median": 440.5,
+   "contracts_per_day_median_total": 1078.0,
    "day_counts": [
+    416,
+    422,
+    420,
+    410,
     392,
     389,
     390,
@@ -333690,6 +333694,10 @@
     432
    ],
    "day_counts_total": [
+    1016,
+    1008,
+    1008,
+    1012,
     1008,
     1008,
     1008,
@@ -333780,6 +333788,7 @@
     1136
    ],
    "eod_sig": {
+    "2024-10-01": "3b9fb5a17288",
     "2024-10-02": "3b9fb5a17288",
     "2024-10-03": "dce3583e72be",
     "2024-10-04": "238d991b2565",
@@ -333804,7 +333813,7 @@
     "2024-10-31": "c69b0edadf8c"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -333814,8 +333823,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 94630,
+   "rows": 98674,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -333840,6 +333850,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -333863,8 +333874,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -333888,7 +333900,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "66c1795dff640ee4bffa28694e6bed9f3681d89f791a4360639a36ff7ade5e3c",
+   "sha256": "f542c6c944c09dabd4ef6403886ecddd26b62bfc4372b48dcf4a0c09aa11165f",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -333896,12 +333908,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 94630,
+    "candles_30m": 98674,
     "none": 0,
     "parity": 0
    },
    "symbol": "META",
-   "updated_ny": "2026-10-07T18:19:09-04:00"
+   "updated_ny": "2026-10-10T22:06:29-04:00"
   },
   "intraday/META/2024-11.parquet": {
    "bytes": 2223260,
@@ -466033,8 +466045,8 @@
     }
    },
    "intraday": {
-    "contracts_per_day_median": 433.5,
-    "contracts_per_day_median_total": 1326.5,
+    "contracts_per_day_median": 433.0,
+    "contracts_per_day_median_total": 1326.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -466077,9 +466089,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 3762215,
+     "candles_30m": 3766259,
      "none": 0,
      "parity": 0
     }
