@@ -445198,11 +445198,15 @@
    "updated_ny": "2026-10-11T14:33:42-04:00"
   },
   "intraday/SPY/2024-10.parquet": {
-   "bytes": 1987314,
-   "complete": false,
-   "contracts_per_day_median": 353.0,
+   "bytes": 2068991,
+   "complete": true,
+   "contracts_per_day_median": 355.0,
    "contracts_per_day_median_total": 839.0,
    "day_counts": [
+    399,
+    402,
+    408,
+    389,
     378,
     373,
     377,
@@ -445294,6 +445298,10 @@
    ],
    "day_counts_total": [
     842,
+    842,
+    844,
+    841,
+    842,
     840,
     840,
     840,
@@ -445383,6 +445391,7 @@
     865
    ],
    "eod_sig": {
+    "2024-10-01": "b175ca8e3aa4",
     "2024-10-02": "b175ca8e3aa4",
     "2024-10-03": "fcf409768ddd",
     "2024-10-04": "8c174d42ca0a",
@@ -445407,7 +445416,7 @@
     "2024-10-31": "beb97d9488db"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -445417,8 +445426,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 72585,
+   "rows": 75954,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -445443,6 +445453,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -445466,8 +445477,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -445491,7 +445503,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "0553eb8ceddd054fd108ce8abdc88a711cdfcc678e377bd50c9d1efdf1ff9c2e",
+   "sha256": "31aa4e3e151e07a397e905dc79063a5f21fd8c90fb5ea3643cc8e89b48de12de",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -445499,12 +445511,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 72585,
+    "candles_30m": 75954,
     "none": 0,
     "parity": 0
    },
    "symbol": "SPY",
-   "updated_ny": "2026-10-08T01:58:11-04:00"
+   "updated_ny": "2026-10-11T14:33:42-04:00"
   },
   "intraday/SPY/2024-11.parquet": {
    "bytes": 1858031,
@@ -511099,9 +511111,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 2805706,
+     "candles_30m": 2809075,
      "none": 0,
      "parity": 0
     }
