@@ -238905,11 +238905,15 @@
    "updated_ny": "2026-10-11T09:30:53-04:00"
   },
   "intraday/COIN/2024-10.parquet": {
-   "bytes": 2116146,
-   "complete": false,
+   "bytes": 2190163,
+   "complete": true,
    "contracts_per_day_median": 323.0,
    "contracts_per_day_median_total": 836.0,
    "day_counts": [
+    291,
+    291,
+    299,
+    283,
     268,
     262,
     263,
@@ -239000,6 +239004,10 @@
     323
    ],
    "day_counts_total": [
+    799,
+    800,
+    810,
+    799,
     805,
     799,
     799,
@@ -239090,6 +239098,7 @@
     920
    ],
    "eod_sig": {
+    "2024-10-01": "c573cc8f83fe",
     "2024-10-02": "c573cc8f83fe",
     "2024-10-03": "38eae7be31ac",
     "2024-10-04": "11b905c0c862",
@@ -239114,7 +239123,7 @@
     "2024-10-31": "eedda82b6e44"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -239124,8 +239133,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 74256,
+   "rows": 77464,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -239150,6 +239160,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -239173,8 +239184,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -239198,7 +239210,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "31cd243741322442d42ef97bbeff9a3a930921f1291aa574964af556deb30483",
+   "sha256": "0d07b2d8db227aafce51e7a669e41e2af9e87939602b79b03c181e380751f652",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -239206,12 +239218,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 74256,
+    "candles_30m": 77464,
     "none": 0,
     "parity": 0
    },
    "symbol": "COIN",
-   "updated_ny": "2026-10-07T20:57:24-04:00"
+   "updated_ny": "2026-10-11T09:30:53-04:00"
   },
   "intraday/COIN/2024-11.parquet": {
    "bytes": 2486502,
@@ -474310,7 +474322,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 319.0,
-    "contracts_per_day_median_total": 974.0,
+    "contracts_per_day_median_total": 973.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -474353,9 +474365,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 2910116,
+     "candles_30m": 2913324,
      "none": 0,
      "parity": 0
     }
