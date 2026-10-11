@@ -231803,11 +231803,15 @@
    "updated_ny": "2026-10-11T19:08:18-04:00"
   },
   "intraday/CIBR/2024-10.parquet": {
-   "bytes": 300502,
-   "complete": false,
+   "bytes": 311907,
+   "complete": true,
    "contracts_per_day_median": 50.0,
    "contracts_per_day_median_total": 123.0,
    "day_counts": [
+    39,
+    47,
+    49,
+    47,
     47,
     46,
     47,
@@ -231899,6 +231903,10 @@
    ],
    "day_counts_total": [
     118,
+    119,
+    118,
+    118,
+    118,
     118,
     118,
     118,
@@ -231988,6 +231996,7 @@
     124
    ],
    "eod_sig": {
+    "2024-10-01": "38f206f2a18e",
     "2024-10-02": "38f206f2a18e",
     "2024-10-03": "38f206f2a18e",
     "2024-10-04": "8526592fb0e3",
@@ -232012,7 +232021,7 @@
     "2024-10-31": "bbcea11dbd71"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -232022,8 +232031,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 10875,
+   "rows": 11348,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -232048,6 +232058,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -232071,8 +232082,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -232096,7 +232108,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "e0351bca4eb0a4249c64fd7280862515a944121dd7820f765043ee5d639af195",
+   "sha256": "6765931b1aaa8dd26c865f9d6310b279635a5b2085c0bb11d29a8409ba9ada8e",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -232104,12 +232116,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 10875,
+    "candles_30m": 11348,
     "none": 0,
     "parity": 0
    },
    "symbol": "CIBR",
-   "updated_ny": "2026-10-08T07:04:57-04:00"
+   "updated_ny": "2026-10-11T19:08:18-04:00"
   },
   "intraday/CIBR/2024-11.parquet": {
    "bytes": 263523,
@@ -517680,7 +517692,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 52.0,
-    "contracts_per_day_median_total": 144.0,
+    "contracts_per_day_median_total": 143.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -517723,9 +517735,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 431991,
+     "candles_30m": 432464,
      "none": 0,
      "parity": 0
     }
