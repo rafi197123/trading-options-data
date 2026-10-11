@@ -249822,11 +249822,15 @@
    "updated_ny": "2026-10-10T20:38:09-04:00"
   },
   "intraday/CRWD/2024-10.parquet": {
-   "bytes": 1708969,
-   "complete": false,
-   "contracts_per_day_median": 225.5,
-   "contracts_per_day_median_total": 699.0,
+   "bytes": 1781234,
+   "complete": true,
+   "contracts_per_day_median": 224.5,
+   "contracts_per_day_median_total": 697.5,
    "day_counts": [
+    207,
+    210,
+    211,
+    202,
     189,
     188,
     188,
@@ -249918,6 +249922,10 @@
    ],
    "day_counts_total": [
     671,
+    672,
+    675,
+    671,
+    671,
     671,
     671,
     671,
@@ -250007,6 +250015,7 @@
     697
    ],
    "eod_sig": {
+    "2024-10-01": "6ff71c09ae6b",
     "2024-10-02": "6ff71c09ae6b",
     "2024-10-03": "271d93e381b8",
     "2024-10-04": "d0810be30ae8",
@@ -250031,7 +250040,7 @@
     "2024-10-31": "8547c198a18d"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -250041,8 +250050,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 61506,
+   "rows": 64195,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -250067,6 +250077,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -250090,8 +250101,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -250115,9 +250127,10 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "ab5f0e7eea4560bd54e4806b64cc4e53167e4efe525ef6c8d697e93fce22b5fc",
+   "sha256": "97e5c0aedf20e51daeec6ccff04a793c4676a2a8a7a11b955e14aa4d57383858",
    "spot_basis": {
     "days": {
+     "2024-10-01": 4.0,
      "2024-10-02": 4.0,
      "2024-10-03": 4.0,
      "2024-10-04": 4.0,
@@ -250142,18 +250155,18 @@
      "2024-10-31": 4.0
     },
     "factors": {
-     "4": 22
+     "4": 23
     },
     "unverified": {},
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 61506,
+    "candles_30m": 64195,
     "none": 0,
     "parity": 0
    },
    "symbol": "CRWD",
-   "updated_ny": "2026-10-07T16:35:23-04:00"
+   "updated_ny": "2026-10-10T20:38:09-04:00"
   },
   "intraday/CRWD/2024-11.parquet": {
    "bytes": 1639457,
@@ -453148,9 +453161,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 2566396,
+     "candles_30m": 2569085,
      "none": 0,
      "parity": 0
     }
