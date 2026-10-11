@@ -199549,11 +199549,15 @@
    "updated_ny": "2026-10-10T23:24:13-04:00"
   },
   "intraday/AMZN/2024-10.parquet": {
-   "bytes": 966660,
-   "complete": false,
-   "contracts_per_day_median": 150.0,
+   "bytes": 1004028,
+   "complete": true,
+   "contracts_per_day_median": 149.5,
    "contracts_per_day_median_total": 396.0,
    "day_counts": [
+    150,
+    146,
+    145,
+    139,
     137,
     136,
     137,
@@ -199644,6 +199648,10 @@
     183
    ],
    "day_counts_total": [
+    391,
+    390,
+    390,
+    389,
     389,
     389,
     389,
@@ -199734,6 +199742,7 @@
     414
    ],
    "eod_sig": {
+    "2024-10-01": "bd89174ac421",
     "2024-10-02": "bd89174ac421",
     "2024-10-03": "3ec191289108",
     "2024-10-04": "c8b5639f3c94",
@@ -199758,18 +199767,19 @@
     "2024-10-31": "e28d2d16847b"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.9,
+   "oi_rows_pct": 99.0,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 35082,
+   "rows": 36642,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -199794,6 +199804,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -199817,8 +199828,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -199842,7 +199854,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "dc35ced6dfe60b3c8bf8d4a3d4d4387d650a3ba4af43c7f3ccc1567875f2ed75",
+   "sha256": "ee6584a69b84ac18aa2471f6fd29f791e923c17b880db58035b7dc9ed97de773",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -199850,12 +199862,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 35082,
+    "candles_30m": 36642,
     "none": 0,
     "parity": 0
    },
    "symbol": "AMZN",
-   "updated_ny": "2026-10-07T19:22:09-04:00"
+   "updated_ny": "2026-10-10T23:24:13-04:00"
   },
   "intraday/AMZN/2024-11.parquet": {
    "bytes": 943972,
@@ -466675,9 +466687,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 1579880,
+     "candles_30m": 1581440,
      "none": 0,
      "parity": 0
     }
