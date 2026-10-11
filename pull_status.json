@@ -4,8 +4,8 @@
  "command": "python3.12 engines/pull_options.py intraday --symbols TSLA --from 2023-10-02 --to 2024-10-01 --max-minutes 3000 --options-data write",
  "kind": "intraday",
  "provider": "thetadata",
- "started_ny": "2026-10-11T00:01:28-04:00",
- "updated_ny": "2026-10-11T00:01:28-04:00",
+ "started_ny": "2026-10-11T08:17:09-04:00",
+ "updated_ny": "2026-10-11T08:17:14-04:00",
  "last_success_ny": null,
  "state": "running",
  "exit_code": null,
@@ -42,6 +42,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 0.1,
+ "minutes": 0.2,
  "max_minutes": 3000.0
 }
