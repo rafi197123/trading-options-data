@@ -441244,11 +441244,15 @@
    "updated_ny": "2026-10-11T08:16:59-04:00"
   },
   "intraday/TSLA/2024-10.parquet": {
-   "bytes": 2111152,
-   "complete": false,
-   "contracts_per_day_median": 327.5,
-   "contracts_per_day_median_total": 889.5,
+   "bytes": 2209757,
+   "complete": true,
+   "contracts_per_day_median": 331.5,
+   "contracts_per_day_median_total": 887.5,
    "day_counts": [
+    378,
+    379,
+    376,
+    368,
     335,
     345,
     345,
@@ -441339,6 +441343,10 @@
     338
    ],
    "day_counts_total": [
+    844,
+    845,
+    845,
+    844,
     852,
     848,
     848,
@@ -441429,6 +441437,7 @@
     972
    ],
    "eod_sig": {
+    "2024-10-01": "b3a4ecd1e8a9",
     "2024-10-02": "405bd7bf45b2",
     "2024-10-03": "49752862c90b",
     "2024-10-04": "402a3ff692c7",
@@ -441453,18 +441462,19 @@
     "2024-10-31": "105ad6b131e4"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.7,
+   "oi_rows_pct": 98.8,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 78824,
+   "rows": 82202,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -441489,6 +441499,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -441512,8 +441523,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -441537,7 +441549,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "11d4a5b0a93f3a15e56476f2199f50db82b914fd41d8280241481c9949efddd2",
+   "sha256": "694278bfdf55f0a8936f1f90e60f924bf8e8b5f2ee87518ed3f2d747ae1bdfa5",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -441545,12 +441557,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 78824,
+    "candles_30m": 82202,
     "none": 0,
     "parity": 0
    },
    "symbol": "TSLA",
-   "updated_ny": "2026-10-07T19:55:15-04:00"
+   "updated_ny": "2026-10-11T08:16:59-04:00"
   },
   "intraday/TSLA/2024-11.parquet": {
    "bytes": 2478641,
@@ -474868,7 +474880,7 @@
    },
    "intraday": {
     "contracts_per_day_median": 381.0,
-    "contracts_per_day_median_total": 1287.0,
+    "contracts_per_day_median_total": 1286.0,
     "first_session": "2023-10-02",
     "known_gaps": {},
     "last_session": "2026-10-02",
@@ -474911,9 +474923,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 3640243,
+     "candles_30m": 3643621,
      "none": 0,
      "parity": 0
     }

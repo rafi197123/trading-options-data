@@ -5,16 +5,16 @@
  "kind": "intraday",
  "provider": "thetadata",
  "started_ny": "2026-10-11T08:17:09-04:00",
- "updated_ny": "2026-10-11T09:29:59-04:00",
- "last_success_ny": "2026-10-11T09:29:57-04:00",
+ "updated_ny": "2026-10-11T09:30:16-04:00",
+ "last_success_ny": "2026-10-11T09:30:14-04:00",
  "state": "running",
  "exit_code": null,
  "exit_reason": "",
  "symbols": {
-  "done": [],
-  "in_progress": [
+  "done": [
    "TSLA"
   ],
+  "in_progress": [],
   "not_started": []
  },
  "failed": {},
@@ -28,7 +28,7 @@
   "rebuild_symbols": 0
  },
  "requests": {
-  "total": 1251,
+  "total": 1256,
   "failed": 0
  },
  "consecutive_failures": 0,
@@ -45,6 +45,6 @@
   "threshold": 800,
   "last": []
  },
- "minutes": 73.0,
+ "minutes": 73.3,
  "max_minutes": 3000.0
 }
