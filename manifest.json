@@ -323011,11 +323011,15 @@
    "updated_ny": "2026-10-11T13:08:57-04:00"
   },
   "intraday/IEF/2024-10.parquet": {
-   "bytes": 822243,
-   "complete": false,
-   "contracts_per_day_median": 123.5,
-   "contracts_per_day_median_total": 337.0,
+   "bytes": 851368,
+   "complete": true,
+   "contracts_per_day_median": 123.0,
+   "contracts_per_day_median_total": 336.0,
    "day_counts": [
+    119,
+    119,
+    117,
+    116,
     107,
     105,
     105,
@@ -323106,6 +323110,10 @@
     142
    ],
    "day_counts_total": [
+    315,
+    313,
+    314,
+    312,
     314,
     313,
     312,
@@ -323196,6 +323204,7 @@
     354
    ],
    "eod_sig": {
+    "2024-10-01": "53042629f92f",
     "2024-10-02": "53042629f92f",
     "2024-10-03": "687ab8243db2",
     "2024-10-04": "10d972a27bb4",
@@ -323220,7 +323229,7 @@
     "2024-10-31": "33435b147672"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
@@ -323230,8 +323239,9 @@
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 30103,
+   "rows": 31357,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -323256,6 +323266,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -323279,8 +323290,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -323304,7 +323316,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "09156a4871d9cd3de67e87d2a59e9c89f9bc34565364d6a3c369f346dcc700e6",
+   "sha256": "b68575fca77f30d15bdf9d83a436e4891c952df536e12d6a7db6ca2c034546c6",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -323312,12 +323324,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 30103,
+    "candles_30m": 31357,
     "none": 0,
     "parity": 0
    },
    "symbol": "IEF",
-   "updated_ny": "2026-10-07T23:49:04-04:00"
+   "updated_ny": "2026-10-11T13:08:57-04:00"
   },
   "intraday/IEF/2024-11.parquet": {
    "bytes": 715856,
@@ -497835,9 +497847,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 975429,
+     "candles_30m": 976683,
      "none": 0,
      "parity": 0
     }
