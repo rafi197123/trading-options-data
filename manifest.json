@@ -491462,11 +491462,15 @@
    "updated_ny": "2026-10-11T13:35:47-04:00"
   },
   "intraday/XLE/2024-10.parquet": {
-   "bytes": 1411101,
-   "complete": false,
-   "contracts_per_day_median": 256.0,
-   "contracts_per_day_median_total": 581.0,
+   "bytes": 1464294,
+   "complete": true,
+   "contracts_per_day_median": 257.0,
+   "contracts_per_day_median_total": 580.0,
    "day_counts": [
+    264,
+    276,
+    275,
+    263,
     246,
     250,
     253,
@@ -491557,6 +491561,10 @@
     268
    ],
    "day_counts_total": [
+    549,
+    550,
+    551,
+    549,
     563,
     560,
     560,
@@ -491647,6 +491655,7 @@
     600
    ],
    "eod_sig": {
+    "2024-10-01": "9e38e3d81fb3",
     "2024-10-02": "3d95ba1af108",
     "2024-10-03": "f6212708009a",
     "2024-10-04": "b324372fd254",
@@ -491671,18 +491680,19 @@
     "2024-10-31": "295f420b6f14"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.8,
+   "oi_rows_pct": 98.9,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 51619,
+   "rows": 53818,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -491707,6 +491717,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -491730,8 +491741,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -491755,9 +491767,10 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "be64e2b6a0ba3ba55004e32879bbd74f0ac8cfe67fc1f3566130348724e16131",
+   "sha256": "a522c30ae52bab8a3c2de3bcce16c40d37b63d9915991741bc430d5710f7c3ba",
    "spot_basis": {
     "days": {
+     "2024-10-01": 2.0,
      "2024-10-02": 2.0,
      "2024-10-03": 2.0,
      "2024-10-04": 2.0,
@@ -491782,18 +491795,18 @@
      "2024-10-31": 2.0
     },
     "factors": {
-     "2": 22
+     "2": 23
     },
     "unverified": {},
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 51619,
+    "candles_30m": 53818,
     "none": 0,
     "parity": 0
    },
    "symbol": "XLE",
-   "updated_ny": "2026-10-08T00:48:01-04:00"
+   "updated_ny": "2026-10-11T13:35:47-04:00"
   },
   "intraday/XLE/2024-11.parquet": {
    "bytes": 1279501,
@@ -504286,9 +504299,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 1811027,
+     "candles_30m": 1813226,
      "none": 0,
      "parity": 0
     }
