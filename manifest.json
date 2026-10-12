@@ -526404,22 +526404,40 @@
  },
  "tables": {
   "catalog/DATA_DICTIONARY.md": {
-   "bytes": 31029,
+   "bytes": 62324,
    "rows": null,
-   "sha256": "708e1b598ac835bd4674f5103e1811b5ff99961ea57b1931bbd628d4fc75fa2a",
-   "updated_ny": "2026-10-10T14:43:14-04:00"
+   "sha256": "52a5adca86f5cc2d5b69d7342dab72c4bb179ee900e89c9f9689bb7968e166dd",
+   "updated_ny": "2026-10-11T21:18:33-04:00"
+  },
+  "catalog/HOW_TO_USE.md": {
+   "bytes": 49895,
+   "rows": null,
+   "sha256": "ce58856c95f15b0f0c67b73c44531307e91242f2c9c97f767a5b1fd67d4ba18b",
+   "updated_ny": "2026-10-11T21:18:33-04:00"
+  },
+  "catalog/earnings_corrections.csv": {
+   "bytes": 28214,
+   "rows": 78,
+   "sha256": "a05be0ac057eb8986da1a068e48abe1565d0f8219e8570304a7ad12d9f7603b5",
+   "updated_ny": "2026-10-11T21:18:33-04:00"
+  },
+  "catalog/known_exceptions.csv": {
+   "bytes": 25361,
+   "rows": 23,
+   "sha256": "8625ffb4387e9c8b8b4894880b80a09ee07159d5610ab58f24f7a7f86910d9ed",
+   "updated_ny": "2026-10-11T21:18:33-04:00"
   },
   "catalog/open_catalog.py": {
-   "bytes": 18186,
+   "bytes": 28718,
    "rows": null,
-   "sha256": "c52a62ca71e09ff0250d81b14b360cd635779578ca9a291723f49619959ab4f7",
-   "updated_ny": "2026-10-10T14:43:14-04:00"
+   "sha256": "f4a044ba4813993fd4d0c38f2fa50b7c7cd35408515004cef74512e007c47c68",
+   "updated_ny": "2026-10-11T21:18:33-04:00"
   },
   "catalog/views.sql": {
-   "bytes": 12286,
+   "bytes": 26646,
    "rows": null,
-   "sha256": "e40a91cd2ff6ef61a953b01e78800449a190224a1bb9ecdf7faa1af33a481b1d",
-   "updated_ny": "2026-10-06T16:43:09-04:00"
+   "sha256": "1f41253acc89cf7ad57b983a7c3e750d3d440e33af5bc08cc7b91b3f29064248",
+   "updated_ny": "2026-10-11T21:18:33-04:00"
   },
   "contracts_watch.csv": {
    "bytes": 63,
@@ -526431,8 +526449,8 @@
    "bytes": 2562,
    "rows": 11,
    "sha256": "f98a7fd7b3f38ba95aeee0c066edd4520d62599cabf3521f7b35a35532c855a0",
-   "updated_ny": "2026-10-04T14:33:22-04:00"
+   "updated_ny": "2026-10-11T21:18:33-04:00"
   }
  },
- "updated_ny": "2026-10-11T19:19:58-04:00"
+ "updated_ny": "2026-10-11T21:18:33-04:00"
 }
