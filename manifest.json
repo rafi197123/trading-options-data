@@ -526680,16 +526680,16 @@
  },
  "tables": {
   "catalog/DATA_DICTIONARY.md": {
-   "bytes": 62324,
+   "bytes": 62326,
    "rows": null,
-   "sha256": "52a5adca86f5cc2d5b69d7342dab72c4bb179ee900e89c9f9689bb7968e166dd",
-   "updated_ny": "2026-10-11T21:18:33-04:00"
+   "sha256": "62b3c418f7d65b8f6d6233938c00f5a231b7882cb64189851deb84a36f8434af",
+   "updated_ny": "2026-10-11T21:30:28-04:00"
   },
   "catalog/HOW_TO_USE.md": {
-   "bytes": 49895,
+   "bytes": 49897,
    "rows": null,
-   "sha256": "ce58856c95f15b0f0c67b73c44531307e91242f2c9c97f767a5b1fd67d4ba18b",
-   "updated_ny": "2026-10-11T21:18:33-04:00"
+   "sha256": "2dc38a46a038470efc548700cd392340d8b9bd2182b866910e3fbe435a362967",
+   "updated_ny": "2026-10-11T21:30:28-04:00"
   },
   "catalog/earnings_corrections.csv": {
    "bytes": 28214,
@@ -526728,5 +526728,5 @@
    "updated_ny": "2026-10-11T21:18:33-04:00"
   }
  },
- "updated_ny": "2026-10-11T21:25:02-04:00"
+ "updated_ny": "2026-10-11T21:30:28-04:00"
 }
