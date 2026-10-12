@@ -526958,14 +526958,14 @@
   "catalog/DATA_DICTIONARY.md": {
    "bytes": 62326,
    "rows": null,
-   "sha256": "62b3c418f7d65b8f6d6233938c00f5a231b7882cb64189851deb84a36f8434af",
-   "updated_ny": "2026-10-11T21:30:28-04:00"
+   "sha256": "54cbcdc9781c03f05e87c92d2ffb8296ee1724dcbcefd38b033c998bcb686a40",
+   "updated_ny": "2026-10-11T21:39:50-04:00"
   },
   "catalog/HOW_TO_USE.md": {
    "bytes": 49897,
    "rows": null,
-   "sha256": "2dc38a46a038470efc548700cd392340d8b9bd2182b866910e3fbe435a362967",
-   "updated_ny": "2026-10-11T21:30:28-04:00"
+   "sha256": "36afebf79534fcd1312ded2f951543663b2d5c88c93bace7f2cda35500844505",
+   "updated_ny": "2026-10-11T21:39:50-04:00"
   },
   "catalog/earnings_corrections.csv": {
    "bytes": 28214,
@@ -527001,8 +527001,8 @@
    "bytes": 2562,
    "rows": 11,
    "sha256": "f98a7fd7b3f38ba95aeee0c066edd4520d62599cabf3521f7b35a35532c855a0",
-   "updated_ny": "2026-10-11T21:18:33-04:00"
+   "updated_ny": "2026-10-11T21:39:50-04:00"
   }
  },
- "updated_ny": "2026-10-11T21:30:28-04:00"
+ "updated_ny": "2026-10-11T21:39:50-04:00"
 }
