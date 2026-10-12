@@ -438109,11 +438109,15 @@
    "updated_ny": "2026-10-11T19:19:58-04:00"
   },
   "intraday/QQQ/2024-10.parquet": {
-   "bytes": 1616817,
-   "complete": false,
-   "contracts_per_day_median": 289.5,
+   "bytes": 1697384,
+   "complete": true,
+   "contracts_per_day_median": 290.5,
    "contracts_per_day_median_total": 671.0,
    "day_counts": [
+    300,
+    296,
+    300,
+    293,
     278,
     274,
     275,
@@ -438205,6 +438209,10 @@
    ],
    "day_counts_total": [
     658,
+    658,
+    660,
+    657,
+    658,
     657,
     657,
     657,
@@ -438294,6 +438302,7 @@
     719
    ],
    "eod_sig": {
+    "2024-10-01": "5f40ee6fe214",
     "2024-10-02": "5f40ee6fe214",
     "2024-10-03": "4f7697d064f6",
     "2024-10-04": "8c031c9e2f47",
@@ -438318,18 +438327,19 @@
     "2024-10-31": "1dc2456979bd"
    },
    "filter_version": 3,
-   "first_session": "2024-10-02",
+   "first_session": "2024-10-01",
    "kind": "intraday",
    "last_session": "2024-10-31",
    "lib_version": "1.0.11",
    "model_version": "bs-1 (engine_premium.implied_vol/bs_delta, בלי דיבידנד, ממחיר האמצע, DTE בשנים = (פקיעה 16:00 ניו-יורק − שעת הציטוט) ÷ 365)",
    "month": "2024-10",
-   "oi_rows_pct": 98.6,
+   "oi_rows_pct": 98.7,
    "points": 4,
    "provider": "thetadata",
    "retention": "sticky",
-   "rows": 59193,
+   "rows": 61826,
    "session_list": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -438354,6 +438364,7 @@
     "2024-10-31"
    ],
    "session_points": {
+    "2024-10-01": 4,
     "2024-10-02": 4,
     "2024-10-03": 4,
     "2024-10-04": 4,
@@ -438377,8 +438388,9 @@
     "2024-10-30": 4,
     "2024-10-31": 4
    },
-   "sessions": 22,
+   "sessions": 23,
    "sessions_done": [
+    "2024-10-01",
     "2024-10-02",
     "2024-10-03",
     "2024-10-04",
@@ -438402,7 +438414,7 @@
     "2024-10-30",
     "2024-10-31"
    ],
-   "sha256": "b07082ccd32b69e1dc5700734b16aa6a788628dfb00a96001adb2edb3bc24204",
+   "sha256": "8611eb3fa6624ad43a9a9663f06b68916983ae356098d404aafb003f3a13f34b",
    "spot_basis": {
     "days": {},
     "factors": {},
@@ -438410,12 +438422,12 @@
     "version": 1
    },
    "spot_sources": {
-    "candles_30m": 59193,
+    "candles_30m": 61826,
     "none": 0,
     "parity": 0
    },
    "symbol": "QQQ",
-   "updated_ny": "2026-10-08T03:57:24-04:00"
+   "updated_ny": "2026-10-11T19:19:58-04:00"
   },
   "intraday/QQQ/2024-11.parquet": {
    "bytes": 1526508,
@@ -524877,9 +524889,9 @@
      "2026-09",
      "2026-10"
     ],
-    "sessions": 753,
+    "sessions": 754,
     "spot_sources": {
-     "candles_30m": 3153943,
+     "candles_30m": 3156576,
      "none": 0,
      "parity": 0
     }
