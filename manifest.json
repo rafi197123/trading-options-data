@@ -1,4 +1,7 @@
 {
+ "catalog": {
+  "closed_tag": "data-2026-10-13"
+ },
  "config_version": 7,
  "files": {
   "eod/AAPL/2023-10.parquet": {
@@ -526956,40 +526959,40 @@
  },
  "tables": {
   "catalog/DATA_DICTIONARY.md": {
-   "bytes": 62326,
+   "bytes": 69694,
    "rows": null,
-   "sha256": "54cbcdc9781c03f05e87c92d2ffb8296ee1724dcbcefd38b033c998bcb686a40",
-   "updated_ny": "2026-10-11T21:39:50-04:00"
+   "sha256": "0ca780c5c30b920b2e2e9794aeed00fcd612b627ab641a7bda6b9c6ee4d0a5ca",
+   "updated_ny": "2026-10-13T16:43:18-04:00"
   },
   "catalog/HOW_TO_USE.md": {
-   "bytes": 49897,
+   "bytes": 87998,
    "rows": null,
-   "sha256": "36afebf79534fcd1312ded2f951543663b2d5c88c93bace7f2cda35500844505",
-   "updated_ny": "2026-10-11T21:39:50-04:00"
+   "sha256": "74bfe991482b64c64eb6985e31cf168eabc848f78bd2fb9f5e5b0dd5532926d4",
+   "updated_ny": "2026-10-13T16:43:18-04:00"
   },
   "catalog/earnings_corrections.csv": {
-   "bytes": 28214,
-   "rows": 78,
-   "sha256": "a05be0ac057eb8986da1a068e48abe1565d0f8219e8570304a7ad12d9f7603b5",
-   "updated_ny": "2026-10-11T21:18:33-04:00"
+   "bytes": 123889,
+   "rows": 167,
+   "sha256": "6dfeb010b90f9ce192349a11dc17353367971d093e118e0869303426132eb3fd",
+   "updated_ny": "2026-10-13T16:43:18-04:00"
   },
   "catalog/known_exceptions.csv": {
-   "bytes": 25361,
-   "rows": 23,
-   "sha256": "8625ffb4387e9c8b8b4894880b80a09ee07159d5610ab58f24f7a7f86910d9ed",
-   "updated_ny": "2026-10-11T21:18:33-04:00"
+   "bytes": 53841,
+   "rows": 29,
+   "sha256": "a9561ac46c147c33db11065652d0f5a6a5ccd1fef0737bd9acfc0db745307c16",
+   "updated_ny": "2026-10-13T16:43:18-04:00"
   },
   "catalog/open_catalog.py": {
-   "bytes": 28718,
+   "bytes": 28890,
    "rows": null,
-   "sha256": "f4a044ba4813993fd4d0c38f2fa50b7c7cd35408515004cef74512e007c47c68",
-   "updated_ny": "2026-10-11T21:18:33-04:00"
+   "sha256": "85812ba5463038f3c8e742d8843dac9d589f61da6da39babe2ff3f15e124ea1c",
+   "updated_ny": "2026-10-13T16:43:18-04:00"
   },
   "catalog/views.sql": {
-   "bytes": 26646,
+   "bytes": 27028,
    "rows": null,
-   "sha256": "1f41253acc89cf7ad57b983a7c3e750d3d440e33af5bc08cc7b91b3f29064248",
-   "updated_ny": "2026-10-11T21:18:33-04:00"
+   "sha256": "800e90f662a43bc02549c2e9cc30197e3de64811fce62739a3f20699233f0771",
+   "updated_ny": "2026-10-13T16:43:18-04:00"
   },
   "contracts_watch.csv": {
    "bytes": 63,
@@ -527004,5 +527007,5 @@
    "updated_ny": "2026-10-11T21:39:50-04:00"
   }
  },
- "updated_ny": "2026-10-11T21:39:50-04:00"
+ "updated_ny": "2026-10-13T16:43:18-04:00"
 }
