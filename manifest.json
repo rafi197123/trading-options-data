@@ -1,6 +1,6 @@
 {
  "catalog": {
-  "closed_tag": "data-2026-10-13"
+  "closed_tag": "data-2026-10-14"
  },
  "config_version": 7,
  "files": {
@@ -526959,16 +526959,16 @@
  },
  "tables": {
   "catalog/DATA_DICTIONARY.md": {
-   "bytes": 69694,
+   "bytes": 69809,
    "rows": null,
-   "sha256": "0ca780c5c30b920b2e2e9794aeed00fcd612b627ab641a7bda6b9c6ee4d0a5ca",
-   "updated_ny": "2026-10-13T16:43:18-04:00"
+   "sha256": "6f8d48dc6fe293180ef0345875a0c5fcea96f1dbcce5a46587ccf9239fc83751",
+   "updated_ny": "2026-10-13T20:15:25-04:00"
   },
   "catalog/HOW_TO_USE.md": {
-   "bytes": 87998,
+   "bytes": 89089,
    "rows": null,
-   "sha256": "74bfe991482b64c64eb6985e31cf168eabc848f78bd2fb9f5e5b0dd5532926d4",
-   "updated_ny": "2026-10-13T16:43:18-04:00"
+   "sha256": "0fc9585e0226143569684a0b1fe3392dd9652f01eaf44082cb073648d755c5c2",
+   "updated_ny": "2026-10-13T20:15:25-04:00"
   },
   "catalog/earnings_corrections.csv": {
    "bytes": 123889,
@@ -526985,14 +526985,14 @@
   "catalog/open_catalog.py": {
    "bytes": 28890,
    "rows": null,
-   "sha256": "85812ba5463038f3c8e742d8843dac9d589f61da6da39babe2ff3f15e124ea1c",
-   "updated_ny": "2026-10-13T16:43:18-04:00"
+   "sha256": "755c09b325d05fb1f44a7ee201b6b07c8e7f65a8a213ff7676a80ae9d53a9f26",
+   "updated_ny": "2026-10-13T20:15:25-04:00"
   },
   "catalog/views.sql": {
-   "bytes": 27028,
+   "bytes": 27048,
    "rows": null,
-   "sha256": "800e90f662a43bc02549c2e9cc30197e3de64811fce62739a3f20699233f0771",
-   "updated_ny": "2026-10-13T16:43:18-04:00"
+   "sha256": "93b6dcd0883682d65cc4d0984eda558cd6bf35e53633b8f638c7fb6b4d601504",
+   "updated_ny": "2026-10-13T20:15:25-04:00"
   },
   "contracts_watch.csv": {
    "bytes": 63,
@@ -527007,5 +527007,5 @@
    "updated_ny": "2026-10-11T21:39:50-04:00"
   }
  },
- "updated_ny": "2026-10-13T16:43:18-04:00"
+ "updated_ny": "2026-10-13T20:15:25-04:00"
 }
